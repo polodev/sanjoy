@@ -1,0 +1,227 @@
+/* Sanjoy — shared behaviour: deck (swipe, progress), speech, quiz, hide-translation, theme. No dependencies. */
+(function () {
+  var root = document.documentElement;
+  var LS = {
+    get: function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+    set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  };
+  var B = function (n) { return String(n).replace(/\d/g, function (d) { return '০১২৩৪৫৬৭৮৯'[d]; }); };
+
+  // ---- theme ----
+  var savedTheme = LS.get('sanjoy:theme');
+  if (savedTheme) root.setAttribute('data-theme', savedTheme);
+  function toggleTheme() {
+    var cur = root.getAttribute('data-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    var next = cur === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    LS.set('sanjoy:theme', next);
+  }
+
+  // ---- toast ----
+  var toastEl = null;
+  function toast(html, ms) {
+    if (toastEl) toastEl.remove();
+    toastEl = document.createElement('div');
+    toastEl.className = 'toast';
+    toastEl.innerHTML = html;
+    document.body.appendChild(toastEl);
+    if (ms) setTimeout(function () { if (toastEl) { toastEl.remove(); toastEl = null; } }, ms);
+    return toastEl;
+  }
+
+  // ---- speech (browser's own voices: no audio files) ----
+  var voices = [];
+  var warnedJa = false;
+  var slow = LS.get('sanjoy:slow') === '1';
+  function loadVoices() { if ('speechSynthesis' in window) voices = speechSynthesis.getVoices(); }
+  if ('speechSynthesis' in window) { loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; }
+  function pickVoice(lang) {
+    var l = lang.toLowerCase();
+    var exact = voices.filter(function (v) { return v.lang.toLowerCase().replace('_', '-') === l; });
+    var any = voices.filter(function (v) { return v.lang.toLowerCase().indexOf(l.slice(0, 2)) === 0; });
+    return exact[0] || any[0] || null;
+  }
+  function speak(text, lang, done) {
+    if (!('speechSynthesis' in window)) { toast('এই browser-এ উচ্চারণ শোনা যায় না। Chrome বা Safari ব্যবহার করুন।', 3500); if (done) done(); return; }
+    speechSynthesis.cancel();
+    var u = new SpeechSynthesisUtterance(text);
+    u.lang = lang;
+    var v = pickVoice(lang);
+    if (v) u.voice = v;
+    else if (lang.indexOf('ja') === 0 && !warnedJa && voices.length) {
+      warnedJa = true;
+      toast('আপনার ফোনে জাপানি voice পাওয়া যায়নি। Settings → Text-to-speech-এ Japanese যোগ করুন।', 5000);
+    }
+    u.rate = slow ? 0.6 : (lang.indexOf('ja') === 0 ? 0.8 : 0.9);
+    u.onend = u.onerror = function () { if (done) done(); };
+    speechSynthesis.speak(u);
+  }
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest('[data-say]');
+    if (!b) return;
+    e.stopPropagation();
+    b.classList.add('on');
+    speak(b.getAttribute('data-say'), b.getAttribute('data-lang') || 'en-US', function () { b.classList.remove('on'); });
+  });
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest('[data-play]');
+    if (!b) return;
+    var lines = [].slice.call(b.closest('.slide').querySelectorAll('.line'));
+    var i = 0;
+    (function next() {
+      lines.forEach(function (l) { l.classList.remove('now'); });
+      if (i >= lines.length) return;
+      var l = lines[i++];
+      l.classList.add('now');
+      var s = l.querySelector('[data-say]');
+      speak(s.getAttribute('data-say'), s.getAttribute('data-lang'), function () { setTimeout(next, 250); });
+    })();
+  });
+
+  // ---- hide translation (tap a blurred line to peek) ----
+  document.addEventListener('click', function (e) {
+    var t = e.target.closest('.bn');
+    if (t && document.body.classList.contains('hide-bn')) t.classList.toggle('peek');
+  });
+  // ---- reveal cards ----
+  document.addEventListener('click', function (e) {
+    var c = e.target.closest('.rcard');
+    if (c && !e.target.closest('[data-say]')) c.classList.toggle('open');
+  });
+
+  // ---- quiz ----
+  function initQuiz(el, deckKey, goNext) {
+    var qs = JSON.parse(el.getAttribute('data-quiz'));
+    var i = 0, score = 0, wrong = [];
+    function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+    function show() {
+      if (i >= qs.length) return done();
+      var q = qs[i];
+      var h = '<div class="qhead"><span>প্রশ্ন ' + B(i + 1) + ' / ' + B(qs.length) + '</span><span>✓ ' + B(score) + '</span></div>';
+      h += '<div class="qq">' + esc(q.q) + '</div>';
+      if (q.big) h += '<div class="qbig">' + esc(q.big) + '</div>';
+      if (q.say) h += '<div style="text-align:center"><button class="say big" data-say="' + esc(q.say) + '" data-lang="' + (q.lang || 'en-US') + '">🔊</button></div>';
+      h += '<div class="opts' + (q.ko ? ' kopts' : '') + '">';
+      q.o.forEach(function (o, k) { h += '<button class="opt" data-k="' + k + '">' + esc(o) + '</button>'; });
+      h += '</div><div class="why"></div>';
+      el.innerHTML = h;
+      if (q.say && q.auto) { var sb = el.querySelector('[data-say]'); setTimeout(function () { sb.click(); }, 150); }
+      [].forEach.call(el.querySelectorAll('.opt'), function (b) {
+        b.addEventListener('click', function () {
+          var k = +b.getAttribute('data-k');
+          [].forEach.call(el.querySelectorAll('.opt'), function (x) { x.disabled = true; });
+          var right = k === q.a;
+          b.classList.add(right ? 'ok' : 'bad');
+          if (!right) el.querySelectorAll('.opt')[q.a].classList.add('ok');
+          if (right) score++; else wrong.push(q);
+          var why = el.querySelector('.why');
+          why.innerHTML = (right ? '🎉 ঠিক!' : '❌ ভুল।') + (q.why ? ' ' + esc(q.why) : '') + '<div style="margin-top:10px"><button class="btn">' + (i + 1 < qs.length ? 'পরের প্রশ্ন →' : 'ফলাফল দেখুন') + '</button></div>';
+          why.querySelector('.btn').addEventListener('click', function () { i++; show(); });
+        });
+      });
+    }
+    function done() {
+      var pct = Math.round(100 * score / qs.length);
+      var best = +(LS.get('sanjoy:q:' + deckKey) || 0);
+      if (score > best) LS.set('sanjoy:q:' + deckKey, score);
+      el.innerHTML = '<div class="score"><div class="big">' + B(score) + ' / ' + B(qs.length) + '</div><div class="qq">' +
+        (pct >= 90 ? '🌟 দারুণ! প্রায় নিখুঁত।' : pct >= 60 ? '👍 ভালো হয়েছে! আরেকবার চেষ্টা করলে আরও ভালো।' : '💪 আবার পড়ে এসে চেষ্টা করুন — শেখা হচ্ছে।') +
+        '</div><div class="row-actions" style="justify-content:center"><button class="btn ghost" id="again">আবার</button><button class="btn" id="goon">পরের স্লাইড →</button></div></div>';
+      el.querySelector('#again').addEventListener('click', function () { i = 0; score = 0; wrong = []; show(); });
+      el.querySelector('#goon').addEventListener('click', goNext);
+    }
+    show();
+  }
+
+  // ---- deck ----
+  var deck = document.getElementById('deck');
+  if (deck) {
+    var slides = [].slice.call(deck.children);
+    var n = slides.length, i = 0;
+    var key = document.body.getAttribute('data-deck');
+    var bar = document.getElementById('bar'), count = document.getElementById('count');
+    var hasBn = document.body.classList.contains('has-bn');
+
+    function go(k) {
+      i = Math.max(0, Math.min(n - 1, k));
+      deck.style.transform = 'translateX(-' + (i * 100) + '%)';
+      bar.style.width = ((i + 1) / n * 100) + '%';
+      count.textContent = B(i + 1) + ' / ' + B(n);
+      slides[i].scrollTop = 0;
+      LS.set('sanjoy:p:' + key, String(i));
+      if (i === n - 1) LS.set('sanjoy:done:' + key, '1');
+      try { history.replaceState(null, '', '#' + (i + 1)); } catch (e) {}
+      if ('speechSynthesis' in window) speechSynthesis.cancel();
+      [].forEach.call(document.querySelectorAll('.line.now'), function (l) { l.classList.remove('now'); });
+    }
+    [].forEach.call(document.querySelectorAll('.quiz'), function (q) {
+      initQuiz(q, key, function () { go(i + 1); });
+    });
+    document.getElementById('prev').onclick = function () { go(i - 1); };
+    document.getElementById('next').onclick = function () { go(i + 1); };
+    document.getElementById('theme').onclick = toggleTheme;
+    var slowBtn = document.getElementById('slow');
+    function paintSlow() { slowBtn.classList.toggle('active', slow); }
+    slowBtn.onclick = function () { slow = !slow; LS.set('sanjoy:slow', slow ? '1' : '0'); paintSlow(); toast(slow ? '🐢 ধীরে বলবে' : '🐇 স্বাভাবিক গতি', 1200); };
+    paintSlow();
+    var bnBtn = document.getElementById('bnBtn');
+    if (bnBtn) {
+      var hidden = LS.get('sanjoy:hidebn') === '1';
+      var paintBn = function () { document.body.classList.toggle('hide-bn', hidden); bnBtn.classList.toggle('active', hidden); };
+      bnBtn.onclick = function () { hidden = !hidden; LS.set('sanjoy:hidebn', hidden ? '1' : '0'); paintBn(); toast(hidden ? '👁 বাংলা লুকানো — ট্যাপ করলে দেখা যাবে' : '👁 বাংলা দেখানো হচ্ছে', 1500); };
+      paintBn();
+    }
+    [].forEach.call(document.querySelectorAll('[data-goto]'), function (b) {
+      b.addEventListener('click', function () { go(+b.getAttribute('data-goto')); });
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      if (e.key === 'ArrowRight' || e.key === 'PageDown') { e.preventDefault(); go(i + 1); }
+      else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); go(i - 1); }
+    });
+    // swipe left/right = change slide; vertical drag scrolls the slide
+    var x0 = null, y0 = null;
+    document.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; }, { passive: true });
+    document.addEventListener('touchend', function (e) {
+      if (x0 === null) return;
+      var dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0;
+      if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) go(i + (dx < 0 ? 1 : -1));
+      x0 = null;
+    });
+    window.addEventListener('hashchange', function () {
+      var t = parseInt((location.hash || '').slice(1), 10) - 1;
+      if (!isNaN(t) && t !== i) go(t);
+    });
+    var h = parseInt((location.hash || '').slice(1), 10);
+    if (!isNaN(h)) go(h - 1);
+    else {
+      var last = parseInt(LS.get('sanjoy:p:' + key) || '0', 10);
+      go(0);
+      if (last > 0 && last < n - 1) {
+        var t = toast('আগেরবার ' + B(last + 1) + ' নম্বর স্লাইড পর্যন্ত পড়েছিলেন। <button id="rgo">চালিয়ে যান</button><button class="alt" id="rno">শুরু থেকে</button>');
+        t.querySelector('#rgo').onclick = function () { go(last); t.remove(); };
+        t.querySelector('#rno').onclick = function () { t.remove(); };
+      }
+    }
+  }
+
+  // ---- progress marks on course / language pages ----
+  var decks = document.querySelectorAll('[data-deckkey]');
+  if (decks.length) {
+    var done = 0, total = decks.length, firstOpen = null;
+    [].forEach.call(decks, function (d) {
+      var k = d.getAttribute('data-deckkey');
+      if (LS.get('sanjoy:done:' + k) === '1') { d.classList.add('done'); done++; }
+      else if (!firstOpen) firstOpen = d;
+    });
+    var p = document.getElementById('progress');
+    if (p) p.style.width = (100 * done / total) + '%';
+    var pt = document.getElementById('progress-text');
+    if (pt) pt.textContent = B(done) + ' / ' + B(total) + ' দিন শেষ';
+    var cont = document.getElementById('continue');
+    if (cont && firstOpen) {
+      cont.setAttribute('href', firstOpen.getAttribute('href'));
+      cont.textContent = done ? '▶ চালিয়ে যান — ' + firstOpen.querySelector('.n').textContent.replace(/\s+/g, ' ').trim() : '▶ শুরু করুন — ' + firstOpen.querySelector('.n').textContent.replace(/\s+/g, ' ').trim();
+    } else if (cont) { cont.textContent = '🎉 সব শেষ! আবার পড়ুন'; }
+  }
+})();
