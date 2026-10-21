@@ -2,7 +2,7 @@
 
 English and Japanese, taught in Bangla, built for reading on a phone.
 
-- **English 101 — গল্পে গল্পে ইংরেজি:** 10 days. Each day = a short story about Sanjoy, 10 words (with Bangla pronunciation), 20 sentences, a grammar tip and a quiz.
+- **English 101 — গল্পে গল্পে ইংরেজি:** 20 days. Each day = a short story about Sanjoy, 10 words (with Bangla pronunciation), 20 sentences, a grammar tip and a quiz.
 - **Japanese 101 — হিরাগানা:** 10 days. All 46 basic hiragana + the 25 voiced/semi-voiced sounds, small っ ゃ ゅ ょ, reading practice, and the first sentences.
 
 Live: https://polodev.github.io/sanjoy/ (later: https://sanjoy.cloud/)

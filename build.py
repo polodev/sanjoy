@@ -5,7 +5,7 @@ Relative links everywhere, so it works at https://<user>.github.io/sanjoy/ and l
 import shutil
 import sys
 
-from engine import ROOT, bn, esc, page, write
+from engine import FULL_NAME, ROOT, avatar, bn, esc, page, write
 import english101 as E
 import japanese101 as J
 import site_english
@@ -14,7 +14,7 @@ import site_japanese
 LANGS = {
     "english": dict(mod=E, name="English", bn_name="ইংরেজি", badge="A", theme="en", builder=site_english.build_day,
                     intro="গল্পে গল্পে ইংরেজি — প্রতিটি Day-তে একটা ছোট গল্প, ১০টি নতুন শব্দ আর ২০টি বাক্য।",
-                    meta="১০ Day · ১০০ শব্দ · ২০০ বাক্য", n_days=10),
+                    meta="২০ Day · ২০০ শব্দ · ৪০০ বাক্য", n_days=20),
     "japanese": dict(mod=J, name="Japanese", bn_name="জাপানি", badge="あ", theme="ja", builder=site_japanese.build_day,
                      intro="হিরাগানা দিয়ে জাপানি লেখা শিখুন — প্রতিটি Day-তে একটি সারির অক্ষর, পড়ার অনুশীলন আর কুইজ।",
                      meta="১০ Day · ৭১ অক্ষর · প্রথম বাক্য", n_days=10),
@@ -25,15 +25,20 @@ def home():
     cards = "".join(
         f'<a class="card lang {v["theme"]}" href="{k}/index.html"><div class="badge">{v["badge"]}</div><div><b>{v["name"]} — {v["bn_name"]}</b>'
         f'<span>{v["intro"]}</span><br><span style="font-size:14px">{v["meta"]}</span></div></a>' for k, v in LANGS.items())
-    body = (f'<header class="hero"><div class="in"><h1>সঞ্জয়ের ভাষা শেখার ঘর</h1><p>ইংরেজি আর জাপানি — বাংলায়, গল্পে গল্পে, মোবাইলে সহজে পড়ার মতো। রোজ একটা Day, রোজ একটু একটু।</p></div></header>'
-            f'<main class="wrap">{cards}<p class="note">🔊 প্রতিটি শব্দ আর বাক্য শুনতে পাবেন · 👆 স্লাইডে বাঁ-ডানে swipe করুন · ✅ আপনার অগ্রগতি এই ফোনেই জমা থাকে</p></main>')
-    write("index.html", page("সঞ্জয়ের ভাষা শেখার ঘর — English ও Japanese", body, 0, "home",
-                             "ইংরেজি আর জাপানি শিখুন বাংলায়: গল্পে গল্পে ইংরেজি, হিরাগানা দিয়ে জাপানি।"))
+    me = avatar("", "hero-ava", small=False)
+    dedicate = (f'<div class="card dedicate"><img src="assets/img/sanjoy-casual.jpg" alt="{FULL_NAME}" loading="lazy" width="1200" height="900">'
+                f'<div class="cap"><b>এই ঘরটা শুধু তোমার জন্য, {FULL_NAME} 💙</b>'
+                f'<span>English গল্পের নায়ক তুমি — Sanjoy। জাপানি শেখার শেষে প্রথম বাক্যটাও তোমার নামে: <b class="jp" style="display:inline">さんじょい</b>। রোজ একটা Day, রোজ একটু একটু।</span></div></div>')
+    body = (f'<header class="hero"><div class="in hero-grid"><div><p class="eyebrow" data-greet>স্বাগতম, সঞ্জয়! 👋</p><h1>{FULL_NAME}</h1>'
+            f'<p>ইংরেজি আর জাপানি — বাংলায়, গল্পে গল্পে, মোবাইলে সহজে।</p></div>{me}</div></header>'
+            f'<main class="wrap">{dedicate}{cards}<p class="note">🔊 প্রতিটি শব্দ আর বাক্য শুনতে পাবে · 👆 স্লাইডে বাঁ-ডানে swipe করো · ✅ তোমার অগ্রগতি এই ফোনেই জমা থাকে</p></main>')
+    write("index.html", page(f"{FULL_NAME}-র ভাষা শেখার ঘর — English ও Japanese", body, 0, "home",
+                             "শুধু সঞ্জয় দেব শুভ-র জন্য: গল্পে গল্পে ইংরেজি, হিরাগানা দিয়ে জাপানি — বাংলায়।"))
 
 
 def language_page(k, v):
     c = v["mod"].COURSE
-    body = (f'<header class="hero"><div class="in"><a class="back" href="../index.html">← হোম</a><h1>{v["name"]} — {v["bn_name"]}</h1><p>{v["intro"]}</p></div></header>'
+    body = (f'<header class="hero"><div class="in hero-grid"><div><a class="back" href="../index.html">← হোম</a><h1>{v["name"]} — {v["bn_name"]}</h1><p>{v["intro"]}</p></div>{avatar("../", "hero-ava sm")}</div></header>'
             f'<main class="wrap"><a class="card course" href="101/index.html"><span class="tag">101</span><b>{c["title"]} — {c["tag"]}</b>'
             f'<span class="sub">{c["sub"]}</span><span class="sub">{v["meta"]}</span></a>'
             f'<div class="card course locked"><span class="tag">102</span><b>{v["name"]} 102</b><span class="sub">🔒 শীঘ্রই আসছে</span></div></main>')
@@ -52,7 +57,7 @@ def course_page(k, v):
             title, sub = t, s
         days.append(f'<a class="day" data-deckkey="{k}/101/day-{n:02d}" href="day-{n:02d}/index.html"><span class="n">Day<b>{bn(n)}</b></span>'
                     f'<span class="t"><b>{esc(title)}</b><span>{esc(sub)}</span></span><span class="tick">✓</span></a>')
-    body = (f'<header class="hero"><div class="in"><a class="back" href="../index.html">← {v["name"]}</a><h1>{c["title"]}</h1><p>{c["lead"]}</p></div></header>'
+    body = (f'<header class="hero"><div class="in hero-grid"><div><a class="back" href="../index.html">← {v["name"]}</a><h1>{c["title"]}</h1><p>{c["lead"]}</p></div>{avatar("../../", "hero-ava sm")}</div></header>'
             f'<main class="wrap"><div class="card"><div class="bar"><i id="progress"></i></div>'
             f'<p class="note" id="progress-text">০ / {bn(v["n_days"])} দিন শেষ</p>'
             f'<p style="text-align:center;margin-top:10px"><a class="btn" id="continue" href="day-01/index.html">▶ শুরু করুন</a></p></div>'

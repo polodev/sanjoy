@@ -5,6 +5,9 @@ import random
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
+SITE_URL = "https://polodev.github.io/sanjoy"   # change to https://sanjoy.cloud when the domain is live (og:image needs an absolute URL)
+FULL_NAME = "Sanjoy Dev Shuvo"
+DECK_BASE = "../../../"
 DIG = str.maketrans("0123456789", "০১২৩৪৫৬৭৮৯")
 esc = html.escape
 
@@ -23,6 +26,20 @@ def write(path, text):
     p.write_text(text, encoding="utf-8")
 
 
+def head_extra(base, title, description, url_path=""):
+    return (f'<link rel="icon" type="image/png" href="{base}assets/img/favicon.png">'
+            f'<link rel="apple-touch-icon" href="{base}assets/img/apple-touch-icon.png">'
+            f'<meta property="og:type" content="website"><meta property="og:title" content="{esc(title, quote=True)}">'
+            f'<meta property="og:description" content="{esc(description, quote=True)}">'
+            f'<meta property="og:image" content="{SITE_URL}/assets/img/og.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">'
+            f'<meta name="twitter:card" content="summary_large_image">')
+
+
+def avatar(base, cls="ava", small=True):
+    f = "sanjoy-avatar-small.jpg" if small else "sanjoy-avatar.jpg"
+    return f'<img class="{cls}" src="{base}assets/img/{f}" alt="{FULL_NAME}" width="96" height="96">'
+
+
 def page(title, body, depth, theme="home", description=""):
     base = "../" * depth
     return f"""<!doctype html>
@@ -33,6 +50,7 @@ def page(title, body, depth, theme="home", description=""):
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(description)}">
 <meta name="theme-color" content="#4F46E5">
+{head_extra(base, title, description or "ইংরেজি আর জাপানি — শুধু সঞ্জয়ের জন্য, বাংলায়।")}
 {FONTS}
 <link rel="stylesheet" href="{base}assets/app.css">
 </head>
@@ -73,7 +91,7 @@ def slide(inner, cls="", title=""):
 
 def cover(chip, h1, lead, learn, hint=True):
     items = "".join(f"<li>{x}</li>" for x in learn)
-    return slide(f'<span class="chip">{esc(chip)}</span><h1>{h1}</h1><p class="lead">{lead}</p>'
+    return slide(f'<div class="cover-top"><span class="chip">{esc(chip)}</span><span class="for-you">{avatar(DECK_BASE, "ava")} <span>{FULL_NAME}-র জন্য</span></span></div><h1>{h1}</h1><p class="lead">{lead}</p>'
                  f'<ul class="learn">{items}</ul>'
                  + ('<p class="hint">👉 ডান থেকে বামে swipe করে পরের স্লাইডে যান · উপর-নিচে স্ক্রল করে বাকিটা দেখুন</p>' if hint else ""), "cover", h1)
 
@@ -86,18 +104,18 @@ def quiz_slide(questions, title="কুইজ"):
 def finish_slide(deck_key, heading, lead, chips, next_href=None, next_label="", back_href="../index.html", extra=""):
     nxt = f'<a class="btn" href="{next_href}">{next_label} →</a>' if next_href else ""
     chip_html = "".join(f"<span>{c}</span>" for c in chips)
-    return slide(f'<div class="finish"><div class="party">🎉</div><h2>{heading}</h2><p class="lead">{lead}</p>'
+    return slide(f'<div class="finish">{avatar(DECK_BASE, "ava-big", small=False)}<h2>{heading}</h2><p class="hint">শাবাশ, {FULL_NAME}! 🎉</p><p class="lead">{lead}</p>'
                  f'<div class="wordlist">{chip_html}</div>{extra}'
                  f'<div class="btns">{nxt}<a class="btn ghost" href="{back_href}">সব Day</a></div></div>', "", "শেষ")
 
 
 def deck_page(title, deck_key, theme, slides, back_href, crumb, home_href, has_bn=False, depth=3):
-    nav = ('<div id="top"><a href="{back}">← সব Day</a><span class="crumb">{crumb}</span><a href="{home}">⌂</a></div><div id="bar"></div>'
+    nav = ('<div id="top"><a href="{back}">← সব Day</a><span class="crumb">{crumb}</span><a href="{home}" class="me" aria-label="হোম">{ava}</a></div><div id="bar"></div>'
            '<main id="deck">{slides}</main>'
            '<nav id="nav"><button id="prev" aria-label="আগের">‹</button><span id="count"></span><button id="next" aria-label="পরের">›</button>'
            '<button id="slow" title="ধীরে বলুন" aria-label="ধীরে">🐢</button>{bn}'
            '<button id="theme" title="Dark mode" aria-label="Theme">◐</button></nav>').format(
-        back=back_href, crumb=esc(crumb), home=home_href, slides="\n".join(slides),
+        back=back_href, crumb=esc(crumb), home=home_href, slides="\n".join(slides), ava=avatar('../' * depth, "ava"),
         bn='<button id="bnBtn" title="বাংলা লুকান" aria-label="বাংলা লুকান">👁</button>' if has_bn else "")
     attrs = f'data-deck="{deck_key}"'
     cls = "deck" + (" has-bn" if has_bn else "")
@@ -107,6 +125,7 @@ def deck_page(title, deck_key, theme, slides, back_href, crumb, home_href, has_b
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{esc(title)}</title>
+{head_extra('../' * depth, title, "সঞ্জয় দেব শুভ-র জন্য — বাংলায়, গল্পে গল্পে ইংরেজি আর জাপানি।")}
 {FONTS}
 <link rel="stylesheet" href="{'../' * depth}assets/app.css">
 </head>

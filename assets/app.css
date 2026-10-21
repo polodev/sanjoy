@@ -155,3 +155,26 @@ details.q p{margin-top:6px;color:var(--ok);font-weight:600}
 .finish .btns{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
 @media (min-width:760px){.slide{padding-top:72px}.krow,.chart{gap:10px}}
 @media print{#nav,#bar,#top{display:none!important}body.deck{position:static;overflow:visible;height:auto}#deck{display:block;transform:none!important;position:static}.slide{height:auto;min-height:100vh;page-break-after:always}}
+
+/* ---------- personal touches: made for Sanjoy Dev Shuvo ---------- */
+.ava{width:34px;height:34px;border-radius:50%;object-fit:cover;border:2px solid var(--accent);display:block}
+#top a.me{padding:0;line-height:0}
+.hero-grid{display:flex;gap:18px;align-items:center;justify-content:space-between}
+.hero .eyebrow{font-weight:600;opacity:.95;margin:0 0 4px;font-size:18px}
+.hero-ava{flex:none;width:112px;height:112px;border-radius:50%;object-fit:cover;border:4px solid #fff;box-shadow:0 10px 30px rgba(0,0,0,.3)}
+.hero-ava.sm{width:76px;height:76px;border-width:3px}
+.dedicate{padding:0;overflow:hidden}
+.dedicate img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:68% 18%}
+.dedicate .cap{padding:16px 18px 18px}
+.dedicate b{display:block;font-size:21px;line-height:1.35}
+.dedicate span{color:var(--muted)}
+.cover-top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.for-you{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:var(--muted);font-weight:600}
+.for-you .ava{width:30px;height:30px;border-width:2px}
+.ava-big{width:116px;height:116px;border-radius:50%;object-fit:cover;border:4px solid var(--accent);margin:0 auto;display:block;box-shadow:0 8px 24px rgba(0,0,0,.2)}
+.story-hero{display:flex;gap:14px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:12px}
+.story-hero .ava{width:64px;height:64px;flex:none}
+.story-hero b{display:block;font-size:19px;line-height:1.3}
+.story-hero span{color:var(--muted);font-size:15px}
+.you-card{display:flex;gap:12px;align-items:center;margin-top:4px;padding:10px 12px;border-radius:14px;background:color-mix(in srgb,var(--accent) 10%,var(--card));border:1px dashed var(--accent)}
+.you-card .ava{width:46px;height:46px;flex:none}

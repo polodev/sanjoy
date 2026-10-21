@@ -1,4 +1,4 @@
-"""English 101 — গল্পে গল্পে ইংরেজি. Ten days; each day = one short story about Sanjoy, 10 words, 20 sentences,
+"""English 101 — গল্পে গল্পে ইংরেজি. Twenty days; each day = one short story about Sanjoy, 10 words, 20 sentences,
 one grammar tip and a quiz. Data only: engine.py turns it into slides.
 
 Format of the text blocks: one item per line, cells separated by ' | '.
@@ -22,7 +22,7 @@ def day(n, en_title, bn_title, intro, story, words, sentences, grammar):
 # ======================================================================= Day 1
 day(1, "Hello, I am Sanjoy", "পরিচয়", "আজ সঞ্জয়ের সাথে পরিচয় হবে — নিজের পরিচয় দিতে আর অন্যের পরিচয় জানতে শিখব।",
 """
-Hello! My name is Sanjoy. | হ্যালো! আমার নাম সঞ্জয়।
+Hello! My name is Sanjoy Dev Shuvo. | হ্যালো! আমার নাম সঞ্জয় দেব শুভ।
 I am from Bangladesh. | আমি বাংলাদেশ থেকে এসেছি।
 I live in Dhaka. | আমি ঢাকায় থাকি।
 I am a student. | আমি একজন ছাত্র।
@@ -47,7 +47,7 @@ no | নো | না
 Hello, how are you? | হ্যালো, আপনি কেমন আছেন?
 I am fine, thank you. | আমি ভালো আছি, ধন্যবাদ।
 And you? | আর আপনি?
-My name is Sanjoy. | আমার নাম সঞ্জয়।
+My name is Sanjoy Dev Shuvo. | আমার নাম সঞ্জয় দেব শুভ।
 What is your name? | আপনার নাম কী?
 I am from Bangladesh. | আমি বাংলাদেশ থেকে।
 Where are you from? | আপনি কোথা থেকে এসেছেন?
@@ -60,7 +60,7 @@ This is my friend. | ইনি আমার বন্ধু।
 Nice to meet you. | আপনার সাথে দেখা হয়ে ভালো লাগল।
 Nice to meet you, too. | আপনার সাথেও দেখা হয়ে ভালো লাগল।
 Good morning. | শুভ সকাল।
-Good night. | শুভ রাত্রি।
+You can call me Shuvo. | আপনি আমাকে শুভ বলে ডাকতে পারেন।
 Thank you very much. | অনেক ধন্যবাদ।
 Sorry, I am late. | দুঃখিত, আমার দেরি হয়েছে।
 Please sit down. | দয়া করে বসুন।
@@ -532,8 +532,525 @@ dict(title="will — ভবিষ্যতের কথা",
      table=[("I", "will visit", "আমি যাব"), ("She", "will study", "সে পড়বে"), ("We", "won't go", "আমরা যাব না")],
      quiz=("Tomorrow I ___ study English.", ["will", "am", "does"], 0, "আগামীকালের পরিকল্পনা = will + verb।")))
 
-assert len(DAYS) == 10
+# ======================================================================= Day 11
+day(11, "Body and Health", "শরীর ও স্বাস্থ্য", "আজ শরীরের অংশ, অসুস্থতার কথা আর ডাক্তারের কাছে যেতে শিখব।",
+"""
+Sanjoy wakes up with a headache. | সঞ্জয় মাথাব্যথা নিয়ে ঘুম থেকে ওঠে।
+He also has a fever. | তার জ্বরও আছে।
+His mother says, "You should see a doctor." | তার মা বলেন, "তোমার ডাক্তার দেখানো উচিত।"
+At the hospital, the doctor checks his eyes and throat. | হাসপাতালে ডাক্তার তার চোখ আর গলা পরীক্ষা করেন।
+"You have a small fever. Take this medicine." | "তোমার সামান্য জ্বর। এই ওষুধটা খাও।"
+"Drink a lot of water and rest." | "প্রচুর পানি খাও আর বিশ্রাম নাও।"
+Two days later, Sanjoy feels much better. | দুই দিন পরে সঞ্জয় অনেক ভালো বোধ করে।
+"Health is more important than work," he says. | "কাজের চেয়ে স্বাস্থ্য বেশি জরুরি," সে বলে।
+""",
+"""
+head | হেড | মাথা
+eye | আই | চোখ
+hand | হ্যান্ড | হাত
+stomach | স্টমাক | পেট
+fever | ফিভার | জ্বর
+pain | পেইন | ব্যথা
+doctor | ডক্টর | ডাক্তার
+medicine | মেডিসিন | ওষুধ
+hospital | হসপিটাল | হাসপাতাল
+healthy | হেলদি | সুস্থ, স্বাস্থ্যবান
+""",
+"""
+I have a headache. | আমার মাথাব্যথা করছে।
+My stomach hurts. | আমার পেট ব্যথা করছে।
+I have a fever. | আমার জ্বর আছে।
+I don't feel well. | আমি ভালো বোধ করছি না।
+How do you feel today? | আজ আপনি কেমন বোধ করছেন?
+I feel much better. | আমি অনেক ভালো বোধ করছি।
+You should see a doctor. | আপনার ডাক্তার দেখানো উচিত।
+You should take some rest. | আপনার কিছুটা বিশ্রাম নেওয়া উচিত।
+You should drink more water. | আপনার আরও পানি খাওয়া উচিত।
+You shouldn't eat too much oily food. | আপনার বেশি তেলে ভাজা খাবার খাওয়া উচিত না।
+Take this medicine twice a day. | এই ওষুধ দিনে দুইবার খান।
+Where is the nearest hospital? | সবচেয়ে কাছের হাসপাতাল কোথায়?
+I need to see a doctor. | আমার ডাক্তার দেখাতে হবে।
+Do you have any pain? | আপনার কি কোথাও ব্যথা আছে?
+Open your mouth, please. | দয়া করে মুখ খুলুন।
+My hand is hurting. | আমার হাতে ব্যথা করছে।
+Please close your eyes. | দয়া করে চোখ বন্ধ করুন।
+Do you have any allergy? | আপনার কি কোনো অ্যালার্জি আছে?
+Stay healthy and happy. | সুস্থ আর খুশি থাকুন।
+Get well soon! | শিগগিরই সুস্থ হয়ে উঠুন!
+""",
+dict(title="should / shouldn't — পরামর্শ",
+     points=["<b>should + verb</b> — করা উচিত: You should rest.", "<b>shouldn't</b> — করা উচিত না: You shouldn't worry.", "প্রশ্ন: <b>Should I</b> see a doctor? (আমার কি ডাক্তার দেখানো উচিত?)"],
+     table=[("You", "should rest", "আপনার বিশ্রাম নেওয়া উচিত"), ("He", "should see a doctor", "তার ডাক্তার দেখানো উচিত"), ("You", "shouldn't worry", "আপনার চিন্তা করা উচিত না")],
+     quiz=("You ___ drink more water. (পরামর্শ)", ["should", "shouldn't", "are"], 0, "পরামর্শ দিতে should + verb।")))
+
+# ======================================================================= Day 12
+day(12, "Clothes and Shopping", "পোশাক ও কেনাকাটা", "আজ ঈদের কেনাকাটায় পোশাক পছন্দ করতে, মাপ বলতে আর দাম দিতে শিখব।",
+"""
+Eid is coming, so Sanjoy goes shopping. | ঈদ আসছে, তাই সঞ্জয় কেনাকাটায় যায়।
+He wants a new shirt. | সে একটি নতুন শার্ট চায়।
+"Do you have this shirt in blue?" he asks. | "এই শার্টটা কি নীল রঙে আছে?" সে জিজ্ঞেস করে।
+"Yes, what size do you wear?" | "হ্যাঁ, আপনি কোন সাইজ পরেন?"
+"Medium." He tries on the shirt. | "মিডিয়াম।" সে শার্টটা পরে দেখে।
+"It fits well, but it is a little expensive." | "ঠিকমতো লেগেছে, কিন্তু একটু দামি।"
+The shopkeeper gives a small discount. | দোকানদার একটু ছাড় দেন।
+Sanjoy pays and takes the receipt. | সঞ্জয় টাকা দেয় আর রসিদ নেয়।
+""",
+"""
+shirt | শার্ট | শার্ট
+trousers | ট্রাউজারস | প্যান্ট
+shoes | শুজ | জুতা
+size | সাইজ | মাপ
+colour | কালার | রং
+wear | ওয়্যার | পরা
+try on | ট্রাই অন | পরে দেখা
+fit | ফিট | ঠিকমতো লাগা
+pay | পে | টাকা দেওয়া
+receipt | রিসিট | রসিদ
+""",
+"""
+I want to buy a shirt. | আমি একটি শার্ট কিনতে চাই।
+Do you have this in blue? | আপনার কাছে কি এটা নীল রঙে আছে?
+What colour do you like? | আপনি কোন রং পছন্দ করেন?
+I like the black one. | আমি কালোটা পছন্দ করি।
+What size do you wear? | আপনি কোন সাইজ পরেন?
+I wear size medium. | আমি মিডিয়াম সাইজ পরি।
+Can I try this on? | আমি কি এটা পরে দেখতে পারি?
+The fitting room is over there. | ট্রায়াল রুম ওখানে।
+It fits me well. | এটা আমার ঠিকমতো লাগছে।
+It is too big. | এটা অনেক বড়।
+It is too small. | এটা অনেক ছোট।
+Do you have a bigger size? | আপনার কাছে কি আরও বড় সাইজ আছে?
+These shoes are comfortable. | এই জুতাগুলো আরামদায়ক।
+Those trousers are too long. | ওই প্যান্টটা অনেক লম্বা।
+How much is this shirt? | এই শার্টের দাম কত?
+Is there any discount? | কোনো ছাড় আছে কি?
+I will take this one. | আমি এটা নেব।
+Can I pay by card? | আমি কি কার্ডে টাকা দিতে পারি?
+Please give me the receipt. | দয়া করে আমাকে রসিদটা দিন।
+Happy Eid shopping! | ঈদের কেনাকাটা শুভ হোক!
+""",
+dict(title="this / that / these / those",
+     points=["<b>this</b> — কাছের একটি জিনিস: this shirt", "<b>these</b> — কাছের অনেকগুলো: these shoes", "<b>that</b> — দূরের একটি: that bag", "<b>those</b> — দূরের অনেকগুলো: those trousers"],
+     table=[("this", "কাছে, একটি", "This shirt is nice."), ("these", "কাছে, একাধিক", "These shoes are new."), ("that", "দূরে, একটি", "That bag is big."), ("those", "দূরে, একাধিক", "Those books are old.")],
+     quiz=("(হাতের কাছের অনেক জুতা) ___ shoes are comfortable.", ["This", "These", "That"], 1, "কাছে + একাধিক = these।")))
+
+# ======================================================================= Day 13
+day(13, "Numbers and Dates", "সংখ্যা ও তারিখ", "আজ সংখ্যা, মাস, তারিখ আর জন্মদিনের কথা বলতে শিখব।",
+"""
+Today is Sanjoy's birthday. | আজ সঞ্জয়ের জন্মদিন।
+It is the twenty-first of October. | আজ একুশে অক্টোবর।
+He is one year older today. | সে আজ এক বছর বড় হলো।
+His friends call him in the morning. | তার বন্ধুরা সকালে তাকে ফোন করে।
+"Happy birthday, Sanjoy!" they say. | "শুভ জন্মদিন, সঞ্জয়!" তারা বলে।
+In the evening, he cuts a cake with his family. | সন্ধ্যায় সে পরিবারের সাথে কেক কাটে।
+The cake costs one thousand two hundred taka. | কেকটার দাম এক হাজার দুইশো টাকা।
+"This is my best birthday!" he says. | "এটা আমার সেরা জন্মদিন!" সে বলে।
+""",
+"""
+number | নাম্বার | সংখ্যা, নম্বর
+hundred | হান্ড্রেড | একশো
+thousand | থাউজেন্ড | হাজার
+month | মান্থ | মাস
+year | ইয়ার | বছর
+date | ডেইট | তারিখ
+birthday | বার্থডে | জন্মদিন
+first | ফার্স্ট | প্রথম
+second | সেকেন্ড | দ্বিতীয়
+third | থার্ড | তৃতীয়
+""",
+"""
+What is today's date? | আজকের তারিখ কত?
+Today is the twenty-first of October. | আজ একুশে অক্টোবর।
+My birthday is in March. | আমার জন্মদিন মার্চ মাসে।
+When is your birthday? | আপনার জন্মদিন কবে?
+It is on the fifth of May. | এটা পাঁচই মে।
+Happy birthday! | শুভ জন্মদিন!
+Many happy returns of the day. | জন্মদিনের অনেক শুভেচ্ছা।
+One, two, three, four, five. | এক, দুই, তিন, চার, পাঁচ।
+Ten, twenty, thirty, forty, fifty. | দশ, বিশ, ত্রিশ, চল্লিশ, পঞ্চাশ।
+One hundred taka. | একশো টাকা।
+Two hundred and fifty taka. | আড়াইশো টাকা।
+One thousand taka. | এক হাজার টাকা।
+What is your phone number? | আপনার ফোন নম্বর কত?
+Please write down your number. | দয়া করে আপনার নম্বরটা লিখে দিন।
+This is my first job. | এটা আমার প্রথম চাকরি।
+He is the second son. | সে দ্বিতীয় ছেলে।
+She is in the third class. | সে তৃতীয় শ্রেণিতে পড়ে।
+There are twelve months in a year. | এক বছরে বারো মাস।
+There are seven days in a week. | এক সপ্তাহে সাত দিন।
+Happy New Year! | শুভ নববর্ষ!
+""",
+dict(title="in / on / at — সময়ের সাথে",
+     points=["<b>in</b> — মাস, বছর, ঋতু: in March, in 2026, in winter", "<b>on</b> — নির্দিষ্ট দিন ও তারিখ: on Friday, on the fifth of May", "<b>at</b> — ঘড়ির সময়: at five o'clock, at night"],
+     table=[("in", "মাস / বছর", "in March"), ("on", "দিন / তারিখ", "on Friday"), ("at", "ঘড়ির সময়", "at ten")],
+     quiz=("My birthday is ___ March.", ["in", "on", "at"], 0, "মাসের আগে in বসে।")))
+
+# ======================================================================= Day 14
+day(14, "Study Life", "পড়াশোনার জীবন", "আজ ক্লাস, শিক্ষক, পরীক্ষা আর হোমওয়ার্কের কথা বলতে শিখব।",
+"""
+Sanjoy has an English class at ten o'clock. | সঞ্জয়ের দশটায় ইংরেজি ক্লাস আছে।
+The teacher asks a question. | শিক্ষক একটি প্রশ্ন করেন।
+Sanjoy raises his hand and gives the answer. | সঞ্জয় হাত তোলে আর উত্তর দেয়।
+"Very good!" says the teacher. | "খুব ভালো!" বলেন শিক্ষক।
+After class, he goes to the library. | ক্লাসের পরে সে লাইব্রেরিতে যায়।
+He reads a book and writes notes in his notebook. | সে একটি বই পড়ে আর খাতায় নোট লেখে।
+The teacher gives homework for tomorrow. | শিক্ষক আগামীকালের জন্য হোমওয়ার্ক দেন।
+Next week there is an exam, so he studies hard. | আগামী সপ্তাহে পরীক্ষা, তাই সে কঠোর পরিশ্রম করে পড়ে।
+""",
+"""
+class | ক্লাস | ক্লাস, শ্রেণি
+teacher | টিচার | শিক্ষক
+exam | এগজাম | পরীক্ষা
+homework | হোমওয়ার্ক | বাড়ির কাজ
+subject | সাবজেক্ট | বিষয়
+question | কোয়েশ্চেন | প্রশ্ন
+answer | আন্সার | উত্তর
+library | লাইব্রেরি | গ্রন্থাগার
+notebook | নোটবুক | খাতা
+read | রিড | পড়া
+""",
+"""
+I have an English class today. | আজ আমার ইংরেজি ক্লাস আছে।
+What time does the class start? | ক্লাস কয়টায় শুরু হয়?
+The class starts at ten. | ক্লাস দশটায় শুরু হয়।
+Who is your teacher? | আপনার শিক্ষক কে?
+My favourite subject is English. | আমার প্রিয় বিষয় ইংরেজি।
+What is your favourite subject? | আপনার প্রিয় বিষয় কী?
+May I ask a question? | আমি কি একটি প্রশ্ন করতে পারি?
+Can you repeat the question? | আপনি কি প্রশ্নটা আবার বলবেন?
+I know the answer. | আমি উত্তরটা জানি।
+I don't know the answer. | আমি উত্তরটা জানি না।
+Please open your notebook. | দয়া করে আপনার খাতা খুলুন।
+Write your name here. | এখানে আপনার নাম লিখুন।
+Read this page aloud. | এই পৃষ্ঠাটি জোরে পড়ুন।
+Do you have homework today? | আজ কি আপনার হোমওয়ার্ক আছে?
+I must finish my homework. | আমাকে হোমওয়ার্ক শেষ করতে হবে।
+Let's go to the library. | চলো লাইব্রেরিতে যাই।
+Please be quiet in the library. | দয়া করে লাইব্রেরিতে চুপ থাকুন।
+The exam is next week. | পরীক্ষা আগামী সপ্তাহে।
+I am studying for the exam. | আমি পরীক্ষার জন্য পড়ছি।
+Good luck with your exam! | পরীক্ষায় শুভকামনা!
+""",
+dict(title="must / have to — বাধ্যবাধকতা",
+     points=["<b>must + verb</b> — করতেই হবে: I must finish my homework.", "<b>have to / has to</b> — একই অর্থ: She has to study.", "<b>must not (mustn't)</b> — করা নিষেধ: You mustn't talk in the exam."],
+     table=[("I", "must study", "আমাকে পড়তেই হবে"), ("She", "has to go", "তাকে যেতে হবে"), ("You", "mustn't cheat", "নকল করা নিষেধ")],
+     quiz=("You ___ be quiet in the library. (নিয়ম)", ["must", "mustn't", "can"], 0, "নিয়ম/বাধ্যবাধকতা বোঝাতে must।")))
+
+# ======================================================================= Day 15
+day(15, "Yesterday", "গতকাল (অতীত কাল)", "আজ গতকাল কী করেছি তা বলতে শিখব — অতীত কালের ক্রিয়া।",
+"""
+Yesterday was a busy day for Sanjoy. | গতকাল সঞ্জয়ের জন্য ব্যস্ত একটি দিন ছিল।
+He woke up early and went to the market. | সে সকালে ঘুম থেকে উঠে বাজারে গেল।
+He bought some fruits and vegetables. | সে কিছু ফল আর সবজি কিনল।
+On the way, he met his old friend Rahim. | পথে সে তার পুরনো বন্ধু রহিমের সাথে দেখা করল।
+They ate lunch together. | তারা একসাথে দুপুরের খাবার খেলো।
+In the afternoon, he saw a movie with his brother. | বিকেলে সে তার ভাইয়ের সাথে একটি সিনেমা দেখল।
+He came home late at night. | সে অনেক রাতে বাড়ি ফিরল।
+"I didn't sleep early, but I had a great day!" | "আমি তাড়াতাড়ি ঘুমাইনি, কিন্তু দিনটা দারুণ ছিল!"
+""",
+"""
+yesterday | ইয়েস্টারডে | গতকাল
+ago | অ্যাগো | আগে
+went | ওয়েন্ট | গেল (go-র অতীত)
+saw | সো | দেখল (see-র অতীত)
+ate | এইট | খেল (eat-এর অতীত)
+came | কেইম | এল (come-এর অতীত)
+bought | বট | কিনল (buy-র অতীত)
+met | মেট | দেখা করল (meet-এর অতীত)
+gave | গেইভ | দিল (give-এর অতীত)
+took | টুক | নিল (take-এর অতীত)
+""",
+"""
+What did you do yesterday? | গতকাল আপনি কী করেছিলেন?
+I went to the market yesterday. | আমি গতকাল বাজারে গিয়েছিলাম।
+I bought some fruits. | আমি কিছু ফল কিনেছিলাম।
+I met my friend there. | আমি সেখানে আমার বন্ধুর সাথে দেখা করেছিলাম।
+We ate lunch together. | আমরা একসাথে দুপুরের খাবার খেয়েছিলাম।
+We played cricket in the evening. | আমরা সন্ধ্যায় ক্রিকেট খেলেছিলাম।
+I watched a movie last night. | আমি গত রাতে একটি সিনেমা দেখেছিলাম।
+She came home early. | সে তাড়াতাড়ি বাড়ি এসেছিল।
+He gave me a gift. | সে আমাকে একটি উপহার দিয়েছিল।
+I took a rickshaw to the station. | আমি স্টেশন পর্যন্ত রিকশা নিয়েছিলাম।
+I saw a beautiful bird. | আমি একটি সুন্দর পাখি দেখেছিলাম।
+I didn't go to the office. | আমি অফিসে যাইনি।
+She didn't call me. | সে আমাকে ফোন করেনি।
+Did you sleep well? | আপনি কি ভালো ঘুমিয়েছিলেন?
+Yes, I did. | হ্যাঁ, ঘুমিয়েছিলাম।
+No, I didn't. | না, ঘুমাইনি।
+I visited my grandmother two days ago. | আমি দুই দিন আগে আমার দাদির সাথে দেখা করেছিলাম।
+It rained all day. | সারাদিন বৃষ্টি হয়েছিল।
+We were very tired. | আমরা খুব ক্লান্ত ছিলাম।
+It was a wonderful day. | দিনটা চমৎকার ছিল।
+""",
+dict(title="Past Simple — অতীত কাল",
+     points=["সাধারণ নিয়ম: verb + <b>-ed</b> — played, visited, watched", "অনিয়মিত (মুখস্থ): go → <b>went</b>, see → <b>saw</b>, eat → <b>ate</b>, buy → <b>bought</b>", "না/প্রশ্ন: <b>did / didn't + verb-এর আসল রূপ</b> — I didn't go. · Did you sleep?"],
+     table=[("play", "played", "খেলেছিলাম"), ("go", "went", "গিয়েছিলাম"), ("didn't", "+ go", "যাইনি")],
+     quiz=("Yesterday I ___ to the market.", ["go", "went", "going"], 1, "গতকাল = অতীত; go-র অতীত went।")))
+
+# ======================================================================= Day 16
+day(16, "Cooking at Home", "রান্নাঘরে", "আজ রান্নার ধাপ বলতে আর কাউকে নির্দেশ দিতে শিখব।",
+"""
+Today Sanjoy's mother teaches him to cook khichuri. | আজ সঞ্জয়ের মা তাকে খিচুড়ি রান্না শেখান।
+"First, wash the rice and the dal," she says. | "প্রথমে চাল আর ডাল ধুয়ে নাও," তিনি বলেন।
+"Then cut the onion into small pieces." | "তারপর পেঁয়াজ ছোট ছোট টুকরো করে কাটো।"
+Sanjoy fries the onion in hot oil. | সঞ্জয় গরম তেলে পেঁয়াজ ভাজে।
+"Now add salt and spices." | "এবার লবণ আর মসলা দাও।"
+"Add water and boil it for twenty minutes." | "পানি দাও আর বিশ মিনিট সেদ্ধ করো।"
+Finally, Sanjoy tastes the khichuri. | অবশেষে সঞ্জয় খিচুড়ির স্বাদ নেয়।
+"It's delicious, Mom!" | "দারুণ হয়েছে, মা!"
+""",
+"""
+cook | কুক | রান্না করা
+boil | বয়েল | সেদ্ধ করা
+fry | ফ্রাই | ভাজা
+cut | কাট | কাটা
+salt | সল্ট | লবণ
+spice | স্পাইস | মসলা
+oil | অয়েল | তেল
+onion | অনিয়ন | পেঁয়াজ
+recipe | রেসিপি | রান্নার প্রণালী
+taste | টেইস্ট | স্বাদ নেওয়া; স্বাদ
+""",
+"""
+Can you cook? | আপনি কি রান্না করতে পারেন?
+I can cook rice and curry. | আমি ভাত আর তরকারি রান্না করতে পারি।
+What is the recipe? | রান্নার প্রণালী কী?
+First, wash the rice. | প্রথমে চাল ধুয়ে নিন।
+Then cut the onions. | তারপর পেঁয়াজ কাটুন।
+Heat the oil in a pan. | কড়াইতে তেল গরম করুন।
+Fry the onions until they are brown. | পেঁয়াজ বাদামি হওয়া পর্যন্ত ভাজুন।
+Add salt and spices. | লবণ আর মসলা দিন।
+Add two cups of water. | দুই কাপ পানি দিন।
+Boil it for twenty minutes. | বিশ মিনিট সেদ্ধ করুন।
+Stir it slowly. | ধীরে ধীরে নাড়ুন।
+Turn off the stove. | চুলা বন্ধ করুন।
+Finally, taste it. | অবশেষে স্বাদ দেখুন।
+It needs more salt. | এতে আরও লবণ লাগবে।
+It is too spicy. | এটা খুব ঝাল।
+It tastes great. | খেতে দারুণ হয়েছে।
+Be careful, the pan is hot. | সাবধান, কড়াই গরম।
+Do you like to cook? | আপনি কি রান্না করতে পছন্দ করেন?
+My mother is a great cook. | আমার মা দারুণ রাঁধুনি।
+Dinner is ready! | রাতের খাবার তৈরি!
+""",
+dict(title="নির্দেশ ও ধাপ: First, Then, Finally",
+     points=["নির্দেশ দিতে <b>verb-এর আসল রূপ দিয়ে শুরু</b>: Wash the rice. Add salt.", "ধাপ বোঝাতে: <b>First</b> (প্রথমে), <b>Then / Next</b> (তারপর), <b>Finally</b> (অবশেষে)", "নিষেধ: <b>Don't + verb</b> — Don't touch the pan."],
+     table=[("First", "wash the rice", "প্রথমে চাল ধোও"), ("Then", "cut the onion", "তারপর পেঁয়াজ কাটো"), ("Finally", "taste it", "অবশেষে স্বাদ দেখো")],
+     quiz=("___, wash the rice. (প্রথম ধাপ)", ["First", "Finally", "Then"], 0, "প্রথম ধাপে First।")))
+
+# ======================================================================= Day 17
+day(17, "A Trip to Cox's Bazar", "কক্সবাজার ভ্রমণ", "আজ ভ্রমণের পরিকল্পনা, টিকেট, হোটেল আর সমুদ্রসৈকতের কথা বলতে শিখব।",
+"""
+Sanjoy and his friends are going to visit Cox's Bazar. | সঞ্জয় আর তার বন্ধুরা কক্সবাজার ঘুরতে যাচ্ছে।
+They book their train tickets two weeks before. | তারা দুই সপ্তাহ আগে ট্রেনের টিকেট বুক করে।
+On Friday night, they arrive at the station with their luggage. | শুক্রবার রাতে তারা মালপত্র নিয়ে স্টেশনে পৌঁছায়।
+The train leaves at ten o'clock. | ট্রেন দশটায় ছাড়ে।
+After a long journey, they reach Cox's Bazar. | দীর্ঘ যাত্রার পরে তারা কক্সবাজারে পৌঁছায়।
+Their hotel is near the beach. | তাদের হোটেল সমুদ্রসৈকতের কাছে।
+"Look at the waves!" says Sanjoy. | "ঢেউগুলো দেখো!" বলে সঞ্জয়।
+"We are going to stay here for three days." | "আমরা এখানে তিন দিন থাকব।"
+""",
+"""
+ticket | টিকেট | টিকেট
+train | ট্রেইন | ট্রেন
+station | স্টেশন | স্টেশন
+journey | জার্নি | যাত্রা
+luggage | লাগেজ | মালপত্র
+hotel | হোটেল | হোটেল
+beach | বিচ | সমুদ্রসৈকত
+book | বুক | আগে থেকে নেওয়া (বুক করা)
+arrive | অ্যারাইভ | পৌঁছানো
+leave | লিভ | ছাড়া, ছেড়ে যাওয়া
+""",
+"""
+Where are you going for the holiday? | ছুটিতে আপনি কোথায় যাচ্ছেন?
+I am going to visit Cox's Bazar. | আমি কক্সবাজার ঘুরতে যাচ্ছি।
+How are you going there? | আপনি সেখানে কীভাবে যাচ্ছেন?
+We are going by train. | আমরা ট্রেনে যাচ্ছি।
+I want to book two tickets. | আমি দুইটি টিকেট বুক করতে চাই।
+What time does the train leave? | ট্রেন কয়টায় ছাড়ে?
+It leaves at ten at night. | এটা রাত দশটায় ছাড়ে।
+What time does it arrive? | এটা কয়টায় পৌঁছায়?
+Which platform is it? | ওটা কোন প্ল্যাটফর্ম?
+Where is the ticket counter? | টিকেট কাউন্টার কোথায়?
+This is my luggage. | এটা আমার মালপত্র।
+The journey is very long. | যাত্রাটা অনেক দীর্ঘ।
+We have a hotel booking. | আমাদের হোটেল বুকিং আছে।
+I would like a room with a sea view. | আমি সমুদ্র দেখা যায় এমন একটি ঘর চাই।
+How much is the room per night? | ঘরের এক রাতের ভাড়া কত?
+The beach is very beautiful. | সমুদ্রসৈকতটা খুব সুন্দর।
+Let's take some photos. | চলো কিছু ছবি তুলি।
+We are going to swim in the sea. | আমরা সমুদ্রে সাঁতার কাটব।
+We are going to stay for three days. | আমরা তিন দিন থাকব।
+Have a safe trip! | আপনার যাত্রা নিরাপদ হোক!
+""",
+dict(title="be going to — পরিকল্পনা",
+     points=["ঠিক করা পরিকল্পনা: <b>am / is / are + going to + verb</b>", "I <b>am going to</b> visit Cox's Bazar.", "না: We <b>aren't going to</b> stay long. · প্রশ্ন: <b>Are you going to</b> swim?"],
+     table=[("I", "am going to visit", "আমি ঘুরতে যাব"), ("She", "is going to book", "সে বুক করবে"), ("We", "are going to swim", "আমরা সাঁতার কাটব")],
+     quiz=("We ___ going to visit the beach tomorrow.", ["are", "is", "am"], 0, "We-এর সাথে are going to।")))
+
+# ======================================================================= Day 18
+day(18, "Feelings and Opinions", "অনুভূতি ও মতামত", "আজ নিজের অনুভূতি, মতামত আর কারণ বলতে শিখব।",
+"""
+Sanjoy has an important English test today. | আজ সঞ্জয়ের একটি গুরুত্বপূর্ণ ইংরেজি পরীক্ষা।
+In the morning, he feels afraid. | সকালে সে ভয় পায়।
+"I think I will forget everything," he says. | "আমার মনে হয় আমি সব ভুলে যাব," সে বলে।
+Rahim says, "I don't agree. You study every day." | রহিম বলে, "আমি একমত না। তুমি রোজ পড়ো।"
+The test starts, and Sanjoy feels calmer. | পরীক্ষা শুরু হয়, আর সঞ্জয় আরও শান্ত বোধ করে।
+He answers every question. | সে সব প্রশ্নের উত্তর দেয়।
+The result comes: he passed! | ফল আসে: সে পাস করেছে!
+He is surprised, excited and very happy. | সে অবাক, উত্তেজিত আর খুব খুশি।
+""",
+"""
+sad | স্যাড | দুঃখিত, মন খারাপ
+angry | অ্যাংগ্রি | রাগান্বিত
+tired | টায়ার্ড | ক্লান্ত
+excited | এক্সাইটেড | উত্তেজিত
+afraid | আফ্রেইড | ভীত
+surprised | সারপ্রাইজড | অবাক
+think | থিংক | মনে করা, ভাবা
+agree | অ্যাগ্রি | একমত হওয়া
+opinion | ওপিনিয়ন | মতামত
+because | বিকজ | কারণ, কেননা
+""",
+"""
+How do you feel? | আপনি কেমন বোধ করছেন?
+I feel happy today. | আমি আজ খুশি বোধ করছি।
+I feel sad. | আমার মন খারাপ।
+Why are you angry? | আপনি রাগ করেছেন কেন?
+I am not angry. | আমি রাগ করিনি।
+I am tired because I worked all day. | আমি ক্লান্ত কারণ সারাদিন কাজ করেছি।
+I am excited about the trip. | আমি ভ্রমণ নিয়ে উত্তেজিত।
+Don't be afraid. | ভয় পেয়ো না।
+I was surprised to see him. | তাকে দেখে আমি অবাক হয়েছিলাম।
+What do you think? | আপনি কী মনে করেন?
+I think it is a good idea. | আমি মনে করি এটা ভালো আইডিয়া।
+In my opinion, it is too expensive. | আমার মতে এটা অনেক দামি।
+I agree with you. | আমি আপনার সাথে একমত।
+I don't agree. | আমি একমত নই।
+I like it because it is simple. | আমার এটা ভালো লাগে কারণ এটা সহজ।
+It is cheap, so I will buy it. | এটা সস্তা, তাই আমি কিনব।
+It is nice, but it is far. | এটা সুন্দর, কিন্তু অনেক দূরে।
+I am sorry to hear that. | এটা শুনে আমি দুঃখিত।
+Don't worry, everything will be fine. | চিন্তা কোরো না, সব ঠিক হয়ে যাবে।
+I am proud of you. | আমি তোমাকে নিয়ে গর্বিত।
+""",
+dict(title="because / so / but — কারণ, ফল, বিপরীত",
+     points=["<b>because</b> — কারণ বলে: I am tired <b>because</b> I worked all day.", "<b>so</b> — ফল বলে: I am tired, <b>so</b> I will sleep early.", "<b>but</b> — বিপরীত বলে: It is nice, <b>but</b> it is far."],
+     table=[("because", "কারণ", "I stayed home because it rained."), ("so", "তাই", "It rained, so I stayed home."), ("but", "কিন্তু", "I like tea, but I prefer coffee.")],
+     quiz=("I am tired, ___ I will sleep early.", ["because", "so", "but"], 1, "ক্লান্ত → তাই ঘুমাব: ফল বোঝাতে so।")))
+
+# ======================================================================= Day 19
+day(19, "Comparing Places and People", "তুলনা: মানুষ ও জায়গা", "আজ দুটো জিনিসের তুলনা করতে আর সেরাটা বলতে শিখব।",
+"""
+Sanjoy lives in Dhaka, but his grandmother lives in a village. | সঞ্জয় ঢাকায় থাকে, কিন্তু তার দাদি থাকেন গ্রামে।
+Dhaka is bigger and more crowded than the village. | ঢাকা গ্রামের চেয়ে বড় আর বেশি ভিড়ের।
+The village is quieter and cleaner. | গ্রামটা বেশি শান্ত আর পরিষ্কার।
+His grandmother's house is old, but it is very beautiful. | তার দাদির বাড়ি পুরনো, কিন্তু খুব সুন্দর।
+There is a big pond near the house. | বাড়ির কাছে একটি বড় পুকুর আছে।
+His grandmother is the kindest person he knows. | তার দাদি তার চেনা সবচেয়ে দয়ালু মানুষ।
+"Dhaka is exciting, but the village is my favourite place," he says. | "ঢাকা রোমাঞ্চকর, কিন্তু গ্রামই আমার সবচেয়ে প্রিয় জায়গা," সে বলে।
+"I feel calm there." | "সেখানে আমি শান্তি অনুভব করি।"
+""",
+"""
+big | বিগ | বড়
+small | স্মল | ছোট
+new | নিউ | নতুন
+crowded | ক্রাউডেড | ভিড়ে ভরা
+quiet | কোয়াইট | শান্ত, নীরব
+famous | ফেইমাস | বিখ্যাত
+beautiful | বিউটিফুল | সুন্দর
+strong | স্ট্রং | শক্তিশালী
+young | ইয়াং | তরুণ, কম বয়সী
+rich | রিচ | ধনী
+""",
+"""
+Dhaka is a big city. | ঢাকা একটি বড় শহর।
+My village is small. | আমার গ্রাম ছোট।
+Dhaka is bigger than my village. | ঢাকা আমার গ্রামের চেয়ে বড়।
+The village is quieter than the city. | গ্রাম শহরের চেয়ে শান্ত।
+This bus is more crowded than that one. | এই বাসটা ওটার চেয়ে বেশি ভিড়ের।
+My brother is taller than me. | আমার ভাই আমার চেয়ে লম্বা।
+She is the youngest in the family. | সে পরিবারের সবচেয়ে ছোট।
+He is the strongest boy in the class. | সে ক্লাসের সবচেয়ে শক্তিশালী ছেলে।
+This is the most beautiful place. | এটা সবচেয়ে সুন্দর জায়গা।
+It is a famous park. | এটি একটি বিখ্যাত পার্ক।
+Cox's Bazar is more famous than my town. | কক্সবাজার আমার শহরের চেয়ে বেশি বিখ্যাত।
+My phone is new. | আমার ফোনটা নতুন।
+Your phone is newer than mine. | আপনার ফোন আমারটার চেয়ে নতুন।
+This room is as big as that one. | এই ঘরটা ওটার মতোই বড়।
+Who is the richest man in the world? | পৃথিবীর সবচেয়ে ধনী মানুষ কে?
+What is the longest river in Bangladesh? | বাংলাদেশের সবচেয়ে দীর্ঘ নদী কোনটা?
+Tea is cheaper than coffee. | চা কফির চেয়ে সস্তা।
+English is easier than I thought. | ইংরেজি আমার ভাবনার চেয়ে সহজ।
+This is the best day of my life. | এটা আমার জীবনের সেরা দিন।
+Dhaka is exciting, but I love my village. | ঢাকা রোমাঞ্চকর, কিন্তু আমি আমার গ্রামকে ভালোবাসি।
+""",
+dict(title="তুলনা: -er than, the -est",
+     points=["ছোট শব্দে: <b>-er than</b> — big → <b>bigger than</b>, quiet → <b>quieter than</b>", "ছোট শব্দে সেরা: <b>the -est</b> — the strongest, the youngest", "লম্বা শব্দে: <b>more … than</b>, <b>the most …</b> — more beautiful, the most famous", "অনিয়মিত: good → better → <b>the best</b>"],
+     table=[("big", "bigger / the biggest", "বড় — আরও বড় — সবচেয়ে বড়"), ("beautiful", "more / the most beautiful", "সুন্দর — আরও সুন্দর — সবচেয়ে সুন্দর"), ("good", "better / the best", "ভালো — আরও ভালো — সেরা")],
+     quiz=("Dhaka is ___ than my village.", ["big", "bigger", "the biggest"], 1, "দুটোর তুলনায় -er than: bigger than।")))
+
+# ======================================================================= Day 20
+day(20, "My Story", "আমার গল্প ও স্বপ্ন", "আজ ২০ দিনে যা শিখেছেন তা দিয়ে নিজের গল্প বলুন — আর স্বপ্নের কথা।",
+"""
+My name is Sanjoy Dev Shuvo, and I am from Bangladesh. | আমার নাম সঞ্জয় দেব শুভ, আর আমি বাংলাদেশের।
+I live in Dhaka with my family. | আমি ঢাকায় আমার পরিবারের সাথে থাকি।
+Twenty days ago, I could speak only a little English. | বিশ দিন আগে আমি খুব অল্প ইংরেজি বলতে পারতাম।
+Every day I read a story and learned ten new words. | প্রতিদিন আমি একটি গল্প পড়তাম আর দশটি নতুন শব্দ শিখতাম।
+Now I can talk about my family, my day and my plans. | এখন আমি আমার পরিবার, আমার দিন আর পরিকল্পনা নিয়ে কথা বলতে পারি।
+My dream is to speak English with confidence. | আমার স্বপ্ন আত্মবিশ্বাসের সাথে ইংরেজি বলা।
+My goal is to get a good job in the future. | আমার লক্ষ্য ভবিষ্যতে একটি ভালো চাকরি পাওয়া।
+I am proud of my progress, and I will never stop learning. | আমি আমার অগ্রগতিতে গর্বিত, আর আমি কখনো শেখা থামাব না।
+""",
+"""
+dream | ড্রিম | স্বপ্ন
+goal | গোল | লক্ষ্য
+job | জব | চাকরি
+future | ফিউচার | ভবিষ্যৎ
+confident | কনফিডেন্ট | আত্মবিশ্বাসী
+proud | প্রাউড | গর্বিত
+success | সাকসেস | সাফল্য
+improve | ইমপ্রুভ | উন্নতি করা
+together | টুগেদার | একসাথে
+progress | প্রোগ্রেস | অগ্রগতি
+""",
+"""
+Please introduce yourself. | দয়া করে নিজের পরিচয় দিন।
+My name is Sanjoy and I am a student. | আমার নাম সঞ্জয় আর আমি একজন ছাত্র।
+I live in Dhaka, but I love my village. | আমি ঢাকায় থাকি, কিন্তু আমি আমার গ্রামকে ভালোবাসি।
+I have a small and happy family. | আমার একটি ছোট আর সুখী পরিবার আছে।
+I wake up at six every morning. | আমি প্রতিদিন সকালে ছয়টায় উঠি।
+Yesterday I studied English for one hour. | গতকাল আমি এক ঘণ্টা ইংরেজি পড়েছি।
+Tomorrow I will meet my friends. | আগামীকাল আমি আমার বন্ধুদের সাথে দেখা করব।
+I am going to visit my grandmother soon. | আমি শিগগিরই আমার দাদির সাথে দেখা করতে যাব।
+I can speak English better now. | আমি এখন আগের চেয়ে ভালো ইংরেজি বলতে পারি।
+My English is improving every day. | আমার ইংরেজি প্রতিদিন উন্নতি করছে।
+What is your dream? | আপনার স্বপ্ন কী?
+My dream is to travel the world. | আমার স্বপ্ন পৃথিবী ঘুরে দেখা।
+My goal is to get a good job. | আমার লক্ষ্য একটি ভালো চাকরি পাওয়া।
+I want to be confident when I speak. | আমি কথা বলার সময় আত্মবিশ্বাসী হতে চাই।
+Success needs practice and patience. | সাফল্যের জন্য অনুশীলন আর ধৈর্য দরকার।
+We learn better together. | আমরা একসাথে ভালো শিখি।
+Thank you for teaching me. | আমাকে শেখানোর জন্য ধন্যবাদ।
+I am proud of myself. | আমি নিজের জন্য গর্বিত।
+I will never stop learning. | আমি কখনো শেখা থামাব না।
+See you in English 102! | English 102-তে দেখা হবে!
+""",
+dict(title="চার সময় এক নজরে",
+     points=["<b>Present</b> — রোজকার কাজ: I study every day.", "<b>Past</b> — যা শেষ হয়েছে: I studied yesterday.", "<b>Future</b> — যা হবে: I will study tomorrow. · I am going to study.", "<b>Continuous</b> — এখন হচ্ছে: I am studying now."],
+     table=[("Present", "I study", "আমি পড়ি"), ("Past", "I studied", "আমি পড়েছিলাম"), ("Future", "I will study", "আমি পড়ব"), ("Continuous", "I am studying", "আমি পড়ছি")],
+     quiz=("Yesterday I ___ English for one hour.", ["study", "studied", "will study"], 1, "গতকাল = অতীত: studied।")))
+
+assert len(DAYS) == 20
 for d in DAYS:
     assert len(d["story"]) == 8, (d["n"], "story", len(d["story"]))
     assert len(d["words"]) == 10, (d["n"], "words", len(d["words"]))
     assert len(d["sentences"]) == 20, (d["n"], "sentences", len(d["sentences"]))
+# every taught word is new: no word repeats across the whole course
+_seen = {}
+for d in DAYS:
+    for w, _, _ in d["words"]:
+        k = w.lower()
+        assert k not in _seen, f"word '{w}' on day {d['n']} was already taught on day {_seen[k]}"
+        _seen[k] = d["n"]

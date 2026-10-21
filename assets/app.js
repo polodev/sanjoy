@@ -205,6 +205,13 @@
     }
   }
 
+  // ---- greeting by time of day ----
+  [].forEach.call(document.querySelectorAll('[data-greet]'), function (el) {
+    var h = new Date().getHours();
+    var g = h < 4 ? 'শুভ রাত্রি' : h < 12 ? 'শুভ সকাল' : h < 16 ? 'শুভ দুপুর' : h < 18 ? 'শুভ বিকেল' : h < 20 ? 'শুভ সন্ধ্যা' : 'শুভ রাত্রি';
+    el.textContent = g + ', সঞ্জয়! 👋';
+  });
+
   // ---- progress marks on course / language pages ----
   var decks = document.querySelectorAll('[data-deckkey]');
   if (decks.length) {

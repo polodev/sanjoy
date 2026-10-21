@@ -1,5 +1,5 @@
 """Turns japanese101 into deck pages."""
-from engine import (bn, chunks, cover, deck_page, esc, finish_slide, mcq, quiz_slide, say_btn, seeded, slide, write)
+from engine import (DECK_BASE, FULL_NAME, avatar, bn, chunks, cover, deck_page, esc, finish_slide, mcq, quiz_slide, say_btn, seeded, slide, write)
 import japanese101 as J
 
 LANG = "ja-JP"
@@ -206,7 +206,7 @@ def sentence_slides():
     for i, grp in enumerate(parts, 1):
         out.append(slide(f'<span class="chip">🗣️ প্রথম বাক্য {bn(i)}/{bn(len(parts))}</span><h2>বাক্য পড়ুন</h2>'
                          '<p class="hint">বিরতি (ফাঁকা জায়গা) শুধু শেখার সুবিধার জন্য। আগে পড়ুন, তারপর ট্যাপ করুন।</p>'
-                         + "".join(sent_card(*x) for x in grp), "", "বাক্য"))
+                         + "".join(sent_card(*x) + (f'<div class="you-card">{avatar(DECK_BASE, "ava")}<div><b>👆 এটা তুমি!</b><br><span>{FULL_NAME} = <span class="jp">さんじょい</span> (Sanjoy)।</span></div></div>' if x[0].startswith("わたし は さんじょい") else "") for x in grp), "", "বাক্য"))
     return out
 
 

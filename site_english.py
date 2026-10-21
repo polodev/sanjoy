@@ -1,5 +1,5 @@
 """Turns english101.DAYS into deck pages."""
-from engine import (bn, chunks, cover, deck_page, esc, finish_slide, mcq, quiz_slide, say_btn, seeded, slide, write)
+from engine import (DECK_BASE, FULL_NAME, avatar, bn, chunks, cover, deck_page, esc, finish_slide, mcq, quiz_slide, say_btn, seeded, slide, write)
 import english101 as E
 
 LANG = "en-US"
@@ -50,7 +50,8 @@ def build_day(d):
 
     for part, grp in enumerate(chunks(d["story"], 4), 1):
         S.append(slide(f'<span class="chip">📖 গল্প {bn(part)}/২</span><h2>{esc(d["en"])}</h2>'
-                       + ('<p class="hint">🔊 চাপলে শুনতে পাবেন। 👁 বাটনে বাংলা লুকিয়ে নিজেকে পরীক্ষা করুন।</p>' if part == 1 else "")
+                       + (f'<div class="story-hero">{avatar(DECK_BASE, "ava")}<div><b>গল্পের নায়ক: Sanjoy — মানে তুমি!</b><span>{FULL_NAME}-র জীবনের গল্পেই ইংরেজি শিখছ।</span></div></div>'
+                          '<p class="hint">🔊 চাপলে শুনতে পাবেন। 👁 বাটনে বাংলা লুকিয়ে নিজেকে পরীক্ষা করুন।</p>' if part == 1 else "")
                        + '<div class="row-actions"><button class="btn" data-play>▶ পুরো অংশ শুনুন</button></div>'
                        + "".join(line(*x) for x in grp), "", "গল্প"))
 
@@ -68,7 +69,7 @@ def build_day(d):
 
     chips = [esc(w[0]) for w in d["words"]]
     if is_last:
-        S.append(finish_slide(key, "English 101 সম্পূর্ণ! 🏆", "১০ দিনে ১০০টি শব্দ আর ২০০টি বাক্য — আপনি এখন নিজের পরিচয়, পরিবার, বাজার, খাবার, রাস্তা, ঘর, আবহাওয়া, ফোন আর ভবিষ্যৎ নিয়ে কথা বলতে পারেন।",
+        S.append(finish_slide(key, "English 101 সম্পূর্ণ! 🏆", "২০ দিনে ২০০টি শব্দ আর ৪০০টি বাক্য — আপনি এখন নিজের পরিচয়, পরিবার, বাজার, খাবার, শরীর, পোশাক, পড়াশোনা, অতীত, ভ্রমণ, তুলনা আর স্বপ্নের কথা বলতে পারেন।",
                               chips, None, back_href="../index.html",
                               extra='<div class="callout"><b>এখন কী করবেন?</b><br>প্রতিদিন ৫ মিনিট পুরনো Day-র বাক্যগুলো জোরে বলুন। English 102 শীঘ্রই আসছে।</div>'))
     else:
