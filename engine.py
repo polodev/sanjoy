@@ -116,7 +116,8 @@ def deck_page(title, deck_key, theme, slides, back_href, crumb, home_href, has_b
            '<button id="slow" title="ধীরে বলুন" aria-label="ধীরে">🐢</button>{bn}'
            '<button id="theme" title="Dark mode" aria-label="Theme">◐</button></nav>').format(
         back=back_href, crumb=esc(crumb), home=home_href, slides="\n".join(slides), ava=avatar('../' * depth, "ava"),
-        bn='<button id="bnBtn" title="বাংলা লুকান" aria-label="বাংলা লুকান">👁</button>' if has_bn else "")
+        bn=('<button id="prBtn" title="উচ্চারণ লুকান" aria-label="উচ্চারণ লুকান">🔤</button>'
+            '<button id="bnBtn" title="বাংলা অর্থ লুকান" aria-label="বাংলা অর্থ লুকান">👁</button>') if has_bn else "")
     attrs = f'data-deck="{deck_key}"'
     cls = "deck" + (" has-bn" if has_bn else "")
     return f"""<!doctype html>

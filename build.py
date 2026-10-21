@@ -25,10 +25,7 @@ FB_URL = "https://web.facebook.com/sanjoy.dev.7773"
 
 
 def footer(base):
-    return (f'<footer class="foot"><a class="zoom" href="{base}assets/img/sanjoy-casual.jpg" data-zoom aria-label="ছবি বড় করুন">'
-            f'<img src="{base}assets/img/sanjoy-thumb.jpg" alt="{FULL_NAME}" loading="lazy" width="160" height="160"></a>'
-            f'<div><b>{FULL_NAME} 💙</b><span>এই ঘরটা শুধু তোমার জন্য — রোজ একটু একটু শেখো।</span>'
-            f'<a class="fb" href="{FB_URL}" target="_blank" rel="noopener">Facebook প্রোফাইল ↗</a></div></footer>')
+    return f'<footer class="foot"><a class="fb" href="{FB_URL}" target="_blank" rel="noopener">{FULL_NAME} · Facebook ↗</a></footer>'
 
 
 def home():

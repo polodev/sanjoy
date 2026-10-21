@@ -1,17 +1,18 @@
 """Turns english101.DAYS into deck pages."""
 from engine import (DECK_BASE, FULL_NAME, avatar, bn, chunks, cover, deck_page, esc, finish_slide, mcq, quiz_slide, say_btn, seeded, slide, write)
 import english101 as E
+from pron_en import build_line
 
 LANG = "en-US"
 
 
 def line(en, bn_text):
-    return (f'<div class="line">{say_btn(en, LANG)}<div><p class="en">{esc(en)}</p><p class="bn">{esc(bn_text)}</p></div></div>')
+    return (f'<div class="line">{say_btn(en, LANG)}<div><p class="en">{esc(en)}</p><p class="pr">{esc(build_line(en))}</p><p class="bn">{esc(bn_text)}</p></div></div>')
 
 
 def word_card(en, pr, meaning):
     return (f'<div class="wcard">{say_btn(en, LANG, big=True)}<div class="w-en">{esc(en)}</div>'
-            f'<div class="w-pr">উচ্চারণ: {esc(pr)}</div><div class="bn w-bn">{esc(meaning)}</div></div>')
+            f'<div class="w-pr pr">উচ্চারণ: {esc(pr)}</div><div class="bn w-bn">{esc(meaning)}</div></div>')
 
 
 def grammar_slide(d):
@@ -51,7 +52,7 @@ def build_day(d):
     for part, grp in enumerate(chunks(d["story"], 4), 1):
         S.append(slide(f'<span class="chip">📖 গল্প {bn(part)}/২</span><h2>{esc(d["en"])}</h2>'
                        + (f'<div class="story-hero">{avatar(DECK_BASE, "ava")}<div><b>গল্পের নায়ক: Sanjoy — মানে তুমি!</b><span>{FULL_NAME}-র জীবনের গল্পেই ইংরেজি শিখছ।</span></div></div>'
-                          '<p class="hint">🔊 চাপলে শুনতে পাবেন। 👁 বাটনে বাংলা লুকিয়ে নিজেকে পরীক্ষা করুন।</p>' if part == 1 else "")
+                          '<p class="hint">🔊 চাপলে শুনতে পাবেন। 🔤 বাটনে উচ্চারণ আর 👁 বাটনে বাংলা অর্থ লুকিয়ে নিজেকে পরীক্ষা করুন।</p>' if part == 1 else "")
                        + '<div class="row-actions"><button class="btn" data-play>▶ পুরো অংশ শুনুন</button></div>'
                        + "".join(line(*x) for x in grp), "", "গল্প"))
 

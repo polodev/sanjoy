@@ -80,8 +80,8 @@
 
   // ---- hide translation (tap a blurred line to peek) ----
   document.addEventListener('click', function (e) {
-    var t = e.target.closest('.bn');
-    if (t && document.body.classList.contains('hide-bn')) t.classList.toggle('peek');
+    var t = e.target.closest('.bn, .pr'), b = document.body.classList;
+    if (t && b.contains(t.classList.contains('pr') ? 'hide-pr' : 'hide-bn')) t.classList.toggle('peek');
   });
   // ---- reveal cards ----
   document.addEventListener('click', function (e) {
@@ -170,6 +170,13 @@
       var paintBn = function () { document.body.classList.toggle('hide-bn', hidden); bnBtn.classList.toggle('active', hidden); };
       bnBtn.onclick = function () { hidden = !hidden; LS.set('sanjoy:hidebn', hidden ? '1' : '0'); paintBn(); toast(hidden ? '👁 বাংলা লুকানো — ট্যাপ করলে দেখা যাবে' : '👁 বাংলা দেখানো হচ্ছে', 1500); };
       paintBn();
+    }
+    var prBtn = document.getElementById('prBtn');
+    if (prBtn) {
+      var hidePr = LS.get('sanjoy:hidepr') === '1';
+      var paintPr = function () { document.body.classList.toggle('hide-pr', hidePr); prBtn.classList.toggle('active', hidePr); };
+      prBtn.onclick = function () { hidePr = !hidePr; LS.set('sanjoy:hidepr', hidePr ? '1' : '0'); paintPr(); toast(hidePr ? '🔤 উচ্চারণ লুকানো — ট্যাপ করলে দেখা যাবে' : '🔤 উচ্চারণ দেখানো হচ্ছে', 1500); };
+      paintPr();
     }
     [].forEach.call(document.querySelectorAll('[data-goto]'), function (b) {
       b.addEventListener('click', function () { go(+b.getAttribute('data-goto')); });
