@@ -74,12 +74,12 @@ dict(title="am, is, are — “হওয়া” ক্রিয়া",
 # ======================================================================= Day 2
 day(2, "My Family", "আমার পরিবার", "আজ নিজের পরিবারের কথা বলতে শিখব — বাবা, মা, ভাই, বোন।",
 """
-I have a small family. | আমার একটি ছোট পরিবার আছে।
-This is my father. He is a teacher. | ইনি আমার বাবা। তিনি একজন শিক্ষক।
-This is my mother. She cooks very well. | ইনি আমার মা। তিনি খুব ভালো রান্না করেন।
-I have one brother and one sister. | আমার এক ভাই আর এক বোন আছে।
-My brother is tall. | আমার ভাই লম্বা।
-My sister is young. | আমার বোন ছোট।
+I have a small family of four. | আমার চার সদস্যের একটি ছোট পরিবার আছে।
+This is my father, Sukumar Poddar. He is a businessman. | ইনি আমার বাবা, সুকুমার পোদ্দার। তিনি একজন ব্যবসায়ী।
+This is my mother, Nupur Poddar. She is a homemaker. | ইনি আমার মা, নুপুর পোদ্দার। তিনি একজন গৃহিণী।
+I have one younger brother, Rajib Poddar. | আমার একটি ছোট ভাই আছে, রাজীব পোদ্দার।
+Our father works hard in his business. | আমাদের বাবা তার ব্যবসায় কঠোর পরিশ্রম করেন।
+Our mother takes care of our home. | আমাদের মা আমাদের ঘরের যত্ন নেন।
 We live together. | আমরা একসাথে থাকি।
 I love my family. | আমি আমার পরিবারকে ভালোবাসি।
 """,
@@ -91,30 +91,30 @@ brother | ব্রাদার | ভাই
 sister | সিস্টার | বোন
 grandfather | গ্র্যান্ডফাদার | দাদা, নানা
 grandmother | গ্র্যান্ডমাদার | দাদি, নানি
-son | সান | ছেলে
-daughter | ডটার | মেয়ে
+businessman | বিজনেসম্যান | ব্যবসায়ী
+homemaker | হোমমেইকার | গৃহিণী
 love | লাভ | ভালোবাসা
 """,
 """
 This is my father. | ইনি আমার বাবা।
 This is my mother. | ইনি আমার মা।
 I have a brother. | আমার একটি ভাই আছে।
-I have two sisters. | আমার দুইটি বোন আছে।
+I have one younger brother. | আমার একটি ছোট ভাই আছে।
 Do you have a brother? | আপনার কি ভাই আছে?
-Yes, I have one brother. | হ্যাঁ, আমার একটি ভাই আছে।
+Yes, I have one younger brother. | হ্যাঁ, আমার একটি ছোট ভাই আছে।
 No, I don't have a sister. | না, আমার কোনো বোন নেই।
-My father is a teacher. | আমার বাবা একজন শিক্ষক।
-My mother is at home. | আমার মা বাড়িতে আছেন।
+My father is a businessman. | আমার বাবা একজন ব্যবসায়ী।
+My mother is a homemaker. | আমার মা একজন গৃহিণী।
 How many people are in your family? | আপনার পরিবারে কতজন মানুষ?
-There are five people in my family. | আমার পরিবারে পাঁচজন মানুষ।
+There are four people in my family. | আমার পরিবারে চারজন মানুষ।
 My grandfather is old. | আমার দাদা বয়স্ক।
 My grandmother makes tea. | আমার দাদি চা বানান।
-He is my son. | সে আমার ছেলে।
-She is my daughter. | সে আমার মেয়ে।
+His name is Rajib. | তার নাম রাজীব।
+He is my younger brother. | সে আমার ছোট ভাই।
 I love my mother. | আমি আমার মাকে ভালোবাসি।
 We eat dinner together. | আমরা একসাথে রাতের খাবার খাই।
-My brother is tall. | আমার ভাই লম্বা।
-My sister is very kind. | আমার বোন খুব দয়ালু।
+My brother and I are friends. | আমার ভাই আর আমি বন্ধু।
+My mother is very kind. | আমার মা খুব দয়ালু।
 Our family is happy. | আমাদের পরিবার সুখী।
 """,
 dict(title="have / has — “আছে”",

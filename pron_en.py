@@ -27,6 +27,7 @@ umbrella=আমব্রেলা under=আন্ডার understand=আন্�
 vegetables=ভেজিটেবলস very=ভেরি view=ভিউ village=ভিলেজ visit=ভিজিট visited=ভিজিটেড
 wait=ওয়েট waiter=ওয়েটার wake=ওয়েইক wakes=ওয়েইকস walk=ওয়াক want=ওয়ান্ট wants=ওয়ান্টস was=ওয়াজ wash=ওয়াশ watched=ওয়াচ্ড water=ওয়াটার waves=ওয়েইভস way=ওয়ে we=উই wear=ওয়্যার weather=ওয়েদার week=উইক weekend=উইকএন্ড weeks=উইকস welcome=ওয়েলকাম well=ওয়েল went=ওয়েন্ট were=ওয়ার what=হোয়াট when=হোয়েন where=হোয়্যার which=হুইচ who=হু why=হোয়াই will=উইল wind=উইন্ড window=উইন্ডো winter=উইন্টার with=উইথ woke=ওয়োক won't=ওন্ট wonderful=ওয়ান্ডারফুল words=ওয়ার্ডস work=ওয়ার্ক worked=ওয়ার্কড world=ওয়ার্ল্ড worry=ওয়ারি would=উড write=রাইট writes=রাইটস
 year=ইয়ার yes=ইয়েস yesterday=ইয়েস্টারডে you=ইউ young=ইয়াং youngest=ইয়াংগেস্ট your=ইয়োর yourself=ইয়োরসেলফ
+business=বিজনেস businessman=বিজনেসম্যান care=কেয়ার homemaker=হোমমেইকার poddar=পোদ্দার rajib=রাজীব sukumar=সুকুমার nupur=নুপুর works=ওয়ার্ক্স younger=ইয়াংগার
 """
 PRON = dict(p.split("=", 1) for p in _RAW.split())
 _TOK = re.compile(r"[A-Za-z]+(?:'[A-Za-z]+)?(?:-[A-Za-z]+)*")
