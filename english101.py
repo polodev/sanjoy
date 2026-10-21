@@ -25,7 +25,7 @@ day(1, "Hello, I am Sanjoy", "পরিচয়", "আজ সঞ্জয়ে
 Hello! My name is Sanjoy Dev Shuvo. | হ্যালো! আমার নাম সঞ্জয় দেব শুভ।
 I am from Bangladesh. | আমি বাংলাদেশ থেকে এসেছি।
 I live in Dhaka. | আমি ঢাকায় থাকি।
-I am a student. | আমি একজন ছাত্র।
+I am a graduate. | আমি একজন গ্র্যাজুয়েট।
 This is my friend, Rahim. | ইনি আমার বন্ধু, রহিম।
 Rahim, this is Nusrat. | রহিম, ইনি নুসরাত।
 Nice to meet you! | আপনার সাথে দেখা হয়ে ভালো লাগল!
@@ -52,7 +52,7 @@ What is your name? | আপনার নাম কী?
 I am from Bangladesh. | আমি বাংলাদেশ থেকে।
 Where are you from? | আপনি কোথা থেকে এসেছেন?
 I live in Dhaka. | আমি ঢাকায় থাকি।
-I am a student. | আমি একজন ছাত্র।
+I am a graduate. | আমি একজন গ্র্যাজুয়েট।
 Are you a student? | আপনি কি ছাত্র?
 Yes, I am. | হ্যাঁ, আমি।
 No, I am not. | না, আমি না।
@@ -1017,7 +1017,7 @@ progress | প্রোগ্রেস | অগ্রগতি
 """,
 """
 Please introduce yourself. | দয়া করে নিজের পরিচয় দিন।
-My name is Sanjoy and I am a student. | আমার নাম সঞ্জয় আর আমি একজন ছাত্র।
+My name is Sanjoy and I am a graduate. | আমার নাম সঞ্জয় আর আমি একজন গ্র্যাজুয়েট।
 I live in Dhaka, but I love my village. | আমি ঢাকায় থাকি, কিন্তু আমি আমার গ্রামকে ভালোবাসি।
 I have a small and happy family. | আমার একটি ছোট আর সুখী পরিবার আছে।
 I wake up at six every morning. | আমি প্রতিদিন সকালে ছয়টায় উঠি।
