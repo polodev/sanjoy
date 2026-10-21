@@ -205,6 +205,22 @@
     }
   }
 
+  // ---- photo lightbox ----
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('[data-zoom]');
+    if (!a) return;
+    e.preventDefault();
+    var lb = document.createElement('div');
+    lb.id = 'lb';
+    lb.innerHTML = '<img alt=""><button aria-label="বন্ধ">×</button>';
+    lb.firstChild.src = a.getAttribute('href');
+    var close = function () { lb.remove(); document.removeEventListener('keydown', onKey); };
+    var onKey = function (ev) { if (ev.key === 'Escape') close(); };
+    lb.addEventListener('click', close);
+    document.addEventListener('keydown', onKey);
+    document.body.appendChild(lb);
+  });
+
   // ---- greeting by time of day ----
   [].forEach.call(document.querySelectorAll('[data-greet]'), function (el) {
     var h = new Date().getHours();

@@ -21,17 +21,24 @@ LANGS = {
 }
 
 
+FB_URL = "https://web.facebook.com/sanjoy.dev.7773"
+
+
+def footer(base):
+    return (f'<footer class="foot"><a class="zoom" href="{base}assets/img/sanjoy-casual.jpg" data-zoom aria-label="ছবি বড় করুন">'
+            f'<img src="{base}assets/img/sanjoy-thumb.jpg" alt="{FULL_NAME}" loading="lazy" width="160" height="160"></a>'
+            f'<div><b>{FULL_NAME} 💙</b><span>এই ঘরটা শুধু তোমার জন্য — রোজ একটু একটু শেখো।</span>'
+            f'<a class="fb" href="{FB_URL}" target="_blank" rel="noopener">Facebook প্রোফাইল ↗</a></div></footer>')
+
+
 def home():
     cards = "".join(
         f'<a class="card lang {v["theme"]}" href="{k}/index.html"><div class="badge">{v["badge"]}</div><div><b>{v["name"]} — {v["bn_name"]}</b>'
         f'<span>{v["intro"]}</span><br><span style="font-size:14px">{v["meta"]}</span></div></a>' for k, v in LANGS.items())
     me = avatar("", "hero-ava", small=False)
-    dedicate = (f'<div class="card dedicate"><img src="assets/img/sanjoy-casual.jpg" alt="{FULL_NAME}" loading="lazy" width="1200" height="900">'
-                f'<div class="cap"><b>এই ঘরটা শুধু তোমার জন্য, {FULL_NAME} 💙</b>'
-                f'<span>English গল্পের নায়ক তুমি — Sanjoy। জাপানি শেখার শেষে প্রথম বাক্যটাও তোমার নামে: <b class="jp" style="display:inline">さんじょい</b>। রোজ একটা Day, রোজ একটু একটু।</span></div></div>')
     body = (f'<header class="hero"><div class="in hero-grid"><div><p class="eyebrow" data-greet>স্বাগতম, সঞ্জয়! 👋</p><h1>{FULL_NAME}</h1>'
             f'<p>ইংরেজি আর জাপানি — বাংলায়, গল্পে গল্পে, মোবাইলে সহজে।</p></div>{me}</div></header>'
-            f'<main class="wrap">{dedicate}{cards}<p class="note">🔊 প্রতিটি শব্দ আর বাক্য শুনতে পাবে · 👆 স্লাইডে বাঁ-ডানে swipe করো · ✅ তোমার অগ্রগতি এই ফোনেই জমা থাকে</p></main>')
+            f'<main class="wrap">{cards}<p class="note">🔊 প্রতিটি শব্দ আর বাক্য শুনতে পাবে · 👆 স্লাইডে বাঁ-ডানে swipe করো · ✅ তোমার অগ্রগতি এই ফোনেই জমা থাকে</p></main>' + footer(""))
     write("index.html", page(f"{FULL_NAME}-র ভাষা শেখার ঘর — English ও Japanese", body, 0, "home",
                              "শুধু সঞ্জয় দেব শুভ-র জন্য: গল্পে গল্পে ইংরেজি, হিরাগানা দিয়ে জাপানি — বাংলায়।"))
 
@@ -41,7 +48,7 @@ def language_page(k, v):
     body = (f'<header class="hero"><div class="in hero-grid"><div><a class="back" href="../index.html">← হোম</a><h1>{v["name"]} — {v["bn_name"]}</h1><p>{v["intro"]}</p></div>{avatar("../", "hero-ava sm")}</div></header>'
             f'<main class="wrap"><a class="card course" href="101/index.html"><span class="tag">101</span><b>{c["title"]} — {c["tag"]}</b>'
             f'<span class="sub">{c["sub"]}</span><span class="sub">{v["meta"]}</span></a>'
-            f'<div class="card course locked"><span class="tag">102</span><b>{v["name"]} 102</b><span class="sub">🔒 শীঘ্রই আসছে</span></div></main>')
+            f'<div class="card course locked"><span class="tag">102</span><b>{v["name"]} 102</b><span class="sub">🔒 শীঘ্রই আসছে</span></div></main>' + footer("../"))
     write(f"{k}/index.html", page(f"{v['name']} — সঞ্জয়ের ভাষা শেখার ঘর", body, 1, v["theme"]))
 
 
@@ -61,7 +68,7 @@ def course_page(k, v):
             f'<main class="wrap"><div class="card"><div class="bar"><i id="progress"></i></div>'
             f'<p class="note" id="progress-text">০ / {bn(v["n_days"])} দিন শেষ</p>'
             f'<p style="text-align:center;margin-top:10px"><a class="btn" id="continue" href="day-01/index.html">▶ শুরু করুন</a></p></div>'
-            f'<div class="days">{"".join(days)}</div></main>')
+            f'<div class="days">{"".join(days)}</div></main>' + footer("../../"))
     write(f"{k}/101/index.html", page(f"{c['title']} — {c['tag']}", body, 2, v["theme"]))
 
 
