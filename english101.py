@@ -23,7 +23,7 @@ def day(n, en_title, bn_title, intro, story, words, sentences, grammar):
 day(1, "Hello, I am Sanjoy", "পরিচয়", "আজ সঞ্জয়ের সাথে পরিচয় হবে — নিজের পরিচয় দিতে আর অন্যের পরিচয় জানতে শিখব।",
 """
 Hello! My name is Sanjoy Dev Shuvo. | হ্যালো! আমার নাম সঞ্জয় দেব শুভ।
-I am from Bangladesh. | আমি বাংলাদেশ থেকে এসেছি।
+I work at Medicine Corner in Hajiganj Bazar. | আমি হাজীগঞ্জ বাজারের মেডিসিন কর্নারে কাজ করি।
 I live in Hajiganj, Chandpur. | আমি চাঁদপুরের হাজীগঞ্জে থাকি।
 I am a graduate. | আমি একজন গ্র্যাজুয়েট।
 This is my friend, Rahim. | ইনি আমার বন্ধু, রহিম।
@@ -53,13 +53,13 @@ I am from Bangladesh. | আমি বাংলাদেশ থেকে।
 Where are you from? | আপনি কোথা থেকে এসেছেন?
 I live in Hajiganj, Chandpur. | আমি চাঁদপুরের হাজীগঞ্জে থাকি।
 I am a graduate. | আমি একজন গ্র্যাজুয়েট।
-Are you a student? | আপনি কি ছাত্র?
+Are you a graduate? | আপনি কি গ্র্যাজুয়েট?
 Yes, I am. | হ্যাঁ, আমি।
 No, I am not. | না, আমি না।
 This is my friend. | ইনি আমার বন্ধু।
 Nice to meet you. | আপনার সাথে দেখা হয়ে ভালো লাগল।
 Nice to meet you, too. | আপনার সাথেও দেখা হয়ে ভালো লাগল।
-Good morning. | শুভ সকাল।
+I work at Medicine Corner. | আমি মেডিসিন কর্নারে কাজ করি।
 You can call me Shuvo. | আপনি আমাকে শুভ বলে ডাকতে পারেন।
 Thank you very much. | অনেক ধন্যবাদ।
 Sorry, I am late. | দুঃখিত, আমার দেরি হয়েছে।
@@ -541,7 +541,7 @@ His mother says, "You should see a doctor." | তার মা বলেন, "�
 At the hospital, the doctor checks his eyes and throat. | হাসপাতালে ডাক্তার তার চোখ আর গলা পরীক্ষা করেন।
 "You have a small fever. Take this medicine." | "তোমার সামান্য জ্বর। এই ওষুধটা খাও।"
 "Drink a lot of water and rest." | "প্রচুর পানি খাও আর বিশ্রাম নাও।"
-Two days later, Sanjoy feels much better. | দুই দিন পরে সঞ্জয় অনেক ভালো বোধ করে।
+Two days later, Sanjoy feels much better and goes back to Medicine Corner. | দুই দিন পরে সঞ্জয় অনেক ভালো বোধ করে আর মেডিসিন কর্নারে ফিরে যায়।
 "Health is more important than work," he says. | "কাজের চেয়ে স্বাস্থ্য বেশি জরুরি," সে বলে।
 """,
 """
@@ -574,7 +574,7 @@ Do you have any pain? | আপনার কি কোথাও ব্যথা �
 Open your mouth, please. | দয়া করে মুখ খুলুন।
 My hand is hurting. | আমার হাতে ব্যথা করছে।
 Please close your eyes. | দয়া করে চোখ বন্ধ করুন।
-Do you have any allergy? | আপনার কি কোনো অ্যালার্জি আছে?
+Do you need any medicine? | আপনার কি কোনো ওষুধ লাগবে?
 Stay healthy and happy. | সুস্থ আর খুশি থাকুন।
 Get well soon! | শিগগিরই সুস্থ হয়ে উঠুন!
 """,
@@ -946,8 +946,8 @@ day(19, "Comparing Places and People", "তুলনা: মানুষ ও জ
 Sanjoy lives in Hajiganj, a small town in Chandpur. | সঞ্জয় চাঁদপুরের ছোট শহর হাজীগঞ্জে থাকে।
 Dhaka is bigger and more crowded than Hajiganj. | ঢাকা হাজীগঞ্জের চেয়ে বড় আর বেশি ভিড়ের।
 Hajiganj is quieter and calmer. | হাজীগঞ্জ বেশি শান্ত আর নীরব।
-His house is not big, but it is very beautiful. | তার বাড়ি বড় না, কিন্তু খুব সুন্দর।
-There is a big pond near the house. | বাড়ির কাছে একটি বড় পুকুর আছে।
+He works at Medicine Corner in Hajiganj Bazar. | সে হাজীগঞ্জ বাজারের মেডিসিন কর্নারে কাজ করে।
+Medicine Corner is the biggest medicine shop in Hajiganj Bazar. | মেডিসিন কর্নার হাজীগঞ্জ বাজারের সবচেয়ে বড় ওষুধের দোকান।
 His mother is the kindest person he knows. | তার মা তার চেনা সবচেয়ে দয়ালু মানুষ।
 "Dhaka is exciting, but Hajiganj is my favourite place," he says. | "ঢাকা রোমাঞ্চকর, কিন্তু হাজীগঞ্জই আমার সবচেয়ে প্রিয় জায়গা," সে বলে।
 "I feel calm there." | "সেখানে আমি শান্তি অনুভব করি।"
@@ -973,7 +973,7 @@ This bus is more crowded than that one. | এই বাসটা ওটার �
 My brother is taller than me. | আমার ভাই আমার চেয়ে লম্বা।
 She is the youngest in the family. | সে পরিবারের সবচেয়ে ছোট।
 He is the strongest boy in the class. | সে ক্লাসের সবচেয়ে শক্তিশালী ছেলে।
-This is the most beautiful place. | এটা সবচেয়ে সুন্দর জায়গা।
+Medicine Corner is the biggest medicine shop in Hajiganj Bazar. | মেডিসিন কর্নার হাজীগঞ্জ বাজারের সবচেয়ে বড় ওষুধের দোকান।
 It is a famous park. | এটি একটি বিখ্যাত পার্ক।
 Cox's Bazar is more famous than my town. | কক্সবাজার আমার শহরের চেয়ে বেশি বিখ্যাত।
 My phone is new. | আমার ফোনটা নতুন।
@@ -998,7 +998,7 @@ My name is Sanjoy Dev Shuvo, and I am from Bangladesh. | আমার নাম 
 I live in Hajiganj, Chandpur, with my family. | আমি চাঁদপুরের হাজীগঞ্জে আমার পরিবারের সাথে থাকি।
 Twenty days ago, I could speak only a little English. | বিশ দিন আগে আমি খুব অল্প ইংরেজি বলতে পারতাম।
 Every day I read a story and learned ten new words. | প্রতিদিন আমি একটি গল্প পড়তাম আর দশটি নতুন শব্দ শিখতাম।
-Now I can talk about my family, my day and my plans. | এখন আমি আমার পরিবার, আমার দিন আর পরিকল্পনা নিয়ে কথা বলতে পারি।
+Now I can talk to the customers at Medicine Corner in English. | এখন আমি মেডিসিন কর্নারের ক্রেতাদের সাথে ইংরেজিতে কথা বলতে পারি।
 My dream is to speak English with confidence. | আমার স্বপ্ন আত্মবিশ্বাসের সাথে ইংরেজি বলা।
 My goal is to get a good job in the future. | আমার লক্ষ্য ভবিষ্যতে একটি ভালো চাকরি পাওয়া।
 I am proud of my progress, and I will never stop learning. | আমি আমার অগ্রগতিতে গর্বিত, আর আমি কখনো শেখা থামাব না।
@@ -1022,7 +1022,7 @@ I live in Hajiganj, Chandpur. | আমি চাঁদপুরের হাজ�
 I have a small and happy family. | আমার একটি ছোট আর সুখী পরিবার আছে।
 I wake up at six every morning. | আমি প্রতিদিন সকালে ছয়টায় উঠি।
 Yesterday I studied English for one hour. | গতকাল আমি এক ঘণ্টা ইংরেজি পড়েছি।
-Tomorrow I will meet my friends. | আগামীকাল আমি আমার বন্ধুদের সাথে দেখা করব।
+I work at Medicine Corner in Hajiganj Bazar. | আমি হাজীগঞ্জ বাজারের মেডিসিন কর্নারে কাজ করি।
 I am going to visit my grandmother soon. | আমি শিগগিরই আমার দাদির সাথে দেখা করতে যাব।
 I can speak English better now. | আমি এখন আগের চেয়ে ভালো ইংরেজি বলতে পারি।
 My English is improving every day. | আমার ইংরেজি প্রতিদিন উন্নতি করছে।
