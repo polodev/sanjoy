@@ -4,8 +4,8 @@ Language-learning site: **English** and **Japanese**, taught in **Bangla**, mobi
 Repo `polodev/sanjoy` → GitHub Pages `https://polodev.github.io/sanjoy/` (future custom domain `sanjoy.cloud`; add a `CNAME` file only after the domain is bought).
 
 ## Structure the owner asked for
-Home → language (English / Japanese) → course (101; 102 shown as "coming soon") → chapters **Day 1 … Day 10**; each Day is one swipeable slide deck.
-English teaches through stories ("গল্পে গল্পে"): per Day a story, **10 words, 20 sentences**. Japanese teaches letters (hiragana).
+Home → language (English / Japanese) → course (101; 102 shown as "coming soon") → chapters **অধ্যায় 1 … N** (never call them "Day" in the UI); each chapter is one swipeable slide deck.
+English teaches through stories ("গল্পে গল্পে"): per chapter a story, **10 words, 20 sentences**. Japanese teaches letters (hiragana).
 
 ## Files
 - `english101.py` — English days as data (`day(n, en, bn, intro, story, words, sentences, grammar)`); text blocks use `English | Bangla` lines, words use `English | Bangla pronunciation | Bangla meaning`. Asserts 8 story lines, 10 words, 20 sentences per day.

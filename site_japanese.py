@@ -74,7 +74,7 @@ def letter_slides(n):
         r, b = K[c]
         ex = J.EX.get(c)
         extra = NOTES.get(c)
-        body = (f'<span class="chip">Day {bn(n)} · অক্ষর {bn(i)}/{bn(len(letters))}</span>'
+        body = (f'<span class="chip">অধ্যায় {bn(n)} · অক্ষর {bn(i)}/{bn(len(letters))}</span>'
                 f'<div class="kana-box"><div class="kana-big">{c}</div><div class="k-ro">{r}</div><div class="k-bn">{b}</div>{say_btn(c, LANG, big=True)}</div>')
         if extra:
             body += f'<div class="callout">💡 {esc(extra)}</div>'
@@ -250,7 +250,7 @@ def build_day(n):
     letters = letters_of(n)
     learn = ["🗣️ ৫টি দরকারি জাপানি বাক্য (বাংলা উচ্চারণসহ)", f"✏️ {bn(len(letters))}টি নতুন অক্ষর", "📖 ছোট ছোট শব্দ পড়া", "📝 ১৪টি প্রশ্নের কুইজ"]
     chips = "".join(f'<button class="kchip" data-say="{c}" data-lang="{LANG}">{c}</button>' for c in letters)
-    first = cover(f"Day {n}", esc(title), esc(J.INTRO_LINES[n]), learn)
+    first = cover(f"অধ্যায় {bn(n)}", esc(title), esc(J.INTRO_LINES[n]), learn)
     first = first.replace('<p class="hint">', f'<div class="chips">{chips}</div><p class="hint">', 1)
     S = [first]
     S += daily_sentence_slides(n)
@@ -275,11 +275,11 @@ def build_day(n):
     words = [w for w, _ in J.WORDS[n]][:8]
     if n == 10:
         S.append(finish_slide(key, "Japanese 101 সম্পূর্ণ! 🏆", "৭১টি অক্ষর, ডজন ডজন শব্দ আর আপনার প্রথম জাপানি বাক্য — আপনি হিরাগানা পড়তে পারেন! জাপানের যেকোনো শিশুর বই এখন আপনার নাগালে।",
-                              words, None, back_href="../index.html",
-                              extra='<div class="callout"><b>এখন কী করবেন?</b><br>প্রতিদিন ৫ মিনিট পুরো ছক (Day 9) ট্যাপ করে পড়ুন। Japanese 102-তে আসছে: কাতাকানা ও প্রথম ব্যাকরণ।</div>'))
+                              words, None, back_href="../index.html", back_label="সব অধ্যায়",
+                              extra='<div class="callout"><b>এখন কী করবেন?</b><br>প্রতিদিন ৫ মিনিট পুরো ছক (অধ্যায় ৯) ট্যাপ করে পড়ুন। Japanese 102-তে আসছে: কাতাকানা ও প্রথম ব্যাকরণ।</div>'))
     else:
-        S.append(finish_slide(key, f"Day {bn(n)} শেষ!", "আজকের ৫টি বাক্য রাতে ঘুমানোর আগে একবার জোরে বলো — আর অক্ষরগুলো একবার কাগজে লিখে ফেলো।", words,
-                              f"../day-{n + 1:02d}/index.html", f"Day {bn(n + 1)}: {esc(J.TITLES[n + 1][0])}"))
-    html = deck_page(f"Day {n} · {title} — Japanese 101", key, "ja", S, back_href="../index.html",
-                     crumb=f"Day {bn(n)} · {title}", home_href="../../../index.html", has_bn=False)
+        S.append(finish_slide(key, f"অধ্যায় {bn(n)} শেষ!", "আজকের ৫টি বাক্য রাতে ঘুমানোর আগে একবার জোরে বলো — আর অক্ষরগুলো একবার কাগজে লিখে ফেলো।", words,
+                              f"../day-{n + 1:02d}/index.html", f"অধ্যায় {bn(n + 1)}: {esc(J.TITLES[n + 1][0])}", back_label="সব অধ্যায়"))
+    html = deck_page(f"অধ্যায় {n} · {title} — Japanese 101", key, "ja", S, back_href="../index.html",
+                     crumb=f"অধ্যায় {bn(n)} · {title}", home_href="../../../index.html", has_bn=False, back_label="সব অধ্যায়")
     write(f"japanese/101/day-{n:02d}/index.html", html)

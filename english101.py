@@ -7,7 +7,7 @@ story / sentences: English | Bangla          words: English | Bangla pronunciati
 from engine import parse_pairs
 
 COURSE = dict(slug="101", lang="english", title="English 101", tag="গল্পে গল্পে ইংরেজি",
-              sub="প্রতিটি Day-তে একটা ছোট গল্প, ১০টি শব্দ আর ২০টি বাক্য",
+              sub="প্রতিটি অধ্যায়ে একটা ছোট গল্প, ১০টি শব্দ আর ২০টি বাক্য",
               lead="সঞ্জয়ের জীবনের গল্প পড়তে পড়তে ইংরেজি শিখুন — সহজ শব্দ, রোজকার বাক্য, শুনে শুনে।")
 
 DAYS = []

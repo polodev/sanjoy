@@ -13,11 +13,11 @@ import site_japanese
 
 LANGS = {
     "english": dict(mod=E, name="English", bn_name="ইংরেজি", badge="A", theme="en", builder=site_english.build_day,
-                    intro="গল্পে গল্পে ইংরেজি — প্রতিটি Day-তে একটা ছোট গল্প, ১০টি নতুন শব্দ আর ২০টি বাক্য।",
-                    meta="২০ Day · ২০০ শব্দ · ৪০০ বাক্য", n_days=20),
+                    intro="গল্পে গল্পে ইংরেজি — প্রতিটি অধ্যায়ে একটা ছোট গল্প, ১০টি নতুন শব্দ আর ২০টি বাক্য।",
+                    meta="২০ অধ্যায় · ২০০ শব্দ · ৪০০ বাক্য", n_days=20),
     "japanese": dict(mod=J, name="Japanese", bn_name="জাপানি", badge="あ", theme="ja", builder=site_japanese.build_day,
                      intro="প্রথম দিন থেকেই জাপানি বলা — প্রতিদিন ৫টি দরকারি বাক্য, বাংলায় উচ্চারণসহ। সাথে সাথে অক্ষরও চিনবে।",
-                     meta="১০ Day · ৫০ বাক্য · ৭১ অক্ষর", n_days=10),
+                     meta="১০ অধ্যায় · ৫০ বাক্য · ৭১ অক্ষর", n_days=10),
 }
 
 
@@ -59,11 +59,11 @@ def course_page(k, v):
         else:
             title = J.TITLES[n][0]
             sub = " · ".join(x[1] for x in J.SENT_DAYS[n][:3])
-        days.append(f'<a class="day" data-deckkey="{k}/101/day-{n:02d}" href="day-{n:02d}/index.html"><span class="n">Day<b>{bn(n)}</b></span>'
+        days.append(f'<a class="day" data-deckkey="{k}/101/day-{n:02d}" href="day-{n:02d}/index.html"><span class="n">অধ্যায়<b>{bn(n)}</b></span>'
                     f'<span class="t"><b>{esc(title)}</b><span>{esc(sub)}</span></span><span class="tick">✓</span></a>')
     body = (f'<header class="hero"><div class="in hero-grid"><div><a class="back" href="../index.html">← {v["name"]}</a><h1>{c["title"]}</h1><p>{c["lead"]}</p></div>{avatar("../../", "hero-ava sm")}</div></header>'
             f'<main class="wrap"><div class="card"><div class="bar"><i id="progress"></i></div>'
-            f'<p class="note" id="streak"></p><p class="note" id="progress-text">০ / {bn(v["n_days"])} দিন শেষ</p>'
+            f'<p class="note" id="streak"></p><p class="note" id="progress-text">০ / {bn(v["n_days"])} অধ্যায় শেষ</p>'
             f'<p style="text-align:center;margin-top:10px"><a class="btn" id="continue" href="day-01/index.html">▶ শুরু করুন</a></p></div>'
             f'<div class="days">{"".join(days)}</div></main>' + footer("../../"))
     write(f"{k}/101/index.html", page(f"{c['title']} — {c['tag']}", body, 2, v["theme"]))
