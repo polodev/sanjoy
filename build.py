@@ -63,7 +63,7 @@ def course_page(k, v):
                     f'<span class="t"><b>{esc(title)}</b><span>{esc(sub)}</span></span><span class="tick">✓</span></a>')
     body = (f'<header class="hero"><div class="in hero-grid"><div><a class="back" href="../index.html">← {v["name"]}</a><h1>{c["title"]}</h1><p>{c["lead"]}</p></div>{avatar("../../", "hero-ava sm")}</div></header>'
             f'<main class="wrap"><div class="card"><div class="bar"><i id="progress"></i></div>'
-            f'<p class="note" id="progress-text">০ / {bn(v["n_days"])} দিন শেষ</p>'
+            f'<p class="note" id="streak"></p><p class="note" id="progress-text">০ / {bn(v["n_days"])} দিন শেষ</p>'
             f'<p style="text-align:center;margin-top:10px"><a class="btn" id="continue" href="day-01/index.html">▶ শুরু করুন</a></p></div>'
             f'<div class="days">{"".join(days)}</div></main>' + footer("../../"))
     write(f"{k}/101/index.html", page(f"{c['title']} — {c['tag']}", body, 2, v["theme"]))

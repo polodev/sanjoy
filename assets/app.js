@@ -149,6 +149,7 @@
       count.textContent = B(i + 1) + ' / ' + B(n);
       slides[i].scrollTop = 0;
       LS.set('sanjoy:p:' + key, String(i));
+      if (i > 0) { var days = []; try { days = JSON.parse(LS.get('sanjoy:days') || '[]'); } catch (e) {} var td = new Date().toDateString(); if (days.indexOf(td) < 0) { days.push(td); LS.set('sanjoy:days', JSON.stringify(days.slice(-400))); } }
       if (i === n - 1) LS.set('sanjoy:done:' + key, '1');
       try { history.replaceState(null, '', '#' + (i + 1)); } catch (e) {}
       if ('speechSynthesis' in window) speechSynthesis.cancel();
@@ -246,6 +247,16 @@
     });
     var p = document.getElementById('progress');
     if (p) p.style.width = (100 * done / total) + '%';
+    var st = document.getElementById('streak');
+    if (st) {
+      var ds = []; try { ds = JSON.parse(LS.get('sanjoy:days') || '[]'); } catch (e) {}
+      var n = 0, d = new Date();
+      if (ds.indexOf(d.toDateString()) < 0) d.setDate(d.getDate() - 1);
+      while (ds.indexOf(d.toDateString()) >= 0) { n++; d.setDate(d.getDate() - 1); }
+      var bd = '০১২৩৪৫৬৭৮৯';
+      var nb = String(n).replace(/\d/g, function (c) { return bd[c]; });
+      st.textContent = n ? '🔥 ' + nb + ' দিন টানা পড়েছ — আজকেও ৫ মিনিট!' : '😴 আজ শুধু ৫ মিনিট — একটা স্লাইড দেখলেই শুরু হয়ে যায়!';
+    }
     var pt = document.getElementById('progress-text');
     if (pt) pt.textContent = B(done) + ' / ' + B(total) + ' দিন শেষ';
     var cont = document.getElementById('continue');

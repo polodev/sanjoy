@@ -32,6 +32,7 @@ business=বিজনেস businessman=বিজনেসম্যান care=�
  hajiganj=হাজীগঞ্জ chandpur=চাঁদপুর
  corner=কর্নার biggest=বিগেস্ট customers=কাস্টমার্স
  back=ব্যাক
+ box=বক্স help=হেল্প sold=সোল্ড
 """
 PRON = dict(p.split("=", 1) for p in _RAW.split())
 _TOK = re.compile(r"[A-Za-z]+(?:'[A-Za-z]+)?(?:-[A-Za-z]+)*")

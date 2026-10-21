@@ -132,7 +132,7 @@ I have breakfast at seven. | আমি সাতটায় সকালের 
 I eat paratha and egg. | আমি পরোটা আর ডিম খাই।
 I drink a cup of tea. | আমি এক কাপ চা খাই।
 I leave home at eight. | আমি আটটায় বাড়ি থেকে বের হই।
-It is a busy morning! | এটা একটা ব্যস্ত সকাল!
+I open Medicine Corner at nine. | আমি নয়টায় মেডিসিন কর্নার খুলি।
 """,
 """
 morning | মর্নিং | সকাল
@@ -161,10 +161,10 @@ The time is seven o'clock. | এখন সাতটা বাজে।
 What time is it? | কয়টা বাজে?
 It is half past seven. | সাড়ে সাতটা বাজে।
 I am late. | আমার দেরি হয়েছে।
-I am not late. | আমার দেরি হয়নি।
+I open the shop at nine. | আমি নয়টায় দোকান খুলি।
 I leave home at eight. | আমি আটটায় বাড়ি থেকে বের হই।
 My mother wakes up early. | আমার মা সকালে আগে ওঠেন।
-He sleeps late. | সে দেরিতে ঘুমায়।
+I don't want to sleep late. | আমি দেরিতে ঘুমাতে চাই না।
 Good morning, Mom! | শুভ সকাল, মা!
 Have a nice day! | আপনার দিনটি ভালো কাটুক!
 """,
@@ -216,8 +216,8 @@ Yes, we have. | হ্যাঁ, আছে।
 No, we don't have. | না, নেই।
 Here is the money. | এই নিন টাকা।
 Do you have change? | আপনার কাছে কি খুচরা আছে?
-I buy vegetables every week. | আমি প্রতি সপ্তাহে সবজি কিনি।
-The mangoes are sweet. | আমগুলো মিষ্টি।
+People buy medicine at my shop. | মানুষ আমার দোকান থেকে ওষুধ কেনে।
+This medicine is not expensive. | এই ওষুধটা দামি না।
 Thank you, see you again. | ধন্যবাদ, আবার দেখা হবে।
 """,
 dict(title="How much? বনাম How many?",
@@ -228,7 +228,7 @@ dict(title="How much? বনাম How many?",
 # ======================================================================= Day 5
 day(5, "Food and Tea", "খাবার আর চা", "আজ রেস্টুরেন্টে খাবার অর্ডার করতে আর খাবারের কথা বলতে শিখব।",
 """
-It is lunch time. | এখন দুপুরের খাবারের সময়।
+It is lunch time at Medicine Corner. | মেডিসিন কর্নারে এখন দুপুরের খাবারের সময়।
 Sanjoy and Rahim are hungry. | সঞ্জয় আর রহিম ক্ষুধার্ত।
 They go to a small restaurant. | তারা একটি ছোট রেস্টুরেন্টে যায়।
 "What would you like?" asks the waiter. | "আপনারা কী নেবেন?" ওয়েটার জিজ্ঞেস করে।
@@ -265,7 +265,7 @@ One sugar, please. | এক চামচ চিনি দিন, প্লিজ
 I like tea very much. | আমি চা খুব পছন্দ করি।
 Do you like coffee? | আপনি কি কফি পছন্দ করেন?
 No, I prefer tea. | না, আমি চা বেশি পছন্দ করি।
-We eat dinner at nine. | আমরা নয়টায় রাতের খাবার খাই।
+I eat lunch at my shop. | আমি আমার দোকানে দুপুরের খাবার খাই।
 The bill, please. | বিলটা দিন, প্লিজ।
 How much is the bill? | বিল কত হয়েছে?
 This is for you. | এটা আপনার জন্য।
@@ -279,7 +279,7 @@ dict(title="I like বনাম I would like",
 # ======================================================================= Day 6
 day(6, "On the Road", "রাস্তায়", "আজ রাস্তা জিজ্ঞেস করতে, রিকশা-বাসে যেতে আর দিক বলতে শিখব।",
 """
-Sanjoy goes to university by bus. | সঞ্জয় বাসে করে বিশ্ববিদ্যালয়ে যায়।
+Sanjoy goes to Hajiganj Bazar by bus. | সঞ্জয় বাসে করে হাজীগঞ্জ বাজারে যায়।
 Today the road is very busy. | আজ রাস্তায় অনেক ভিড়।
 There is a lot of traffic. | অনেক যানজট।
 "Excuse me, where is the bus stop?" | "মাফ করবেন, বাস স্টপ কোথায়?"
@@ -302,7 +302,7 @@ far | ফার | দূরে
 """,
 """
 Where are you going? | আপনি কোথায় যাচ্ছেন?
-I am going to the university. | আমি বিশ্ববিদ্যালয়ে যাচ্ছি।
+I am going to the shop. | আমি দোকানে যাচ্ছি।
 I go by bus. | আমি বাসে যাই।
 Excuse me, where is the bus stop? | মাফ করবেন, বাস স্টপ কোথায়?
 It is near here. | এটা এখানেই কাছে।
@@ -311,13 +311,13 @@ Go straight. | সোজা যান।
 Turn left. | বাঁয়ে ঘুরুন।
 Turn right. | ডানে ঘুরুন।
 Stop here, please. | এখানে থামুন, প্লিজ।
-How much to Dhanmondi? | ধানমন্ডি পর্যন্ত কত?
+How much to Hajiganj Bazar? | হাজীগঞ্জ বাজার পর্যন্ত কত?
 Please hurry. | দয়া করে তাড়াতাড়ি করুন।
 There is a lot of traffic. | অনেক যানজট।
 I am stuck in traffic. | আমি যানজটে আটকে আছি।
 I walk to the shop. | আমি দোকান পর্যন্ত হেঁটে যাই।
 Is this the right bus? | এটা কি ঠিক বাস?
-This bus goes to Mirpur. | এই বাস মিরপুর যায়।
+This bus goes to Chandpur. | এই বাসটা চাঁদপুর যায়।
 Where do I get off? | আমি কোথায় নামব?
 I take a rickshaw. | আমি রিকশা নিই।
 Be careful! | সাবধান!
@@ -331,7 +331,7 @@ dict(title="by, in, at, to — ছোট শব্দ, বড় কাজ",
 # ======================================================================= Day 7
 day(7, "My Home", "আমার বাড়ি", "আজ ঘরের জিনিসপত্র আর কোনটা কোথায় আছে বলতে শিখব।",
 """
-I live in a small flat. | আমি একটা ছোট ফ্ল্যাটে থাকি।
+I live in a house with my family. | আমি পরিবারের সাথে একটি বাড়িতে থাকি।
 It has two rooms. | এতে দুইটি ঘর আছে।
 There is a bed and a table in my room. | আমার ঘরে একটি খাট আর একটি টেবিল আছে।
 There is a fan on the ceiling. | ছাদে একটি পাখা আছে।
@@ -382,7 +382,7 @@ dict(title="There is / There are — “আছে”",
 # ======================================================================= Day 8
 day(8, "The Weather", "আবহাওয়া", "আজ আবহাওয়া, বৃষ্টি, আজ-কাল-গতকালের কথা বলতে শিখব।",
 """
-It is a hot day in Dhaka. | ঢাকায় আজ গরমের দিন।
+It is a hot day in Hajiganj. | হাজীগঞ্জে আজ গরমের দিন।
 The sun is bright. | সূর্য উজ্জ্বল।
 Sanjoy drinks a lot of water. | সঞ্জয় অনেক পানি খায়।
 In the afternoon, the sky becomes dark. | বিকেলে আকাশ কালো হয়ে যায়।
@@ -463,12 +463,12 @@ I will call you later. | আমি পরে আপনাকে ফোন কর
 Call me tomorrow. | আমাকে আগামীকাল ফোন করো।
 I will send you a message. | আমি তোমাকে একটা মেসেজ পাঠাব।
 Are you free today? | তুমি কি আজ ফ্রি?
-I am busy now. | আমি এখন ব্যস্ত।
+I am busy at the shop now. | আমি এখন দোকানে ব্যস্ত।
 I am free in the evening. | আমি সন্ধ্যায় ফ্রি।
 Let's meet at five. | চলো পাঁচটায় দেখা করি।
 Where shall we meet? | আমরা কোথায় দেখা করব?
 Let's play cricket. | চলো ক্রিকেট খেলি।
-Do you play football? | তুমি কি ফুটবল খেলো?
+Can I help you? | আমি কি আপনাকে সাহায্য করতে পারি?
 That is a great idea. | এটা দারুণ আইডিয়া।
 I can't come today. | আমি আজ আসতে পারব না।
 I am on my way. | আমি আসছি, রওনা দিয়েছি।
@@ -485,8 +485,8 @@ dict(title="can / can't — পারা, না পারা",
 day(10, "Weekend Plan", "সপ্তাহান্তের পরিকল্পনা", "আজ ভবিষ্যতের পরিকল্পনা বলতে আর ইংরেজি শেখার কথা বলতে শিখব।",
 """
 This weekend, Sanjoy has a plan. | এই সপ্তাহান্তে সঞ্জয়ের একটি পরিকল্পনা আছে।
-On Friday, he will visit his grandmother. | শুক্রবার সে তার দাদির সাথে দেখা করতে যাবে।
-He will take some mangoes for her. | সে তার জন্য কিছু আম নেবে।
+On Friday, he will visit Rahim. | শুক্রবার সে রহিমের সাথে দেখা করতে যাবে।
+He will take some mangoes with him. | সে সাথে কিছু আম নেবে।
 On Saturday, he will study English. | শনিবার সে ইংরেজি পড়বে।
 In the evening, he will play cricket with Rahim. | সন্ধ্যায় সে রহিমের সাথে ক্রিকেট খেলবে।
 On Sunday, he will clean his room. | রবিবার সে তার ঘর পরিষ্কার করবে।
@@ -507,7 +507,7 @@ week | উইক | সপ্তাহ
 """,
 """
 What is your plan for the weekend? | সপ্তাহান্তের জন্য আপনার পরিকল্পনা কী?
-I will visit my grandmother. | আমি আমার দাদির সাথে দেখা করতে যাব।
+I will visit my friend. | আমি আমার বন্ধুর সাথে দেখা করতে যাব।
 I will study English. | আমি ইংরেজি পড়ব।
 I will clean my room. | আমি আমার ঘর পরিষ্কার করব।
 I will not go out. | আমি বাইরে যাব না।
@@ -668,8 +668,8 @@ Happy birthday! | শুভ জন্মদিন!
 Many happy returns of the day. | জন্মদিনের অনেক শুভেচ্ছা।
 One, two, three, four, five. | এক, দুই, তিন, চার, পাঁচ।
 Ten, twenty, thirty, forty, fifty. | দশ, বিশ, ত্রিশ, চল্লিশ, পঞ্চাশ।
-One hundred taka. | একশো টাকা।
-Two hundred and fifty taka. | আড়াইশো টাকা।
+This medicine is one hundred taka. | এই ওষুধটা একশো টাকা।
+This box is two hundred and fifty taka. | এই বাক্সটা আড়াইশো টাকা।
 One thousand taka. | এক হাজার টাকা।
 What is your phone number? | আপনার ফোন নম্বর কত?
 Please write down your number. | দয়া করে আপনার নম্বরটা লিখে দিন।
@@ -692,7 +692,7 @@ Sanjoy has an English class at ten o'clock. | সঞ্জয়ের দশট
 The teacher asks a question. | শিক্ষক একটি প্রশ্ন করেন।
 Sanjoy raises his hand and gives the answer. | সঞ্জয় হাত তোলে আর উত্তর দেয়।
 "Very good!" says the teacher. | "খুব ভালো!" বলেন শিক্ষক।
-After class, he goes to the library. | ক্লাসের পরে সে লাইব্রেরিতে যায়।
+After class, he goes to Medicine Corner. | ক্লাসের পরে সে মেডিসিন কর্নারে যায়।
 He reads a book and writes notes in his notebook. | সে একটি বই পড়ে আর খাতায় নোট লেখে।
 The teacher gives homework for tomorrow. | শিক্ষক আগামীকালের জন্য হোমওয়ার্ক দেন।
 Next week there is an exam, so he studies hard. | আগামী সপ্তাহে পরীক্ষা, তাই সে কঠোর পরিশ্রম করে পড়ে।
@@ -740,8 +740,8 @@ dict(title="must / have to — বাধ্যবাধকতা",
 day(15, "Yesterday", "গতকাল (অতীত কাল)", "আজ গতকাল কী করেছি তা বলতে শিখব — অতীত কালের ক্রিয়া।",
 """
 Yesterday was a busy day for Sanjoy. | গতকাল সঞ্জয়ের জন্য ব্যস্ত একটি দিন ছিল।
-He woke up early and went to the market. | সে সকালে ঘুম থেকে উঠে বাজারে গেল।
-He bought some fruits and vegetables. | সে কিছু ফল আর সবজি কিনল।
+He woke up early and went to Medicine Corner. | সে সকালে ঘুম থেকে উঠে মেডিসিন কর্নারে গেল।
+He sold medicine to many people. | সে অনেক মানুষের কাছে ওষুধ বিক্রি করল।
 On the way, he met his old friend Rahim. | পথে সে তার পুরনো বন্ধু রহিমের সাথে দেখা করল।
 They ate lunch together. | তারা একসাথে দুপুরের খাবার খেলো।
 In the afternoon, he saw a movie with his brother. | বিকেলে সে তার ভাইয়ের সাথে একটি সিনেমা দেখল।
@@ -772,12 +772,12 @@ She came home early. | সে তাড়াতাড়ি বাড়ি এ
 He gave me a gift. | সে আমাকে একটি উপহার দিয়েছিল।
 I took a rickshaw to the station. | আমি স্টেশন পর্যন্ত রিকশা নিয়েছিলাম।
 I saw a beautiful bird. | আমি একটি সুন্দর পাখি দেখেছিলাম।
-I didn't go to the office. | আমি অফিসে যাইনি।
+I didn't close the shop early. | আমি দোকান তাড়াতাড়ি বন্ধ করিনি।
 She didn't call me. | সে আমাকে ফোন করেনি।
 Did you sleep well? | আপনি কি ভালো ঘুমিয়েছিলেন?
 Yes, I did. | হ্যাঁ, ঘুমিয়েছিলাম।
 No, I didn't. | না, ঘুমাইনি।
-I visited my grandmother two days ago. | আমি দুই দিন আগে আমার দাদির সাথে দেখা করেছিলাম।
+I visited my friend two days ago. | আমি দুই দিন আগে আমার বন্ধুর সাথে দেখা করেছিলাম।
 It rained all day. | সারাদিন বৃষ্টি হয়েছিল।
 We were very tired. | আমরা খুব ক্লান্ত ছিলাম।
 It was a wonderful day. | দিনটা চমৎকার ছিল।
@@ -919,7 +919,7 @@ I feel happy today. | আমি আজ খুশি বোধ করছি।
 I feel sad. | আমার মন খারাপ।
 Why are you angry? | আপনি রাগ করেছেন কেন?
 I am not angry. | আমি রাগ করিনি।
-I am tired because I worked all day. | আমি ক্লান্ত কারণ সারাদিন কাজ করেছি।
+I am tired because I worked at the shop all day. | আমি ক্লান্ত কারণ সারাদিন দোকানে কাজ করেছি।
 I am excited about the trip. | আমি ভ্রমণ নিয়ে উত্তেজিত।
 Don't be afraid. | ভয় পেয়ো না।
 I was surprised to see him. | তাকে দেখে আমি অবাক হয়েছিলাম।

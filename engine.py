@@ -92,7 +92,7 @@ def slide(inner, cls="", title=""):
 def cover(chip, h1, lead, learn, hint=True):
     items = "".join(f"<li>{x}</li>" for x in learn)
     return slide(f'<div class="cover-top"><span class="chip">{esc(chip)}</span><span class="for-you">{avatar(DECK_BASE, "ava")} <span>{FULL_NAME}-র জন্য</span></span></div><h1>{h1}</h1><p class="lead">{lead}</p>'
-                 f'<ul class="learn">{items}</ul>'
+                 f'<p class="five">⏱ আজকের লক্ষ্য: মাত্র ৫ মিনিট। পারলে আরও, না পারলে এটুকুই — আজকের মতো যথেষ্ট!</p><ul class="learn">{items}</ul>'
                  + ('<p class="hint">👉 ডান থেকে বামে swipe করে পরের স্লাইডে যান · উপর-নিচে স্ক্রল করে বাকিটা দেখুন</p>' if hint else ""), "cover", h1)
 
 
