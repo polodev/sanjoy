@@ -29,6 +29,7 @@ wait=ওয়েট waiter=ওয়েটার wake=ওয়েইক wakes=
 year=ইয়ার yes=ইয়েস yesterday=ইয়েস্টারডে you=ইউ young=ইয়াং youngest=ইয়াংগেস্ট your=ইয়োর yourself=ইয়োরসেলফ
 business=বিজনেস businessman=বিজনেসম্যান care=কেয়ার homemaker=হোমমেইকার poddar=পোদ্দার rajib=রাজীব sukumar=সুকুমার nupur=নুপুর works=ওয়ার্ক্স younger=ইয়াংগার
  graduate=গ্র্যাজুয়েট
+ hajiganj=হাজীগঞ্জ chandpur=চাঁদপুর
 """
 PRON = dict(p.split("=", 1) for p in _RAW.split())
 _TOK = re.compile(r"[A-Za-z]+(?:'[A-Za-z]+)?(?:-[A-Za-z]+)*")

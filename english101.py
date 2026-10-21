@@ -24,7 +24,7 @@ day(1, "Hello, I am Sanjoy", "পরিচয়", "আজ সঞ্জয়ে
 """
 Hello! My name is Sanjoy Dev Shuvo. | হ্যালো! আমার নাম সঞ্জয় দেব শুভ।
 I am from Bangladesh. | আমি বাংলাদেশ থেকে এসেছি।
-I live in Dhaka. | আমি ঢাকায় থাকি।
+I live in Hajiganj, Chandpur. | আমি চাঁদপুরের হাজীগঞ্জে থাকি।
 I am a graduate. | আমি একজন গ্র্যাজুয়েট।
 This is my friend, Rahim. | ইনি আমার বন্ধু, রহিম।
 Rahim, this is Nusrat. | রহিম, ইনি নুসরাত।
@@ -51,7 +51,7 @@ My name is Sanjoy Dev Shuvo. | আমার নাম সঞ্জয় দে�
 What is your name? | আপনার নাম কী?
 I am from Bangladesh. | আমি বাংলাদেশ থেকে।
 Where are you from? | আপনি কোথা থেকে এসেছেন?
-I live in Dhaka. | আমি ঢাকায় থাকি।
+I live in Hajiganj, Chandpur. | আমি চাঁদপুরের হাজীগঞ্জে থাকি।
 I am a graduate. | আমি একজন গ্র্যাজুয়েট।
 Are you a student? | আপনি কি ছাত্র?
 Yes, I am. | হ্যাঁ, আমি।
@@ -943,13 +943,13 @@ dict(title="because / so / but — কারণ, ফল, বিপরীত",
 # ======================================================================= Day 19
 day(19, "Comparing Places and People", "তুলনা: মানুষ ও জায়গা", "আজ দুটো জিনিসের তুলনা করতে আর সেরাটা বলতে শিখব।",
 """
-Sanjoy lives in Dhaka, but his grandmother lives in a village. | সঞ্জয় ঢাকায় থাকে, কিন্তু তার দাদি থাকেন গ্রামে।
-Dhaka is bigger and more crowded than the village. | ঢাকা গ্রামের চেয়ে বড় আর বেশি ভিড়ের।
-The village is quieter and cleaner. | গ্রামটা বেশি শান্ত আর পরিষ্কার।
-His grandmother's house is old, but it is very beautiful. | তার দাদির বাড়ি পুরনো, কিন্তু খুব সুন্দর।
+Sanjoy lives in Hajiganj, a small town in Chandpur. | সঞ্জয় চাঁদপুরের ছোট শহর হাজীগঞ্জে থাকে।
+Dhaka is bigger and more crowded than Hajiganj. | ঢাকা হাজীগঞ্জের চেয়ে বড় আর বেশি ভিড়ের।
+Hajiganj is quieter and calmer. | হাজীগঞ্জ বেশি শান্ত আর নীরব।
+His house is not big, but it is very beautiful. | তার বাড়ি বড় না, কিন্তু খুব সুন্দর।
 There is a big pond near the house. | বাড়ির কাছে একটি বড় পুকুর আছে।
-His grandmother is the kindest person he knows. | তার দাদি তার চেনা সবচেয়ে দয়ালু মানুষ।
-"Dhaka is exciting, but the village is my favourite place," he says. | "ঢাকা রোমাঞ্চকর, কিন্তু গ্রামই আমার সবচেয়ে প্রিয় জায়গা," সে বলে।
+His mother is the kindest person he knows. | তার মা তার চেনা সবচেয়ে দয়ালু মানুষ।
+"Dhaka is exciting, but Hajiganj is my favourite place," he says. | "ঢাকা রোমাঞ্চকর, কিন্তু হাজীগঞ্জই আমার সবচেয়ে প্রিয় জায়গা," সে বলে।
 "I feel calm there." | "সেখানে আমি শান্তি অনুভব করি।"
 """,
 """
@@ -966,9 +966,9 @@ rich | রিচ | ধনী
 """,
 """
 Dhaka is a big city. | ঢাকা একটি বড় শহর।
-My village is small. | আমার গ্রাম ছোট।
-Dhaka is bigger than my village. | ঢাকা আমার গ্রামের চেয়ে বড়।
-The village is quieter than the city. | গ্রাম শহরের চেয়ে শান্ত।
+Hajiganj is small. | হাজীগঞ্জ ছোট।
+Dhaka is bigger than Hajiganj. | ঢাকা হাজীগঞ্জের চেয়ে বড়।
+Hajiganj is quieter than the city. | হাজীগঞ্জ শহরের চেয়ে শান্ত।
 This bus is more crowded than that one. | এই বাসটা ওটার চেয়ে বেশি ভিড়ের।
 My brother is taller than me. | আমার ভাই আমার চেয়ে লম্বা।
 She is the youngest in the family. | সে পরিবারের সবচেয়ে ছোট।
@@ -984,18 +984,18 @@ What is the longest river in Bangladesh? | বাংলাদেশের সব
 Tea is cheaper than coffee. | চা কফির চেয়ে সস্তা।
 English is easier than I thought. | ইংরেজি আমার ভাবনার চেয়ে সহজ।
 This is the best day of my life. | এটা আমার জীবনের সেরা দিন।
-Dhaka is exciting, but I love my village. | ঢাকা রোমাঞ্চকর, কিন্তু আমি আমার গ্রামকে ভালোবাসি।
+Dhaka is exciting, but I love Hajiganj. | ঢাকা রোমাঞ্চকর, কিন্তু আমি হাজীগঞ্জকে ভালোবাসি।
 """,
 dict(title="তুলনা: -er than, the -est",
      points=["ছোট শব্দে: <b>-er than</b> — big → <b>bigger than</b>, quiet → <b>quieter than</b>", "ছোট শব্দে সেরা: <b>the -est</b> — the strongest, the youngest", "লম্বা শব্দে: <b>more … than</b>, <b>the most …</b> — more beautiful, the most famous", "অনিয়মিত: good → better → <b>the best</b>"],
      table=[("big", "bigger / the biggest", "বড় — আরও বড় — সবচেয়ে বড়"), ("beautiful", "more / the most beautiful", "সুন্দর — আরও সুন্দর — সবচেয়ে সুন্দর"), ("good", "better / the best", "ভালো — আরও ভালো — সেরা")],
-     quiz=("Dhaka is ___ than my village.", ["big", "bigger", "the biggest"], 1, "দুটোর তুলনায় -er than: bigger than।")))
+     quiz=("Dhaka is ___ than Hajiganj.", ["big", "bigger", "the biggest"], 1, "দুটোর তুলনায় -er than: bigger than।")))
 
 # ======================================================================= Day 20
 day(20, "My Story", "আমার গল্প ও স্বপ্ন", "আজ ২০ দিনে যা শিখেছেন তা দিয়ে নিজের গল্প বলুন — আর স্বপ্নের কথা।",
 """
 My name is Sanjoy Dev Shuvo, and I am from Bangladesh. | আমার নাম সঞ্জয় দেব শুভ, আর আমি বাংলাদেশের।
-I live in Dhaka with my family. | আমি ঢাকায় আমার পরিবারের সাথে থাকি।
+I live in Hajiganj, Chandpur, with my family. | আমি চাঁদপুরের হাজীগঞ্জে আমার পরিবারের সাথে থাকি।
 Twenty days ago, I could speak only a little English. | বিশ দিন আগে আমি খুব অল্প ইংরেজি বলতে পারতাম।
 Every day I read a story and learned ten new words. | প্রতিদিন আমি একটি গল্প পড়তাম আর দশটি নতুন শব্দ শিখতাম।
 Now I can talk about my family, my day and my plans. | এখন আমি আমার পরিবার, আমার দিন আর পরিকল্পনা নিয়ে কথা বলতে পারি।
@@ -1018,7 +1018,7 @@ progress | প্রোগ্রেস | অগ্রগতি
 """
 Please introduce yourself. | দয়া করে নিজের পরিচয় দিন।
 My name is Sanjoy and I am a graduate. | আমার নাম সঞ্জয় আর আমি একজন গ্র্যাজুয়েট।
-I live in Dhaka, but I love my village. | আমি ঢাকায় থাকি, কিন্তু আমি আমার গ্রামকে ভালোবাসি।
+I live in Hajiganj, Chandpur. | আমি চাঁদপুরের হাজীগঞ্জে থাকি।
 I have a small and happy family. | আমার একটি ছোট আর সুখী পরিবার আছে।
 I wake up at six every morning. | আমি প্রতিদিন সকালে ছয়টায় উঠি।
 Yesterday I studied English for one hour. | গতকাল আমি এক ঘণ্টা ইংরেজি পড়েছি।
