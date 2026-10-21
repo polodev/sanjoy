@@ -65,8 +65,11 @@ def not_found():
             '<main class="wrap"><a class="card" href="/" style="text-align:center"><b>🏠 হোমে ফিরে যান</b></a></main>')
     html = page("404 — পাতা নেই", body, 0, "home")
     # 404.html is served from any depth, so work out the site root at run time (project page vs custom domain)
+    html = html.replace('<link rel="stylesheet" href="assets/app.css">', "").replace('<script src="assets/app.js"></script>', "")
     html = html.replace('href="/"', 'href="/" id="home404"').replace("</body>", """<script>
-if (/\\.github\\.io$/.test(location.hostname)) document.getElementById('home404').href = '/' + location.pathname.split('/')[1] + '/';
+var root = /\\.github\\.io$/.test(location.hostname) ? '/' + location.pathname.split('/')[1] + '/' : '/';
+document.getElementById('home404').href = root;
+var l = document.createElement('link'); l.rel = 'stylesheet'; l.href = root + 'assets/app.css'; document.head.appendChild(l);
 </script></body>""")
     write("404.html", html)
 
