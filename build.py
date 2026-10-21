@@ -16,8 +16,8 @@ LANGS = {
                     intro="গল্পে গল্পে ইংরেজি — প্রতিটি Day-তে একটা ছোট গল্প, ১০টি নতুন শব্দ আর ২০টি বাক্য।",
                     meta="২০ Day · ২০০ শব্দ · ৪০০ বাক্য", n_days=20),
     "japanese": dict(mod=J, name="Japanese", bn_name="জাপানি", badge="あ", theme="ja", builder=site_japanese.build_day,
-                     intro="হিরাগানা দিয়ে জাপানি লেখা শিখুন — প্রতিটি Day-তে একটি সারির অক্ষর, পড়ার অনুশীলন আর কুইজ।",
-                     meta="১০ Day · ৭১ অক্ষর · প্রথম বাক্য", n_days=10),
+                     intro="প্রথম দিন থেকেই জাপানি বলা — প্রতিদিন ৫টি দরকারি বাক্য, বাংলায় উচ্চারণসহ। সাথে সাথে অক্ষরও চিনবে।",
+                     meta="১০ Day · ৫০ বাক্য · ৭১ অক্ষর", n_days=10),
 }
 
 
@@ -57,8 +57,8 @@ def course_page(k, v):
             d = E.DAYS[n - 1]
             title, sub = d["en"], f'{d["bn"]} · ১০ শব্দ · ২০ বাক্য'
         else:
-            t, s = J.TITLES[n]
-            title, sub = t, s
+            title = J.TITLES[n][0]
+            sub = " · ".join(x[1] for x in J.SENT_DAYS[n][:3])
         days.append(f'<a class="day" data-deckkey="{k}/101/day-{n:02d}" href="day-{n:02d}/index.html"><span class="n">Day<b>{bn(n)}</b></span>'
                     f'<span class="t"><b>{esc(title)}</b><span>{esc(sub)}</span></span><span class="tick">✓</span></a>')
     body = (f'<header class="hero"><div class="in hero-grid"><div><a class="back" href="../index.html">← {v["name"]}</a><h1>{c["title"]}</h1><p>{c["lead"]}</p></div>{avatar("../../", "hero-ava sm")}</div></header>'

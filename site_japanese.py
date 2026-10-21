@@ -210,15 +210,50 @@ def sentence_slides():
     return out
 
 
+def hl(jp, today):
+    return "".join(f'<mark class="hl">{c}</mark>' if c in today else esc(c) for c in jp)
+
+
+def daily_sentence_slides(n):
+    today = set(letters_of(n))
+    items = J.SENT_DAYS[n]
+    parts = chunks(items, 3)
+    out = []
+    for i, grp in enumerate(parts, 1):
+        cards = "".join(
+            f'<div class="jsent">{say_btn(jp.replace(" ", ""), LANG, big=True)}<div>'
+            f'<p class="jp-bn">{esc(bnp)}</p><p class="jp-mean">{esc(mean)}</p>'
+            f'<p class="jp-jp jp">{hl(jp, today)}</p></div></div>' for jp, bnp, mean in grp)
+        out.append(slide(f'<span class="chip">🗣️ আজকের বাক্য {bn(i)}/{bn(len(parts))}</span><h2>এই কথাগুলো শিখে নাও</h2>'
+                         + ('<p class="hint">নিচের বড় লেখাটা পড়ে বলো (🔊 চাপলে শুনতে পাবে)। জাপানি লেখা এখন না পড়তে পারলেও চলবে — একটু পরে চিনবে।</p>' if i == 1 else "")
+                         + cards, "", "আজকের বাক্য"))
+    out.append(slide('<span class="chip">🔍 চিনে নাও</span><h2>এই বাক্যের ভেতরে আজকের অক্ষর</h2>'
+                     '<p class="lead">রঙিন অক্ষরগুলো আজ শিখবে — বাক্যগুলোতে এগুলো খুঁজে দেখো।</p>'
+                     + "".join(f'<div class="exword"><div class="jp">{hl(jp, today)}</div><div><small>{esc(bnp)}</small></div></div>' for jp, bnp, _ in items)
+                     + '<div class="callout">💡 প্রতিটি অক্ষর একটা নির্দিষ্ট ধ্বনি। নিচে একে একে সেগুলো শিখব।</div>', "", "বাক্যে অক্ষর"))
+    return out
+
+
+def sentence_quiz(n):
+    rng = seeded("jsent", n)
+    pool = [(jp, bnp, m) for d in range(1, n + 1) for jp, bnp, m in J.SENT_DAYS[d]]
+    qs = []
+    for jp, bnp, m in rng.sample(J.SENT_DAYS[n], 3):
+        opts, a = mcq(rng, m, [x[2] for x in pool])
+        qs.append(dict(q=f"‘{bnp}’ — মানে কী?", say=jp.replace(" ", ""), lang=LANG, o=opts, a=a, why=f"{bnp} = {m}"))
+    return qs
+
+
 def build_day(n):
     key = f"japanese/101/day-{n:02d}"
     title, sub = J.TITLES[n]
     letters = letters_of(n)
-    learn = [f"✏️ {bn(len(letters))}টি নতুন অক্ষর", "🔊 প্রতিটির উচ্চারণ শুনুন", "📖 ছোট ছোট শব্দ পড়া", "📝 ১১টি প্রশ্নের কুইজ"]
+    learn = ["🗣️ ৫টি দরকারি জাপানি বাক্য (বাংলা উচ্চারণসহ)", f"✏️ {bn(len(letters))}টি নতুন অক্ষর", "📖 ছোট ছোট শব্দ পড়া", "📝 ১৪টি প্রশ্নের কুইজ"]
     chips = "".join(f'<button class="kchip" data-say="{c}" data-lang="{LANG}">{c}</button>' for c in letters)
     first = cover(f"Day {n}", esc(title), esc(J.INTRO_LINES[n]), learn)
     first = first.replace('<p class="hint">', f'<div class="chips">{chips}</div><p class="hint">', 1)
     S = [first]
+    S += daily_sentence_slides(n)
     if n == 1:
         S += day1_intro()
     if n < 10:
@@ -236,14 +271,14 @@ def build_day(n):
     if n == 10:
         S += sentence_slides()
     S.append(slide(WRITE_TIP, "", "লেখা"))
-    S.append(quiz_slide(quiz_for(n)))
+    S.append(quiz_slide(sentence_quiz(n) + quiz_for(n)))
     words = [w for w, _ in J.WORDS[n]][:8]
     if n == 10:
         S.append(finish_slide(key, "Japanese 101 সম্পূর্ণ! 🏆", "৭১টি অক্ষর, ডজন ডজন শব্দ আর আপনার প্রথম জাপানি বাক্য — আপনি হিরাগানা পড়তে পারেন! জাপানের যেকোনো শিশুর বই এখন আপনার নাগালে।",
                               words, None, back_href="../index.html",
                               extra='<div class="callout"><b>এখন কী করবেন?</b><br>প্রতিদিন ৫ মিনিট পুরো ছক (Day 9) ট্যাপ করে পড়ুন। Japanese 102-তে আসছে: কাতাকানা ও প্রথম ব্যাকরণ।</div>'))
     else:
-        S.append(finish_slide(key, f"Day {bn(n)} শেষ!", "আজকের অক্ষরগুলো আজ রাতে ঘুমানোর আগে আরেকবার কাগজে লিখুন।", words,
+        S.append(finish_slide(key, f"Day {bn(n)} শেষ!", "আজকের ৫টি বাক্য রাতে ঘুমানোর আগে একবার জোরে বলো — আর অক্ষরগুলো একবার কাগজে লিখে ফেলো।", words,
                               f"../day-{n + 1:02d}/index.html", f"Day {bn(n + 1)}: {esc(J.TITLES[n + 1][0])}"))
     html = deck_page(f"Day {n} · {title} — Japanese 101", key, "ja", S, back_href="../index.html",
                      crumb=f"Day {bn(n)} · {title}", home_href="../../../index.html", has_bn=False)
