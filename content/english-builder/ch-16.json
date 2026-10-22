@@ -1,0 +1,272 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি ইফ দিয়ে ভবিষ্যৎ সাহায্যের শর্ত বাড়াতে শিখেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় তার বাবাকে সাহায্য করবে।",
+     "pron_bn": "সানজয় উইল হেল্প হিজ ফাদার।",
+     "text": "Sanjoy will help his father."
+    },
+    {
+     "bn": "সঞ্জয় যদি ফ্রি থাকে তাহলে তার বাবাকে সাহায্য করবে।",
+     "pron_bn": "সানজয় উইল হেল্প হিজ ফাদার ইফ হি ইজ ফ্রি।",
+     "text": "Sanjoy will help his father if he is free."
+    },
+    {
+     "bn": "সঞ্জয় ফ্রি থাকলে বাগানে তার বাবাকে সাহায্য করবে।",
+     "pron_bn": "সানজয় উইল হেল্প হিজ ফাদার ইন দা গার্ডেন ইফ হি ইজ ফ্রি।",
+     "text": "Sanjoy will help his father in the garden if he is free."
+    },
+    {
+     "bn": "কাজের পর ফ্রি থাকলে সঞ্জয় বাগানে তার বাবাকে সাহায্য করবে।",
+     "pron_bn": "সানজয় উইল হেল্প হিজ ফাদার ইন দা গার্ডেন ইফ হি ইজ ফ্রি আফটার ওয়ার্ক।",
+     "text": "Sanjoy will help his father in the garden if he is free after work."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি দোকানের ভিড় নিয়ে ফার্স্ট কন্ডিশনালে সময় যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "কাস্টমাররা মেডিসিন কর্নারে অপেক্ষা করবে।",
+     "pron_bn": "কাস্টমার্স উইল ওয়েট অ্যাট মেডিসিন কর্নার।",
+     "text": "Customers will wait at Medicine Corner."
+    },
+    {
+     "bn": "ভিড় থাকলে কাস্টমাররা মেডিসিন কর্নারে অপেক্ষা করবে।",
+     "pron_bn": "কাস্টমার্স উইল ওয়েট অ্যাট মেডিসিন কর্নার ইফ ইট ইজ বিজি।",
+     "text": "Customers will wait at Medicine Corner if it is busy."
+    },
+    {
+     "bn": "সন্ধ্যায় ভিড় থাকলে কাস্টমাররা মেডিসিন কর্নারে অপেক্ষা করবে।",
+     "pron_bn": "কাস্টমার্স উইল ওয়েট অ্যাট মেডিসিন কর্নার ইফ ইট ইজ বিজি ইন দি ইভনিং।",
+     "text": "Customers will wait at Medicine Corner if it is busy in the evening."
+    },
+    {
+     "bn": "সন্ধ্যায় ভিড় থাকলে কাস্টমাররা মেডিসিন কর্নারে ধৈর্য ধরে অপেক্ষা করবে।",
+     "pron_bn": "কাস্টমার্স উইল ওয়েট পেশেন্টলি অ্যাট মেডিসিন কর্নার ইফ ইট ইজ বিজি ইন দি ইভনিং।",
+     "text": "Customers will wait patiently at Medicine Corner if it is busy in the evening."
+    },
+    {
+     "bn": "ছুটির আগের সন্ধ্যায় ভিড় থাকলে কাস্টমাররা মেডিসিন কর্নারে ধৈর্য ধরে অপেক্ষা করবে।",
+     "pron_bn": "কাস্টমার্স উইল ওয়েট পেশেন্টলি অ্যাট মেডিসিন কর্নার ইফ ইট ইজ বিজি ইন দি ইভনিং বিফোর দা হলিডে।",
+     "text": "Customers will wait patiently at Medicine Corner if it is busy in the evening before the holiday."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি সেকেন্ড কন্ডিশনাল দিয়ে বন্ধুর সাথে খেলার কল্পনা বাড়িয়েছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় ক্রিকেট খেলত।",
+     "pron_bn": "সানজয় উড প্লে ক্রিকেট।",
+     "text": "Sanjoy would play cricket."
+    },
+    {
+     "bn": "সময় পেলে সঞ্জয় ক্রিকেট খেলত।",
+     "pron_bn": "সানজয় উড প্লে ক্রিকেট ইফ হি হ্যাড টাইম।",
+     "text": "Sanjoy would play cricket if he had time."
+    },
+    {
+     "bn": "সময় পেলে সঞ্জয় রহিমের সাথে ক্রিকেট খেলত।",
+     "pron_bn": "সানজয় উড প্লে ক্রিকেট উইথ রহিম ইফ হি হ্যাড টাইম।",
+     "text": "Sanjoy would play cricket with Rahim if he had time."
+    },
+    {
+     "bn": "সময় পেলে সঞ্জয় হাজীগঞ্জে রহিমের সাথে ক্রিকেট খেলত।",
+     "pron_bn": "সানজয় উড প্লে ক্রিকেট উইথ রহিম ইন হাজিগঞ্জ ইফ হি হ্যাড টাইম।",
+     "text": "Sanjoy would play cricket with Rahim in Hajiganj if he had time."
+    },
+    {
+     "bn": "বিকেলে সময় পেলে সঞ্জয় হাজীগঞ্জে রহিমের সাথে ক্রিকেট খেলত।",
+     "pron_bn": "সানজয় উড প্লে ক্রিকেট উইথ রহিম ইন হাজিগঞ্জ ইফ হি হ্যাড টাইম ইন দি আফটারনুন।",
+     "text": "Sanjoy would play cricket with Rahim in Hajiganj if he had time in the afternoon."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি সেকেন্ড কন্ডিশনাল দিয়ে ভ্রমণের ইচ্ছা আর শর্ত যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নুসরাত চাঁদপুরে বেড়াতে যেত।",
+     "pron_bn": "নুসরাত উড ভিজিট চাঁদপুর।",
+     "text": "Nusrat would visit Chandpur."
+    },
+    {
+     "bn": "টাকা থাকলে নুসরাত চাঁদপুরে বেড়াতে যেত।",
+     "pron_bn": "নুসরাত উড ভিজিট চাঁদপুর ইফ শি হ্যাড মানি।",
+     "text": "Nusrat would visit Chandpur if she had money."
+    },
+    {
+     "bn": "টাকা থাকলে নুসরাত পরিবারের সাথে চাঁদপুরে বেড়াতে যেত।",
+     "pron_bn": "নুসরাত উড ভিজিট চাঁদপুর উইথ হার ফ্যামিলি ইফ শি হ্যাড মানি।",
+     "text": "Nusrat would visit Chandpur with her family if she had money."
+    },
+    {
+     "bn": "বাস ভাড়ার টাকা থাকলে নুসরাত পরিবারের সাথে চাঁদপুরে বেড়াতে যেত।",
+     "pron_bn": "নুসরাত উড ভিজিট চাঁদপুর উইথ হার ফ্যামিলি ইফ শি হ্যাড মানি ফর দা বাস।",
+     "text": "Nusrat would visit Chandpur with her family if she had money for the bus."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি পড়াশোনা নিয়ে ফার্স্ট কন্ডিশনালে জায়গা আর সঙ্গী যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় ইংরেজি পড়বে।",
+     "pron_bn": "সানজয় উইল স্টাডি ইংলিশ।",
+     "text": "Sanjoy will study English."
+    },
+    {
+     "bn": "তাড়াতাড়ি কাজ শেষ হলে সঞ্জয় ইংরেজি পড়বে।",
+     "pron_bn": "সানজয় উইল স্টাডি ইংলিশ ইফ হি ফিনিশেস ওয়ার্ক আর্লি।",
+     "text": "Sanjoy will study English if he finishes work early."
+    },
+    {
+     "bn": "তাড়াতাড়ি কাজ শেষ হলে সঞ্জয় বাসায় ইংরেজি পড়বে।",
+     "pron_bn": "সানজয় উইল স্টাডি ইংলিশ অ্যাট হোম ইফ হি ফিনিশেস ওয়ার্ক আর্লি।",
+     "text": "Sanjoy will study English at home if he finishes work early."
+    },
+    {
+     "bn": "তাড়াতাড়ি কাজ শেষ হলে সঞ্জয় বাসায় সুকুমারের সাথে ইংরেজি পড়বে।",
+     "pron_bn": "সানজয় উইল স্টাডি ইংলিশ অ্যাট হোম উইথ সুকুমার ইফ হি ফিনিশেস ওয়ার্ক আর্লি।",
+     "text": "Sanjoy will study English at home with Sukumar if he finishes work early."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি স্বাস্থ্য নিয়ে ফার্স্ট কন্ডিশনালে ভালো অভ্যাস যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় ভালো বোধ করবে।",
+     "pron_bn": "সানজয় উইল ফিল বেটার।",
+     "text": "Sanjoy will feel better."
+    },
+    {
+     "bn": "ভালো ঘুম হলে সঞ্জয় ভালো বোধ করবে।",
+     "pron_bn": "সানজয় উইল ফিল বেটার ইফ হি স্লিপস ওয়েল।",
+     "text": "Sanjoy will feel better if he sleeps well."
+    },
+    {
+     "bn": "ভালো ঘুম হলে সঞ্জয় আগামীকাল ভালো বোধ করবে।",
+     "pron_bn": "সানজয় উইল ফিল বেটার টুমরো ইফ হি স্লিপস ওয়েল।",
+     "text": "Sanjoy will feel better tomorrow if he sleeps well."
+    },
+    {
+     "bn": "ভালো ঘুম হলে আর পানি খেলে সঞ্জয় আগামীকাল ভালো বোধ করবে।",
+     "pron_bn": "সানজয় উইল ফিল বেটার টুমরো ইফ হি স্লিপস ওয়েল অ্যান্ড ড্রিংকস ওয়াটার।",
+     "text": "Sanjoy will feel better tomorrow if he sleeps well and drinks water."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি কেনাকাটা নিয়ে সেকেন্ড কন্ডিশনালে দাম আর মান যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় একটা নতুন শার্ট কিনত।",
+     "pron_bn": "সানজয় উড বাই আ নিউ শার্ট।",
+     "text": "Sanjoy would buy a new shirt."
+    },
+    {
+     "bn": "দাম কম হলে সঞ্জয় একটা নতুন শার্ট কিনত।",
+     "pron_bn": "সানজয় উড বাই আ নিউ শার্ট ইফ ইট ওয়াজ চিপ।",
+     "text": "Sanjoy would buy a new shirt if it was cheap."
+    },
+    {
+     "bn": "দাম কম হলে সঞ্জয় হাজীগঞ্জ বাজার থেকে একটা নতুন শার্ট কিনত।",
+     "pron_bn": "সানজয় উড বাই আ নিউ শার্ট ইন হাজিগঞ্জ বাজার ইফ ইট ওয়াজ চিপ।",
+     "text": "Sanjoy would buy a new shirt in Hajiganj Bazar if it was cheap."
+    },
+    {
+     "bn": "দাম কম আর আরামদায়ক হলে সঞ্জয় হাজীগঞ্জ বাজার থেকে একটা নতুন শার্ট কিনত।",
+     "pron_bn": "সানজয় উড বাই আ নিউ শার্ট ইন হাজিগঞ্জ বাজার ইফ ইট ওয়াজ চিপ অ্যান্ড কমফোর্টেবল।",
+     "text": "Sanjoy would buy a new shirt in Hajiganj Bazar if it was cheap and comfortable."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি আবহাওয়া নিয়ে ফার্স্ট কন্ডিশনালে পরিবারের কাজ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "তারা বাসায় থাকবে।",
+     "pron_bn": "দে উইল স্টে অ্যাট হোম।",
+     "text": "They will stay at home."
+    },
+    {
+     "bn": "বৃষ্টি হলে তারা বাসায় থাকবে।",
+     "pron_bn": "দে উইল স্টে অ্যাট হোম ইফ ইট রেইনস।",
+     "text": "They will stay at home if it rains."
+    },
+    {
+     "bn": "বৃষ্টি হলে তারা বাসায় থেকে টিভি দেখবে।",
+     "pron_bn": "দে উইল স্টে অ্যাট হোম অ্যান্ড ওয়াচ টিভি ইফ ইট রেইনস।",
+     "text": "They will stay at home and watch TV if it rains."
+    },
+    {
+     "bn": "বৃষ্টি হলে তারা পরিবারের সাথে বাসায় থেকে টিভি দেখবে।",
+     "pron_bn": "দে উইল স্টে অ্যাট হোম অ্যান্ড ওয়াচ টিভি উইথ ফ্যামিলি ইফ ইট রেইনস।",
+     "text": "They will stay at home and watch TV with family if it rains."
+    },
+    {
+     "bn": "আগামীকাল বৃষ্টি হলে তারা পরিবারের সাথে বাসায় থেকে টিভি দেখবে।",
+     "pron_bn": "দে উইল স্টে অ্যাট হোম অ্যান্ড ওয়াচ টিভি উইথ ফ্যামিলি ইফ ইট রেইনস টুমরো।",
+     "text": "They will stay at home and watch TV with family if it rains tomorrow."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি ফোন নিয়ে ফার্স্ট কন্ডিশনালে সময় আর ভিডিও কল যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাজীব সঞ্জয়কে ফোন করবে।",
+     "pron_bn": "রাজিব উইল কল সানজয়।",
+     "text": "Rajib will call Sanjoy."
+    },
+    {
+     "bn": "ফোন ঠিক থাকলে রাজীব সঞ্জয়কে ফোন করবে।",
+     "pron_bn": "রাজিব উইল কল সানজয় ইফ হিজ ফোন ওয়ার্কস।",
+     "text": "Rajib will call Sanjoy if his phone works."
+    },
+    {
+     "bn": "ফোন ঠিক থাকলে রাজীব আজ রাতে সঞ্জয়কে ফোন করবে।",
+     "pron_bn": "রাজিব উইল কল সানজয় টুনাইট ইফ হিজ ফোন ওয়ার্কস।",
+     "text": "Rajib will call Sanjoy tonight if his phone works."
+    },
+    {
+     "bn": "ফোন ঠিক থাকলে রাজীব আজ রাতে সঞ্জয়কে ভিডিও কল করবে।",
+     "pron_bn": "রাজিব উইল কল সানজয় টুনাইট অন ভিডিও কল ইফ হিজ ফোন ওয়ার্কস।",
+     "text": "Rajib will call Sanjoy tonight on video call if his phone works."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি শহরের জীবন নিয়ে সেকেন্ড কন্ডিশনালে চাওয়া যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "ঢাকায় জীবন আরও সহজ হতো।",
+     "pron_bn": "লাইফ উড বি ইজিয়ার ইন ঢাকা।",
+     "text": "Life would be easier in Dhaka."
+    },
+    {
+     "bn": "যানজট কম হলে ঢাকায় জীবন আরও সহজ হতো।",
+     "pron_bn": "লাইফ উড বি ইজিয়ার ইন ঢাকা ইফ দা ট্রাফিক ওয়াজ বেটার।",
+     "text": "Life would be easier in Dhaka if the traffic was better."
+    },
+    {
+     "bn": "যানজট কম হলে সঞ্জয়ের জন্য ঢাকায় জীবন আরও সহজ হতো।",
+     "pron_bn": "লাইফ উড বি ইজিয়ার ইন ঢাকা ফর সানজয় ইফ দা ট্রাফিক ওয়াজ বেটার।",
+     "text": "Life would be easier in Dhaka for Sanjoy if the traffic was better."
+    },
+    {
+     "bn": "যানজট কম হলে আর রাস্তা পরিষ্কার থাকলে সঞ্জয়ের জন্য ঢাকায় জীবন আরও সহজ হতো।",
+     "pron_bn": "লাইফ উড বি ইজিয়ার ইন ঢাকা ফর সানজয় ইফ দা ট্রাফিক ওয়াজ বেটার অ্যান্ড দা রোডস ওয়্যার ক্লিন।",
+     "text": "Life would be easier in Dhaka for Sanjoy if the traffic was better and the roads were clean."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি ইফ দিয়ে সত্যি সম্ভাবনা আর কল্পনা বলা শিখবে। তুমি সঞ্জয়ের জীবনের উদাহরণ দিয়ে ধাপে ধাপে বাক্য বড় করবে।",
+ "tip_bn": "তুমি সত্যি সম্ভাবনার জন্য ইফ + প্রেজেন্ট আর উইল বলবে। তুমি কল্পনার জন্য ইফ + পাস্ট আর উড বলবে।",
+ "title": "Real and Imagined Results with If"
+}

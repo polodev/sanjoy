@@ -1,0 +1,232 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি should দিয়ে পরামর্শ আর can দিয়ে ফলাফল যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয়ের বাবা অসুস্থ।",
+     "pron_bn": "সানজয়’স ফাদার ইজ সিক।",
+     "text": "Sanjoy's father is sick."
+    },
+    {
+     "bn": "সঞ্জয়ের বাবা অসুস্থ, তাই তার বিছানায় শুয়ে থাকা উচিত।",
+     "pron_bn": "সানজয়’স ফাদার ইজ সিক অ্যান্ড শুড স্টে ইন বেড।",
+     "text": "Sanjoy's father is sick and should stay in bed."
+    },
+    {
+     "bn": "সঞ্জয়ের বাবা অসুস্থ, তাই তার বিছানায় শুয়ে থাকা উচিত, যাতে সে তাড়াতাড়ি সুস্থ হতে পারে।",
+     "pron_bn": "সানজয়’স ফাদার ইজ সিক অ্যান্ড শুড স্টে ইন বেড, সো হি ক্যান গেট ওয়েল কুইকলি।",
+     "text": "Sanjoy's father is sick and should stay in bed, so he can get well quickly."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি can দিয়ে সামর্থ্য আর have to দিয়ে দায়িত্ব যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় মেডিসিন কর্নারে কাজ করে।",
+     "pron_bn": "সানজয় ওয়ার্কস অ্যাট মেডিসিন কর্নার।",
+     "text": "Sanjoy works at Medicine Corner."
+    },
+    {
+     "bn": "সঞ্জয় মেডিসিন কর্নারে কাজ করে আর অসুস্থ মানুষদের সাহায্য করতে পারে।",
+     "pron_bn": "সানজয় ওয়ার্কস অ্যাট মেডিসিন কর্নার অ্যান্ড ক্যান হেল্প সিক পিপল।",
+     "text": "Sanjoy works at Medicine Corner and can help sick people."
+    },
+    {
+     "bn": "সঞ্জয় মেডিসিন কর্নারে কাজ করে আর অসুস্থ মানুষদের সাহায্য করতে পারে, কিন্তু তাকে প্রতিদিন কঠোর পরিশ্রম করতে হয়।",
+     "pron_bn": "সানজয় ওয়ার্কস অ্যাট মেডিসিন কর্নার অ্যান্ড ক্যান হেল্প সিক পিপল, বাট হি হ্যাজ টু ওয়ার্ক হার্ড এভরি ডে।",
+     "text": "Sanjoy works at Medicine Corner and can help sick people, but he has to work hard every day."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি should দিয়ে পরামর্শ, জায়গার নাম আর can দিয়ে উদ্দেশ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রহিমের কাশি হয়েছে।",
+     "pron_bn": "রাহিম হ্যাজ আ কফ।",
+     "text": "Rahim has a cough."
+    },
+    {
+     "bn": "রহিমের কাশি হয়েছে, তাই তার সঞ্জয়ের কাছে যাওয়া উচিত।",
+     "pron_bn": "রাহিম হ্যাজ আ কফ অ্যান্ড শুড ভিজিট সানজয়।",
+     "text": "Rahim has a cough and should visit Sanjoy."
+    },
+    {
+     "bn": "রহিমের কাশি হয়েছে, তাই তার হাজীগঞ্জের মেডিসিন কর্নারে সঞ্জয়ের কাছে যাওয়া উচিত।",
+     "pron_bn": "রাহিম হ্যাজ আ কফ অ্যান্ড শুড ভিজিট সানজয় অ্যাট মেডিসিন কর্নার ইন হাজিগঞ্জ।",
+     "text": "Rahim has a cough and should visit Sanjoy at Medicine Corner in Hajiganj."
+    },
+    {
+     "bn": "রহিমের কাশি হয়েছে, তাই তার হাজীগঞ্জের মেডিসিন কর্নারে সঞ্জয়ের কাছে যাওয়া উচিত, যাতে সে ভালো সিরাপ পেতে পারে।",
+     "pron_bn": "রাহিম হ্যাজ আ কফ অ্যান্ড শুড ভিজিট সানজয় অ্যাট মেডিসিন কর্নার ইন হাজিগঞ্জ, সো হি ক্যান গেট গুড সিরাপ।",
+     "text": "Rahim has a cough and should visit Sanjoy at Medicine Corner in Hajiganj, so he can get good syrup."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি should দিয়ে পরামর্শ আর can দিয়ে ভালো ফল যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় ঢাকা যাবে।",
+     "pron_bn": "সানজয় উইল গো টু ঢাকা।",
+     "text": "Sanjoy will go to Dhaka."
+    },
+    {
+     "bn": "সঞ্জয় ঢাকা যাবে, তাই তার ওষুধ সাথে নেওয়া উচিত।",
+     "pron_bn": "সানজয় উইল গো টু ঢাকা অ্যান্ড শুড টেক হিজ মেডিসিন।",
+     "text": "Sanjoy will go to Dhaka and should take his medicine."
+    },
+    {
+     "bn": "সঞ্জয় ঢাকা যাবে, তাই তার ওষুধ সাথে নেওয়া উচিত, যাতে সে ভ্রমণে সুস্থ থাকতে পারে।",
+     "pron_bn": "সানজয় উইল গো টু ঢাকা অ্যান্ড শুড টেক হিজ মেডিসিন, সো হি ক্যান স্টে হেলদি অন দা ট্রিপ।",
+     "text": "Sanjoy will go to Dhaka and should take his medicine, so he can stay healthy on the trip."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি should দিয়ে পরামর্শ আর can দিয়ে উপকার যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নুসরাত অনেক রাত পর্যন্ত পড়ে।",
+     "pron_bn": "নুসরাত স্টাডিজ লেট অ্যাট নাইট।",
+     "text": "Nusrat studies late at night."
+    },
+    {
+     "bn": "নুসরাত অনেক রাত পর্যন্ত পড়ে, কিন্তু তার তাড়াতাড়ি ঘুমাতে যাওয়া উচিত।",
+     "pron_bn": "নুসরাত স্টাডিজ লেট অ্যাট নাইট বাট শুড গো টু বেড আর্লি।",
+     "text": "Nusrat studies late at night but should go to bed early."
+    },
+    {
+     "bn": "নুসরাত অনেক রাত পর্যন্ত পড়ে, কিন্তু তার তাড়াতাড়ি ঘুমাতে যাওয়া উচিত, যাতে সে ক্লাসের জন্য সতেজ থাকতে পারে।",
+     "pron_bn": "নুসরাত স্টাডিজ লেট অ্যাট নাইট বাট শুড গো টু বেড আর্লি, সো শি ক্যান বি ফ্রেশ ফর ক্লাস।",
+     "text": "Nusrat studies late at night but should go to bed early, so she can be fresh for class."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি should, have to আর can দিয়ে ধাপে ধাপে চিকিৎসার কথা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাজীবের জ্বর হয়েছে।",
+     "pron_bn": "রাজিব হ্যাজ আ ফিভার।",
+     "text": "Rajib has a fever."
+    },
+    {
+     "bn": "রাজীবের জ্বর হয়েছে, তাই তার ডাক্তার দেখানো উচিত।",
+     "pron_bn": "রাজিব হ্যাজ আ ফিভার অ্যান্ড শুড সি আ ডক্টর।",
+     "text": "Rajib has a fever and should see a doctor."
+    },
+    {
+     "bn": "রাজীবের জ্বর হয়েছে, তাই তার ডাক্তার দেখানো উচিত আর ট্যাবলেট খেতে হবে।",
+     "pron_bn": "রাজিব হ্যাজ আ ফিভার অ্যান্ড শুড সি আ ডক্টর অ্যান্ড হ্যাজ টু টেক ট্যাবলেটস।",
+     "text": "Rajib has a fever and should see a doctor and has to take tablets."
+    },
+    {
+     "bn": "রাজীবের জ্বর হয়েছে, তাই তার ডাক্তার দেখানো উচিত আর ট্যাবলেট খেতে হবে, যাতে সে তাড়াতাড়ি সুস্থ হতে পারে।",
+     "pron_bn": "রাজিব হ্যাজ আ ফিভার অ্যান্ড শুড সি আ ডক্টর অ্যান্ড হ্যাজ টু টেক ট্যাবলেটস, সো হি ক্যান গেট ওয়েল সুন।",
+     "text": "Rajib has a fever and should see a doctor and has to take tablets, so he can get well soon."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি দোকানের নাম, should দিয়ে পরামর্শ আর can দিয়ে কারণ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সুকুমার ওষুধ কেনে।",
+     "pron_bn": "সুকুমার বাইজ মেডিসিন।",
+     "text": "Sukumar buys medicine."
+    },
+    {
+     "bn": "সুকুমার মেডিসিন কর্নার থেকে ওষুধ কেনে।",
+     "pron_bn": "সুকুমার বাইজ মেডিসিন অ্যাট মেডিসিন কর্নার।",
+     "text": "Sukumar buys medicine at Medicine Corner."
+    },
+    {
+     "bn": "সুকুমার মেডিসিন কর্নার থেকে ওষুধ কেনে, আর তার বিলটা রাখা উচিত।",
+     "pron_bn": "সুকুমার বাইজ মেডিসিন অ্যাট মেডিসিন কর্নার অ্যান্ড শুড কিপ দা বিল।",
+     "text": "Sukumar buys medicine at Medicine Corner and should keep the bill."
+    },
+    {
+     "bn": "সুকুমার মেডিসিন কর্নার থেকে ওষুধ কেনে, আর তার বিলটা রাখা উচিত, যাতে সে ডাক্তারকে দেখাতে পারে।",
+     "pron_bn": "সুকুমার বাইজ মেডিসিন অ্যাট মেডিসিন কর্নার অ্যান্ড শুড কিপ দা বিল, সো হি ক্যান শো ইট টু দা ডক্টর।",
+     "text": "Sukumar buys medicine at Medicine Corner and should keep the bill, so he can show it to the doctor."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি should, have to আর can দিয়ে গরমে সুস্থ থাকার নিয়ম যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "চাঁদপুরে খুব গরম পড়েছে।",
+     "pron_bn": "দা ওয়েদার ইজ ভেরি হট ইন চাঁদপুর।",
+     "text": "The weather is very hot in Chandpur."
+    },
+    {
+     "bn": "চাঁদপুরে খুব গরম পড়েছে, তাই আমাদের পরিষ্কার পানি খাওয়া উচিত।",
+     "pron_bn": "দা ওয়েদার ইজ ভেরি হট ইন চাঁদপুর, সো উই শুড ড্রিংক ক্লিন ওয়াটার।",
+     "text": "The weather is very hot in Chandpur, so we should drink clean water."
+    },
+    {
+     "bn": "চাঁদপুরে খুব গরম পড়েছে, তাই আমাদের পরিষ্কার পানি খাওয়া উচিত আর ছায়ায় থাকতে হবে।",
+     "pron_bn": "দা ওয়েদার ইজ ভেরি হট ইন চাঁদপুর, সো উই শুড ড্রিংক ক্লিন ওয়াটার অ্যান্ড হ্যাভ টু স্টে ইন দা শেড।",
+     "text": "The weather is very hot in Chandpur, so we should drink clean water and have to stay in the shade."
+    },
+    {
+     "bn": "চাঁদপুরে খুব গরম পড়েছে, তাই আমাদের পরিষ্কার পানি খাওয়া উচিত আর ছায়ায় থাকতে হবে, যাতে আমরা সুস্থ থাকতে পারি।",
+     "pron_bn": "দা ওয়েদার ইজ ভেরি হট ইন চাঁদপুর, সো উই শুড ড্রিংক ক্লিন ওয়াটার অ্যান্ড হ্যাভ টু স্টে ইন দা শেড, সো উই ক্যান স্টে হেলদি।",
+     "text": "The weather is very hot in Chandpur, so we should drink clean water and have to stay in the shade, so we can stay healthy."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি should দিয়ে পরামর্শ আর can দিয়ে ব্যাখ্যার উদ্দেশ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় ফোনে একজন ক্রেতার সাথে কথা বলে।",
+     "pron_bn": "সানজয় টকস টু আ কাস্টমার অন দা ফোন।",
+     "text": "Sanjoy talks to a customer on the phone."
+    },
+    {
+     "bn": "সঞ্জয় ফোনে একজন ক্রেতার সাথে কথা বলে, আর তার স্পষ্ট করে বলা উচিত।",
+     "pron_bn": "সানজয় টকস টু আ কাস্টমার অন দা ফোন অ্যান্ড শুড স্পিক ক্লিয়ারলি।",
+     "text": "Sanjoy talks to a customer on the phone and should speak clearly."
+    },
+    {
+     "bn": "সঞ্জয় ফোনে একজন ক্রেতার সাথে কথা বলে, আর তার স্পষ্ট করে বলা উচিত, যাতে সে ওষুধটা বুঝিয়ে দিতে পারে।",
+     "pron_bn": "সানজয় টকস টু আ কাস্টমার অন দা ফোন অ্যান্ড শুড স্পিক ক্লিয়ারলি, সো হি ক্যান এক্সপ্লেইন দা মেডিসিন।",
+     "text": "Sanjoy talks to a customer on the phone and should speak clearly, so he can explain the medicine."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি should, have to আর can দিয়ে সুস্থ জীবনের নিয়ম যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় হাজীগঞ্জ শহরে থাকে।",
+     "pron_bn": "সানজয় লিভস ইন হাজিগঞ্জ টাউন।",
+     "text": "Sanjoy lives in Hajiganj town."
+    },
+    {
+     "bn": "সঞ্জয় হাজীগঞ্জ শহরে থাকে, আর তার তাজা খাবার খাওয়া উচিত।",
+     "pron_bn": "সানজয় লিভস ইন হাজিগঞ্জ টাউন অ্যান্ড শুড ইট ফ্রেশ ফুড।",
+     "text": "Sanjoy lives in Hajiganj town and should eat fresh food."
+    },
+    {
+     "bn": "সঞ্জয় হাজীগঞ্জ শহরে থাকে, আর তার তাজা খাবার খাওয়া উচিত আর নিরাপদ পানি খেতে হবে।",
+     "pron_bn": "সানজয় লিভস ইন হাজিগঞ্জ টাউন অ্যান্ড শুড ইট ফ্রেশ ফুড অ্যান্ড হ্যাজ টু ড্রিংক সেফ ওয়াটার।",
+     "text": "Sanjoy lives in Hajiganj town and should eat fresh food and has to drink safe water."
+    },
+    {
+     "bn": "সঞ্জয় হাজীগঞ্জ শহরে থাকে, আর তার তাজা খাবার খাওয়া উচিত আর নিরাপদ পানি খেতে হবে, যাতে সে সুস্থ-সবল থাকতে পারে।",
+     "pron_bn": "সানজয় লিভস ইন হাজিগঞ্জ টাউন অ্যান্ড শুড ইট ফ্রেশ ফুড অ্যান্ড হ্যাজ টু ড্রিংক সেফ ওয়াটার, সো হি ক্যান স্টে স্ট্রং।",
+     "text": "Sanjoy lives in Hajiganj town and should eat fresh food and has to drink safe water, so he can stay strong."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি স্বাস্থ্য আর ফার্মেসি নিয়ে কথা বলা শিখবে। তুমি should, have to আর can দিয়ে ছোট বাক্যকে বড় করবে।",
+ "tip_bn": "তুমি should দিয়ে ভালো পরামর্শ দেবে, have to দিয়ে জরুরি কাজ বোঝাবে আর can দিয়ে পারা বোঝাবে। তুমি প্রতিটি ধাপ জোরে পড়ো আর সঞ্জয়ের জায়গায় নিজের নাম বসিয়ে বলো।",
+ "title": "Health and the Pharmacy"
+}

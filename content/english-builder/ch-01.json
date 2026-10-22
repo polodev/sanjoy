@@ -1,0 +1,207 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি একটা adjective আর হাজীগঞ্জের নাম যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় তার পরিবারকে ভালোবাসে।",
+     "pron_bn": "সনজয় লাভস হিজ ফ্যামিলি।",
+     "text": "Sanjoy loves his family."
+    },
+    {
+     "bn": "সঞ্জয় তার সুখী পরিবারকে ভালোবাসে।",
+     "pron_bn": "সনজয় লাভস হিজ হ্যাপি ফ্যামিলি।",
+     "text": "Sanjoy loves his happy family."
+    },
+    {
+     "bn": "সঞ্জয় হাজীগঞ্জে তার সুখী পরিবারকে ভালোবাসে।",
+     "pron_bn": "সনজয় লাভস হিজ হ্যাপি ফ্যামিলি ইন হাজীগঞ্জ।",
+     "text": "Sanjoy loves his happy family in Hajiganj."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি একটা adjective আর দোকানের নাম যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় ওষুধ বিক্রি করে।",
+     "pron_bn": "সনজয় সেলস মেডিসিন।",
+     "text": "Sanjoy sells medicine."
+    },
+    {
+     "bn": "সঞ্জয় ভালো ওষুধ বিক্রি করে।",
+     "pron_bn": "সনজয় সেলস গুড মেডিসিন।",
+     "text": "Sanjoy sells good medicine."
+    },
+    {
+     "bn": "সঞ্জয় মেডিসিন কর্নারে ভালো ওষুধ বিক্রি করে।",
+     "pron_bn": "সনজয় সেলস গুড মেডিসিন অ্যাট মেডিসিন কর্নার।",
+     "text": "Sanjoy sells good medicine at Medicine Corner."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি বন্ধু শব্দ আর চাঁদপুরের নাম যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় রহিমের সাথে দেখা করে।",
+     "pron_bn": "সনজয় মিটস রহিম।",
+     "text": "Sanjoy meets Rahim."
+    },
+    {
+     "bn": "সঞ্জয় তার বন্ধু রহিমের সাথে দেখা করে।",
+     "pron_bn": "সনজয় মিটস হিজ ফ্রেন্ড রহিম।",
+     "text": "Sanjoy meets his friend Rahim."
+    },
+    {
+     "bn": "সঞ্জয় চাঁদপুরে তার বন্ধু রহিমের সাথে দেখা করে।",
+     "pron_bn": "সনজয় মিটস হিজ ফ্রেন্ড রহিম ইন চাঁদপুর।",
+     "text": "Sanjoy meets his friend Rahim in Chandpur."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি একটা adjective আর ঢাকার নাম যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয়ের একটা বাস দরকার।",
+     "pron_bn": "সনজয় নিডস আ বাস।",
+     "text": "Sanjoy needs a bus."
+    },
+    {
+     "bn": "সঞ্জয়ের একটা বড় বাস দরকার।",
+     "pron_bn": "সনজয় নিডস আ বিগ বাস।",
+     "text": "Sanjoy needs a big bus."
+    },
+    {
+     "bn": "সঞ্জয়ের ঢাকায় যাওয়ার জন্য একটা বড় বাস দরকার।",
+     "pron_bn": "সনজয় নিডস আ বিগ বাস টু ঢাকা।",
+     "text": "Sanjoy needs a big bus to Dhaka."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি বইয়ের আগে দুটি adjective যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় বই পড়ে।",
+     "pron_bn": "সনজয় রিডস বুকস।",
+     "text": "Sanjoy reads books."
+    },
+    {
+     "bn": "সঞ্জয় ইংরেজি বই পড়ে।",
+     "pron_bn": "সনজয় রিডস ইংলিশ বুকস।",
+     "text": "Sanjoy reads English books."
+    },
+    {
+     "bn": "সঞ্জয় সহজ ইংরেজি বই পড়ে।",
+     "pron_bn": "সনজয় রিডস ইজি ইংলিশ বুকস।",
+     "text": "Sanjoy reads easy English books."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি পানির আগে দুটি adjective যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নুসরাত পানি খায়।",
+     "pron_bn": "নুসরাত ড্রিংকস ওয়াটার।",
+     "text": "Nusrat drinks water."
+    },
+    {
+     "bn": "নুসরাত পরিষ্কার পানি খায়।",
+     "pron_bn": "নুসরাত ড্রিংকস ক্লিন ওয়াটার।",
+     "text": "Nusrat drinks clean water."
+    },
+    {
+     "bn": "নুসরাত পরিষ্কার ঠান্ডা পানি খায়।",
+     "pron_bn": "নুসরাত ড্রিংকস ক্লিন কোল্ড ওয়াটার।",
+     "text": "Nusrat drinks clean cold water."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি একটা adjective আর হাজীগঞ্জের নাম যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সুকুমার চাল কেনে।",
+     "pron_bn": "সুকুমার বাইস রাইস।",
+     "text": "Sukumar buys rice."
+    },
+    {
+     "bn": "সুকুমার সাদা চাল কেনে।",
+     "pron_bn": "সুকুমার বাইস হোয়াইট রাইস।",
+     "text": "Sukumar buys white rice."
+    },
+    {
+     "bn": "সুকুমার হাজীগঞ্জে সাদা চাল কেনে।",
+     "pron_bn": "সুকুমার বাইস হোয়াইট রাইস ইন হাজীগঞ্জ।",
+     "text": "Sukumar buys white rice in Hajiganj."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি বৃষ্টির আগে দুটি adjective যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমি বৃষ্টি পছন্দ করি।",
+     "pron_bn": "আই লাইক রেইন।",
+     "text": "I like rain."
+    },
+    {
+     "bn": "আমি ঠান্ডা বৃষ্টি পছন্দ করি।",
+     "pron_bn": "আই লাইক কুল রেইন।",
+     "text": "I like cool rain."
+    },
+    {
+     "bn": "আমি সকালের ঠান্ডা বৃষ্টি পছন্দ করি।",
+     "pron_bn": "আই লাইক কুল মর্নিং রেইন।",
+     "text": "I like cool morning rain."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি ফোনের আগে দুটি adjective যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাজীবের একটা ফোন আছে।",
+     "pron_bn": "রাজিব হ্যাজ আ ফোন।",
+     "text": "Rajib has a phone."
+    },
+    {
+     "bn": "রাজীবের একটা নতুন ফোন আছে।",
+     "pron_bn": "রাজিব হ্যাজ আ নিউ ফোন।",
+     "text": "Rajib has a new phone."
+    },
+    {
+     "bn": "রাজীবের একটা নতুন ছোট ফোন আছে।",
+     "pron_bn": "রাজিব হ্যাজ আ নিউ স্মল ফোন।",
+     "text": "Rajib has a new small phone."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি একটা adjective আর চাঁদপুরের নাম যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় তার গ্রাম পছন্দ করে।",
+     "pron_bn": "সনজয় লাইকস হিজ ভিলেজ।",
+     "text": "Sanjoy likes his village."
+    },
+    {
+     "bn": "সঞ্জয় তার ছোট গ্রাম পছন্দ করে।",
+     "pron_bn": "সনজয় লাইকস হিজ স্মল ভিলেজ।",
+     "text": "Sanjoy likes his small village."
+    },
+    {
+     "bn": "সঞ্জয় চাঁদপুরের কাছে তার ছোট গ্রাম পছন্দ করে।",
+     "pron_bn": "সনজয় লাইকস হিজ স্মল ভিলেজ নিয়ার চাঁদপুর।",
+     "text": "Sanjoy likes his small village near Chandpur."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "তুমি ছোট বাক্য থেকে শুরু করে ধাপে ধাপে বড় বাক্য বানাবে। এই অধ্যায়ে তুমি object-এর সাথে adjective যোগ করা শিখবে।",
+ "tip_bn": "তুমি প্রতিটা ধাপ জোরে বলো আর আগের বাক্যটি আবার বলো। তুমি নতুন adjective মুখস্থ করো আর নিজে নতুন বাক্য বানাও।",
+ "title": "Add an Object or Adjective"
+}

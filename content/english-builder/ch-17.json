@@ -1,0 +1,272 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি helping জারান্ড আর to stay উদ্দেশ্যের ইনফিনিটিভ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় তার পরিবারকে ভালোবাসে।",
+     "pron_bn": "সানজয় লাভস হিজ ফ্যামিলি।",
+     "text": "Sanjoy loves his family."
+    },
+    {
+     "bn": "সঞ্জয় তার পরিবারকে সাহায্য করতে ভালোবাসে।",
+     "pron_bn": "সানজয় লাভস হেলপিং হিজ ফ্যামিলি।",
+     "text": "Sanjoy loves helping his family."
+    },
+    {
+     "bn": "সঞ্জয় কাজের পরে তার পরিবারকে সাহায্য করতে ভালোবাসে।",
+     "pron_bn": "সানজয় লাভস হেলপিং হিজ ফ্যামিলি আফটার ওয়ার্ক।",
+     "text": "Sanjoy loves helping his family after work."
+    },
+    {
+     "bn": "সঞ্জয় ঘনিষ্ঠ থাকার জন্য কাজের পরে পরিবারকে সাহায্য করতে ভালোবাসে।",
+     "pron_bn": "সানজয় লাভস হেলপিং হিজ ফ্যামিলি আফটার ওয়ার্ক টু স্টে ক্লোজ।",
+     "text": "Sanjoy loves helping his family after work to stay close."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি working জারান্ড আর to help উদ্দেশ্যের ইনফিনিটিভ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় কাজ করে আনন্দ পায়।",
+     "pron_bn": "সানজয় এনজয়স ওয়ার্কিং।",
+     "text": "Sanjoy enjoys working."
+    },
+    {
+     "bn": "সঞ্জয় মেডিসিন কর্নারে কাজ করে আনন্দ পায়।",
+     "pron_bn": "সানজয় এনজয়স ওয়ার্কিং অ্যাট মেডিসিন কর্নার।",
+     "text": "Sanjoy enjoys working at Medicine Corner."
+    },
+    {
+     "bn": "সঞ্জয় রহিমের সঙ্গে মেডিসিন কর্নারে কাজ করে আনন্দ পায়।",
+     "pron_bn": "সানজয় এনজয়স ওয়ার্কিং অ্যাট মেডিসিন কর্নার উইথ রহিম।",
+     "text": "Sanjoy enjoys working at Medicine Corner with Rahim."
+    },
+    {
+     "bn": "সঞ্জয় প্রতিদিন রহিমের সঙ্গে মেডিসিন কর্নারে কাজ করে আনন্দ পায়।",
+     "pron_bn": "সানজয় এনজয়স ওয়ার্কিং অ্যাট মেডিসিন কর্নার উইথ রহিম এভরি ডে।",
+     "text": "Sanjoy enjoys working at Medicine Corner with Rahim every day."
+    },
+    {
+     "bn": "সঞ্জয় অসুস্থ মানুষকে সাহায্য করার জন্য প্রতিদিন রহিমের সঙ্গে মেডিসিন কর্নারে কাজ করে আনন্দ পায়।",
+     "pron_bn": "সানজয় এনজয়স ওয়ার্কিং অ্যাট মেডিসিন কর্নার উইথ রহিম এভরি ডে টু হেলপ সিক পিপল।",
+     "text": "Sanjoy enjoys working at Medicine Corner with Rahim every day to help sick people."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি to drink আর to enjoy ইনফিনিটিভ যোগ করে উদ্দেশ্য বুঝিয়েছ।",
+   "steps": [
+    {
+     "bn": "নুসরাত সুকুমারকে নিমন্ত্রণ করল।",
+     "pron_bn": "নুসরাত ইনভাইটেড সুকুমার।",
+     "text": "Nusrat invited Sukumar."
+    },
+    {
+     "bn": "নুসরাত চা খেতে সুকুমারকে নিমন্ত্রণ করল।",
+     "pron_bn": "নুসরাত ইনভাইটেড সুকুমার টু ড্রিংক টি।",
+     "text": "Nusrat invited Sukumar to drink tea."
+    },
+    {
+     "bn": "নুসরাত হাজীগঞ্জ বাজারে চা খেতে সুকুমারকে নিমন্ত্রণ করল।",
+     "pron_bn": "নুসরাত ইনভাইটেড সুকুমার টু ড্রিংক টি ইন হাজিগঞ্জ বাজার।",
+     "text": "Nusrat invited Sukumar to drink tea in Hajiganj Bazar."
+    },
+    {
+     "bn": "নুসরাত সন্ধ্যাটা উপভোগ করতে হাজীগঞ্জ বাজারে চা খেতে সুকুমারকে নিমন্ত্রণ করল।",
+     "pron_bn": "নুসরাত ইনভাইটেড সুকুমার টু ড্রিংক টি ইন হাজিগঞ্জ বাজার টু এনজয় দি ইভনিং।",
+     "text": "Nusrat invited Sukumar to drink tea in Hajiganj Bazar to enjoy the evening."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি to travel আর to meet ইনফিনিটিভ দিয়ে পরিকল্পনা আর উদ্দেশ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় ঘুরতে যেতে চায়।",
+     "pron_bn": "সানজয় ওয়ান্টস টু ট্রাভেল।",
+     "text": "Sanjoy wants to travel."
+    },
+    {
+     "bn": "সঞ্জয় ঢাকায় ঘুরতে যেতে চায়।",
+     "pron_bn": "সানজয় ওয়ান্টস টু ট্রাভেল টু ঢাকা।",
+     "text": "Sanjoy wants to travel to Dhaka."
+    },
+    {
+     "bn": "সঞ্জয় রাজীবের সঙ্গে ঢাকায় ঘুরতে যেতে চায়।",
+     "pron_bn": "সানজয় ওয়ান্টস টু ট্রাভেল টু ঢাকা উইথ রাজিব।",
+     "text": "Sanjoy wants to travel to Dhaka with Rajib."
+    },
+    {
+     "bn": "সঞ্জয় আগামী মাসে রাজীবের সঙ্গে ঢাকায় ঘুরতে যেতে চায়।",
+     "pron_bn": "সানজয় ওয়ান্টস টু ট্রাভেল টু ঢাকা উইথ রাজিব নেক্সট মান্থ।",
+     "text": "Sanjoy wants to travel to Dhaka with Rajib next month."
+    },
+    {
+     "bn": "সঞ্জয় তার চাচাতো ভাইয়ের সঙ্গে দেখা করতে আগামী মাসে রাজীবের সঙ্গে ঢাকায় যেতে চায়।",
+     "pron_bn": "সানজয় ওয়ান্টস টু ট্রাভেল টু ঢাকা উইথ রাজিব নেক্সট মান্থ টু মিট হিজ কাজিন।",
+     "text": "Sanjoy wants to travel to Dhaka with Rajib next month to meet his cousin."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি to study আর to pass ইনফিনিটিভ যোগ করে লক্ষ্য বুঝিয়েছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় পড়াশোনা করার সিদ্ধান্ত নিল।",
+     "pron_bn": "সানজয় ডিসাইডেড টু স্টাডি।",
+     "text": "Sanjoy decided to study."
+    },
+    {
+     "bn": "সঞ্জয় ইংরেজি পড়ার সিদ্ধান্ত নিল।",
+     "pron_bn": "সানজয় ডিসাইডেড টু স্টাডি ইংলিশ।",
+     "text": "Sanjoy decided to study English."
+    },
+    {
+     "bn": "সঞ্জয় প্রতিরাতে ইংরেজি পড়ার সিদ্ধান্ত নিল।",
+     "pron_bn": "সানজয় ডিসাইডেড টু স্টাডি ইংলিশ এভরি নাইট।",
+     "text": "Sanjoy decided to study English every night."
+    },
+    {
+     "bn": "সঞ্জয় পরীক্ষায় পাস করতে প্রতিরাতে ইংরেজি পড়ার সিদ্ধান্ত নিল।",
+     "pron_bn": "সানজয় ডিসাইডেড টু স্টাডি ইংলিশ এভরি নাইট টু পাস হিজ এগজাম।",
+     "text": "Sanjoy decided to study English every night to pass his exam."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি walking জারান্ড আর to stay উদ্দেশ্যের ইনফিনিটিভ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় নিয়মিত হাঁটে।",
+     "pron_bn": "সানজয় কিপস ওয়াকিং।",
+     "text": "Sanjoy keeps walking."
+    },
+    {
+     "bn": "সঞ্জয় সকালে নিয়মিত হাঁটে।",
+     "pron_bn": "সানজয় কিপস ওয়াকিং ইন দা মর্নিং।",
+     "text": "Sanjoy keeps walking in the morning."
+    },
+    {
+     "bn": "সঞ্জয় বাবার সঙ্গে সকালে নিয়মিত হাঁটে।",
+     "pron_bn": "সানজয় কিপস ওয়াকিং ইন দা মর্নিং উইথ হিজ ফাদার।",
+     "text": "Sanjoy keeps walking in the morning with his father."
+    },
+    {
+     "bn": "সঞ্জয় সুস্থ থাকতে বাবার সঙ্গে সকালে নিয়মিত হাঁটে।",
+     "pron_bn": "সানজয় কিপস ওয়াকিং ইন দা মর্নিং উইথ হিজ ফাদার টু স্টে হেলদি।",
+     "text": "Sanjoy keeps walking in the morning with his father to stay healthy."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি shopping জারান্ড আর to buy উদ্দেশ্যের ইনফিনিটিভ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সুকুমার বাজার করতে ভালোবাসে।",
+     "pron_bn": "সুকুমার লাভস শপিং।",
+     "text": "Sukumar loves shopping."
+    },
+    {
+     "bn": "সুকুমার চাঁদপুর শহরে বাজার করতে ভালোবাসে।",
+     "pron_bn": "সুকুমার লাভস শপিং ইন চাঁদপুর টাউন।",
+     "text": "Sukumar loves shopping in Chandpur town."
+    },
+    {
+     "bn": "সুকুমার সঞ্জয়ের সঙ্গে চাঁদপুর শহরে বাজার করতে ভালোবাসে।",
+     "pron_bn": "সুকুমার লাভস শপিং ইন চাঁদপুর টাউন উইথ সানজয়।",
+     "text": "Sukumar loves shopping in Chandpur town with Sanjoy."
+    },
+    {
+     "bn": "সুকুমার টাটকা সবজি কিনতে সঞ্জয়ের সঙ্গে চাঁদপুর শহরে বাজার করতে ভালোবাসে।",
+     "pron_bn": "সুকুমার লাভস শপিং ইন চাঁদপুর টাউন উইথ সানজয় টু বাই ফ্রেশ ভেজিটেবলস।",
+     "text": "Sukumar loves shopping in Chandpur town with Sanjoy to buy fresh vegetables."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি watching জারান্ড আর to feel উদ্দেশ্যের ইনফিনিটিভ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রহিম বৃষ্টি পছন্দ করে।",
+     "pron_bn": "রহিম লাইকস দা রেইন।",
+     "text": "Rahim likes the rain."
+    },
+    {
+     "bn": "রহিম বৃষ্টি দেখতে পছন্দ করে।",
+     "pron_bn": "রহিম লাইকস ওয়াচিং দা রেইন।",
+     "text": "Rahim likes watching the rain."
+    },
+    {
+     "bn": "রহিম জানালা দিয়ে বৃষ্টি দেখতে পছন্দ করে।",
+     "pron_bn": "রহিম লাইকস ওয়াচিং দা রেইন ফ্রম দা উইন্ডো।",
+     "text": "Rahim likes watching the rain from the window."
+    },
+    {
+     "bn": "রহিম শান্তি পেতে জানালা দিয়ে বৃষ্টি দেখতে পছন্দ করে।",
+     "pron_bn": "রহিম লাইকস ওয়াচিং দা রেইন ফ্রম দা উইন্ডো টু ফিল কাম।",
+     "text": "Rahim likes watching the rain from the window to feel calm."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি learning জারান্ড আর to improve উদ্দেশ্যের ইনফিনিটিভ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় অনলাইনে শিখে আনন্দ পায়।",
+     "pron_bn": "সানজয় এনজয়স লার্নিং অনলাইন।",
+     "text": "Sanjoy enjoys learning online."
+    },
+    {
+     "bn": "সঞ্জয় অনলাইনে ইংরেজি শিখে আনন্দ পায়।",
+     "pron_bn": "সানজয় এনজয়স লার্নিং ইংলিশ অনলাইন।",
+     "text": "Sanjoy enjoys learning English online."
+    },
+    {
+     "bn": "সঞ্জয় মোবাইল দিয়ে অনলাইনে ইংরেজি শিখে আনন্দ পায়।",
+     "pron_bn": "সানজয় এনজয়স লার্নিং ইংলিশ অনলাইন উইথ হিজ ফোন।",
+     "text": "Sanjoy enjoys learning English online with his phone."
+    },
+    {
+     "bn": "সঞ্জয় প্রতিরাতে মোবাইল দিয়ে অনলাইনে ইংরেজি শিখে আনন্দ পায়।",
+     "pron_bn": "সানজয় এনজয়স লার্নিং ইংলিশ অনলাইন উইথ হিজ ফোন এভরি নাইট।",
+     "text": "Sanjoy enjoys learning English online with his phone every night."
+    },
+    {
+     "bn": "সঞ্জয় দ্রুত উন্নতি করতে প্রতিরাতে মোবাইল দিয়ে অনলাইনে ইংরেজি শিখে আনন্দ পায়।",
+     "pron_bn": "সানজয় এনজয়স লার্নিং ইংলিশ অনলাইন উইথ হিজ ফোন এভরি নাইট টু ইমপ্রুভ কুইকলি।",
+     "text": "Sanjoy enjoys learning English online with his phone every night to improve quickly."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি living জারান্ড আর in order to উদ্দেশ্যের ইনফিনিটিভ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় হাজীগঞ্জে থাকতে ভালোবাসে।",
+     "pron_bn": "সানজয় লাভস লিভিং ইন হাজিগঞ্জ।",
+     "text": "Sanjoy loves living in Hajiganj."
+    },
+    {
+     "bn": "সঞ্জয় পরিবারের সঙ্গে হাজীগঞ্জে থাকতে ভালোবাসে।",
+     "pron_bn": "সানজয় লাভস লিভিং ইন হাজিগঞ্জ উইথ হিজ ফ্যামিলি।",
+     "text": "Sanjoy loves living in Hajiganj with his family."
+    },
+    {
+     "bn": "সঞ্জয় বাবা-মাকে সাহায্য করতে পরিবারের সঙ্গে হাজীগঞ্জে থাকতে ভালোবাসে।",
+     "pron_bn": "সানজয় লাভস লিভিং ইন হাজিগঞ্জ উইথ হিজ ফ্যামিলি টু হেলপ হিজ প্যারেন্টস।",
+     "text": "Sanjoy loves living in Hajiganj with his family to help his parents."
+    },
+    {
+     "bn": "সঞ্জয় বাবা-মাকে সাহায্য করার জন্য পরিবারের সঙ্গে হাজীগঞ্জে থাকতে ভালোবাসে।",
+     "pron_bn": "সানজয় লাভস লিভিং ইন হাজিগঞ্জ উইথ হিজ ফ্যামিলি ইন অর্ডার টু হেলপ হিজ প্যারেন্টস।",
+     "text": "Sanjoy loves living in Hajiganj with his family in order to help his parents."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "তুমি এই অধ্যায়ে enjoy doing আর decide to do শিখবে। তুমি ছোট বাক্যকে ধাপে ধাপে বড় করবে।",
+ "tip_bn": "তুমি enjoy, love আর keep-এর পরে verb+ing বসাবে। তুমি want, decide আর in order-এর পরে to+verb বসিয়ে উদ্দেশ্য বুঝাবে।",
+ "title": "Enjoy Doing and Decide to Do"
+}

@@ -1,0 +1,277 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি hope to দিয়ে পারিবারিক লক্ষ্য আর by + verb-ing দিয়ে উপায় যোগ করা শিখলে।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় তার পরিবারকে সাহায্য করার আশা করে।",
+     "pron_bn": "সানজয় হোপস টু হেল্প হিজ ফ্যামিলি।",
+     "text": "Sanjoy hopes to help his family."
+    },
+    {
+     "bn": "সঞ্জয় তার পরিবারকে আরও বেশি সাহায্য করার আশা করে।",
+     "pron_bn": "সানজয় হোপস টু হেল্প হিজ ফ্যামিলি মোর।",
+     "text": "Sanjoy hopes to help his family more."
+    },
+    {
+     "bn": "টাকা জমিয়ে সঞ্জয় তার পরিবারকে আরও বেশি সাহায্য করার আশা করে।",
+     "pron_bn": "সানজয় হোপস টু হেল্প হিজ ফ্যামিলি মোর বাই সেভিং মানি।",
+     "text": "Sanjoy hopes to help his family more by saving money."
+    },
+    {
+     "bn": "প্রতি মাসে টাকা জমিয়ে সঞ্জয় তার পরিবারকে আরও বেশি সাহায্য করার আশা করে।",
+     "pron_bn": "সানজয় হোপস টু হেল্প হিজ ফ্যামিলি মোর বাই সেভিং মানি এভরি মান্থ।",
+     "text": "Sanjoy hopes to help his family more by saving money every month."
+    },
+    {
+     "bn": "ভালো ভবিষ্যতের জন্য প্রতি মাসে টাকা জমিয়ে সঞ্জয় তার পরিবারকে আরও বেশি সাহায্য করার আশা করে।",
+     "pron_bn": "সানজয় হোপস টু হেল্প হিজ ফ্যামিলি মোর বাই সেভিং মানি এভরি মান্থ ফর আ বেটার ফিউচার।",
+     "text": "Sanjoy hopes to help his family more by saving money every month for a better future."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি plan to আর by next year দিয়ে কাজের পরিকল্পনা বলা শিখলে।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় আরও শেখার পরিকল্পনা করে।",
+     "pron_bn": "সানজয় প্ল্যানস টু লার্ন মোর।",
+     "text": "Sanjoy plans to learn more."
+    },
+    {
+     "bn": "সঞ্জয় মেডিসিন কর্নারে আরও শেখার পরিকল্পনা করে।",
+     "pron_bn": "সানজয় প্ল্যানস টু লার্ন মোর অ্যাট মেডিসিন কর্নার।",
+     "text": "Sanjoy plans to learn more at Medicine Corner."
+    },
+    {
+     "bn": "সঞ্জয় মেডিসিন কর্নারে নতুন ওষুধ সম্পর্কে আরও শেখার পরিকল্পনা করে।",
+     "pron_bn": "সানজয় প্ল্যানস টু লার্ন মোর অ্যাট মেডিসিন কর্নার অ্যাবাউট নিউ মেডিসিনস।",
+     "text": "Sanjoy plans to learn more at Medicine Corner about new medicines."
+    },
+    {
+     "bn": "আগামী বছরের মধ্যে সঞ্জয় মেডিসিন কর্নারে নতুন ওষুধ সম্পর্কে আরও শেখার পরিকল্পনা করে।",
+     "pron_bn": "সানজয় প্ল্যানস টু লার্ন মোর অ্যাট মেডিসিন কর্নার অ্যাবাউট নিউ মেডিসিনস বাই নেক্সট ইয়ার।",
+     "text": "Sanjoy plans to learn more at Medicine Corner about new medicines by next year."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি plan to দিয়ে বন্ধুদের সাথে ভবিষ্যৎ পরিকল্পনা বলা শিখলে।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় আর রাহিম একটি ছোট ব্যবসা শুরু করার পরিকল্পনা করে।",
+     "pron_bn": "সানজয় অ্যান্ড রাহিম প্ল্যান টু স্টার্ট আ স্মল বিজনেস।",
+     "text": "Sanjoy and Rahim plan to start a small business."
+    },
+    {
+     "bn": "সঞ্জয় আর রাহিম হাজিগঞ্জ বাজারে একটি ছোট ব্যবসা শুরু করার পরিকল্পনা করে।",
+     "pron_bn": "সানজয় অ্যান্ড রাহিম প্ল্যান টু স্টার্ট আ স্মল বিজনেস ইন হাজিগঞ্জ বাজার।",
+     "text": "Sanjoy and Rahim plan to start a small business in Hajiganj Bazar."
+    },
+    {
+     "bn": "সঞ্জয় আর রাহিম আগামী বছর হাজিগঞ্জ বাজারে একটি ছোট ব্যবসা শুরু করার পরিকল্পনা করে।",
+     "pron_bn": "সানজয় অ্যান্ড রাহিম প্ল্যান টু স্টার্ট আ স্মল বিজনেস ইন হাজিগঞ্জ বাজার নেক্সট ইয়ার।",
+     "text": "Sanjoy and Rahim plan to start a small business in Hajiganj Bazar next year."
+    },
+    {
+     "bn": "পরিবারকে সাহায্য করতে সঞ্জয় আর রাহিম আগামী বছর হাজিগঞ্জ বাজারে একটি ছোট ব্যবসা শুরু করার পরিকল্পনা করে।",
+     "pron_bn": "সানজয় অ্যান্ড রাহিম প্ল্যান টু স্টার্ট আ স্মল বিজনেস ইন হাজিগঞ্জ বাজার নেক্সট ইয়ার টু হেল্প দেয়ার ফ্যামিলিজ।",
+     "text": "Sanjoy and Rahim plan to start a small business in Hajiganj Bazar next year to help their families."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি would like to দিয়ে ভ্রমণের ইচ্ছা বলা শিখলে।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় ঢাকা ঘুরতে যেতে চায়।",
+     "pron_bn": "সানজয় উড লাইক টু ভিজিট ঢাকা।",
+     "text": "Sanjoy would like to visit Dhaka."
+    },
+    {
+     "bn": "সঞ্জয় সুকুমারের সাথে ঢাকা ঘুরতে যেতে চায়।",
+     "pron_bn": "সানজয় উড লাইক টু ভিজিট ঢাকা উইথ সুকুমার।",
+     "text": "Sanjoy would like to visit Dhaka with Sukumar."
+    },
+    {
+     "bn": "সঞ্জয় শীতকালে সুকুমারের সাথে ঢাকা ঘুরতে যেতে চায়।",
+     "pron_bn": "সানজয় উড লাইক টু ভিজিট ঢাকা উইথ সুকুমার ইন উইন্টার।",
+     "text": "Sanjoy would like to visit Dhaka with Sukumar in winter."
+    },
+    {
+     "bn": "সঞ্জয় শীতকালে সুকুমারের সাথে বাসে করে ঢাকা ঘুরতে যেতে চায়।",
+     "pron_bn": "সানজয় উড লাইক টু ভিজিট ঢাকা উইথ সুকুমার ইন উইন্টার বাই বাস।",
+     "text": "Sanjoy would like to visit Dhaka with Sukumar in winter by bus."
+    },
+    {
+     "bn": "সঞ্জয় শীতকালে সুকুমারের সাথে দুই দিনের জন্য বাসে করে ঢাকা ঘুরতে যেতে চায়।",
+     "pron_bn": "সানজয় উড লাইক টু ভিজিট ঢাকা উইথ সুকুমার ইন উইন্টার বাই বাস ফর টু ডেজ।",
+     "text": "Sanjoy would like to visit Dhaka with Sukumar in winter by bus for two days."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি hope to আর by next year দিয়ে পড়াশোনার লক্ষ্য বলা শিখলে।",
+   "steps": [
+    {
+     "bn": "নুসরাত তার পড়াশোনা শেষ করার আশা করে।",
+     "pron_bn": "নুসরাত হোপস টু ফিনিশ হার স্টাডিজ।",
+     "text": "Nusrat hopes to finish her studies."
+    },
+    {
+     "bn": "নুসরাত চাঁদপুরে তার পড়াশোনা শেষ করার আশা করে।",
+     "pron_bn": "নুসরাত হোপস টু ফিনিশ হার স্টাডিজ ইন চাঁদপুর।",
+     "text": "Nusrat hopes to finish her studies in Chandpur."
+    },
+    {
+     "bn": "নুসরাত চাঁদপুরে ভালো ফলাফল নিয়ে পড়াশোনা শেষ করার আশা করে।",
+     "pron_bn": "নুসরাত হোপস টু ফিনিশ হার স্টাডিজ ইন চাঁদপুর উইথ গুড রিজাল্টস।",
+     "text": "Nusrat hopes to finish her studies in Chandpur with good results."
+    },
+    {
+     "bn": "নুসরাত আগামী বছরের মধ্যে চাঁদপুরে ভালো ফলাফল নিয়ে পড়াশোনা শেষ করার আশা করে।",
+     "pron_bn": "নুসরাত হোপস টু ফিনিশ হার স্টাডিজ ইন চাঁদপুর উইথ গুড রিজাল্টস বাই নেক্সট ইয়ার।",
+     "text": "Nusrat hopes to finish her studies in Chandpur with good results by next year."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি plan to আর by + verb-ing দিয়ে স্বাস্থ্যের পরিকল্পনা বলা শিখলে।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় তার স্বাস্থ্যের আরও ভালো যত্ন নেওয়ার পরিকল্পনা করে।",
+     "pron_bn": "সানজয় প্ল্যানস টু টেক বেটার কেয়ার অভ হিজ হেল্থ।",
+     "text": "Sanjoy plans to take better care of his health."
+    },
+    {
+     "bn": "প্রতিদিন সকালে হেঁটে সঞ্জয় তার স্বাস্থ্যের আরও ভালো যত্ন নেওয়ার পরিকল্পনা করে।",
+     "pron_bn": "সানজয় প্ল্যানস টু টেক বেটার কেয়ার অভ হিজ হেল্থ বাই ওয়াকিং এভরি মর্নিং।",
+     "text": "Sanjoy plans to take better care of his health by walking every morning."
+    },
+    {
+     "bn": "হাজিগঞ্জে প্রতিদিন সকালে হেঁটে সঞ্জয় তার স্বাস্থ্যের আরও ভালো যত্ন নেওয়ার পরিকল্পনা করে।",
+     "pron_bn": "সানজয় প্ল্যানস টু টেক বেটার কেয়ার অভ হিজ হেল্থ বাই ওয়াকিং এভরি মর্নিং ইন হাজিগঞ্জ।",
+     "text": "Sanjoy plans to take better care of his health by walking every morning in Hajiganj."
+    },
+    {
+     "bn": "রাজিবের সাথে হাজিগঞ্জে প্রতিদিন সকালে হেঁটে সঞ্জয় তার স্বাস্থ্যের আরও ভালো যত্ন নেওয়ার পরিকল্পনা করে।",
+     "pron_bn": "সানজয় প্ল্যানস টু টেক বেটার কেয়ার অভ হিজ হেল্থ বাই ওয়াকিং এভরি মর্নিং ইন হাজিগঞ্জ উইথ রাজিব।",
+     "text": "Sanjoy plans to take better care of his health by walking every morning in Hajiganj with Rajib."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি would like to দিয়ে কেনাকাটার পরিকল্পনা বলা শিখলে।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় একটি নতুন ফ্রিজ কিনতে চায়।",
+     "pron_bn": "সানজয় উড লাইক টু বাই আ নিউ ফ্রিজ।",
+     "text": "Sanjoy would like to buy a new fridge."
+    },
+    {
+     "bn": "সঞ্জয় তার পরিবারের জন্য একটি নতুন ফ্রিজ কিনতে চায়।",
+     "pron_bn": "সানজয় উড লাইক টু বাই আ নিউ ফ্রিজ ফর হিজ ফ্যামিলি।",
+     "text": "Sanjoy would like to buy a new fridge for his family."
+    },
+    {
+     "bn": "সঞ্জয় চাঁদপুর শহর থেকে তার পরিবারের জন্য একটি নতুন ফ্রিজ কিনতে চায়।",
+     "pron_bn": "সানজয় উড লাইক টু বাই আ নিউ ফ্রিজ ফর হিজ ফ্যামিলি ফ্রম চাঁদপুর টাউন।",
+     "text": "Sanjoy would like to buy a new fridge for his family from Chandpur town."
+    },
+    {
+     "bn": "সঞ্জয় আগামী শীতের মধ্যে চাঁদপুর শহর থেকে তার পরিবারের জন্য একটি নতুন ফ্রিজ কিনতে চায়।",
+     "pron_bn": "সানজয় উড লাইক টু বাই আ নিউ ফ্রিজ ফর হিজ ফ্যামিলি ফ্রম চাঁদপুর টাউন বাই নেক্সট উইন্টার।",
+     "text": "Sanjoy would like to buy a new fridge for his family from Chandpur town by next winter."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি hope to আর when দিয়ে আবহাওয়া মিলিয়ে পরিকল্পনা বলা শিখলে।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় তার গ্রামে যাওয়ার আশা করে।",
+     "pron_bn": "সানজয় হোপস টু ভিজিট হিজ ভিলেজ।",
+     "text": "Sanjoy hopes to visit his village."
+    },
+    {
+     "bn": "সঞ্জয় শীতকালে তার গ্রামে যাওয়ার আশা করে।",
+     "pron_bn": "সানজয় হোপস টু ভিজিট হিজ ভিলেজ ইন উইন্টার।",
+     "text": "Sanjoy hopes to visit his village in winter."
+    },
+    {
+     "bn": "সঞ্জয় শীতকালে তার গ্রামে যাওয়ার আশা করে যখন আবহাওয়া ঠান্ডা থাকে।",
+     "pron_bn": "সানজয় হোপস টু ভিজিট হিজ ভিলেজ ইন উইন্টার হোয়েন দা ওয়েদার ইজ কুল।",
+     "text": "Sanjoy hopes to visit his village in winter when the weather is cool."
+    },
+    {
+     "bn": "সঞ্জয় শীতকালে তার গ্রামে যাওয়ার আশা করে যখন আবহাওয়া ঠান্ডা আর শুকনো থাকে।",
+     "pron_bn": "সানজয় হোপস টু ভিজিট হিজ ভিলেজ ইন উইন্টার হোয়েন দা ওয়েদার ইজ কুল অ্যান্ড ড্রাই।",
+     "text": "Sanjoy hopes to visit his village in winter when the weather is cool and dry."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি plan to দিয়ে ফোনে শেখার নিয়মিত পরিকল্পনা বলা শিখলে।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় অনলাইনে ইংরেজি শেখার পরিকল্পনা করে।",
+     "pron_bn": "সানজয় প্ল্যানস টু লার্ন ইংলিশ অনলাইন।",
+     "text": "Sanjoy plans to learn English online."
+    },
+    {
+     "bn": "সঞ্জয় তার মোবাইল দিয়ে অনলাইনে ইংরেজি শেখার পরিকল্পনা করে।",
+     "pron_bn": "সানজয় প্ল্যানস টু লার্ন ইংলিশ অনলাইন উইথ হিজ ফোন।",
+     "text": "Sanjoy plans to learn English online with his phone."
+    },
+    {
+     "bn": "সঞ্জয় প্রতিদিন সন্ধ্যায় তার মোবাইল দিয়ে অনলাইনে ইংরেজি শেখার পরিকল্পনা করে।",
+     "pron_bn": "সানজয় প্ল্যানস টু লার্ন ইংলিশ অনলাইন উইথ হিজ ফোন এভরি ইভনিং।",
+     "text": "Sanjoy plans to learn English online with his phone every evening."
+    },
+    {
+     "bn": "সঞ্জয় প্রতিদিন সন্ধ্যায় ত্রিশ মিনিট করে তার মোবাইল দিয়ে অনলাইনে ইংরেজি শেখার পরিকল্পনা করে।",
+     "pron_bn": "সানজয় প্ল্যানস টু লার্ন ইংলিশ অনলাইন উইথ হিজ ফোন এভরি ইভনিং ফর থারটি মিনিটস।",
+     "text": "Sanjoy plans to learn English online with his phone every evening for thirty minutes."
+    },
+    {
+     "bn": "ভালো চাকরি পেতে সঞ্জয় প্রতিদিন সন্ধ্যায় ত্রিশ মিনিট করে তার মোবাইল দিয়ে অনলাইনে ইংরেজি শেখার পরিকল্পনা করে।",
+     "pron_bn": "সানজয় প্ল্যানস টু লার্ন ইংলিশ অনলাইন উইথ হিজ ফোন এভরি ইভনিং ফর থারটি মিনিটস টু গেট আ বেটার জব।",
+     "text": "Sanjoy plans to learn English online with his phone every evening for thirty minutes to get a better job."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি would like to দিয়ে ভবিষ্যতে বাড়ির স্বপ্ন বলা শিখলে।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় একটি ছোট বাড়ি বানাতে চায়।",
+     "pron_bn": "সানজয় উড লাইক টু বিল্ড আ স্মল হাউস।",
+     "text": "Sanjoy would like to build a small house."
+    },
+    {
+     "bn": "সঞ্জয় হাজিগঞ্জ শহরের কাছে একটি ছোট বাড়ি বানাতে চায়।",
+     "pron_bn": "সানজয় উড লাইক টু বিল্ড আ স্মল হাউস নিয়ার হাজিগঞ্জ টাউন।",
+     "text": "Sanjoy would like to build a small house near Hajiganj town."
+    },
+    {
+     "bn": "সঞ্জয় দুই বছরের মধ্যে হাজিগঞ্জ শহরের কাছে একটি ছোট বাড়ি বানাতে চায়।",
+     "pron_bn": "সানজয় উড লাইক টু বিল্ড আ স্মল হাউস নিয়ার হাজিগঞ্জ টাউন ইন টু ইয়ারস।",
+     "text": "Sanjoy would like to build a small house near Hajiganj town in two years."
+    },
+    {
+     "bn": "সঞ্জয় দুই বছরের মধ্যে হাজিগঞ্জ শহরের কাছে বাগানসহ একটি ছোট বাড়ি বানাতে চায়।",
+     "pron_bn": "সানজয় উড লাইক টু বিল্ড আ স্মল হাউস নিয়ার হাজিগঞ্জ টাউন ইন টু ইয়ারস উইথ আ গার্ডেন।",
+     "text": "Sanjoy would like to build a small house near Hajiganj town in two years with a garden."
+    },
+    {
+     "bn": "সঞ্জয় তার বাবা-মায়ের জন্য দুই বছরের মধ্যে হাজিগঞ্জ শহরের কাছে বাগানসহ একটি ছোট বাড়ি বানাতে চায়।",
+     "pron_bn": "সানজয় উড লাইক টু বিল্ড আ স্মল হাউস নিয়ার হাজিগঞ্জ টাউন ইন টু ইয়ারস উইথ আ গার্ডেন ফর হিজ প্যারেন্টস।",
+     "text": "Sanjoy would like to build a small house near Hajiganj town in two years with a garden for his parents."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই শেষ অধ্যায়ে তুমি ভবিষ্যৎ পরিকল্পনা আর লক্ষ্য নিয়ে কথা বলা শিখবে। hope to, plan to, would like to আর by next year দিয়ে তুমি নিজের স্বপ্ন সহজে বলতে পারবে।",
+ "tip_bn": "প্রতিদিন একটি বাক্য জোরে পড়ো আর নিজের জীবন দিয়ে বদলে বলো। by next year বাক্যের শেষে বসিয়ে তুমি সময়ের লক্ষ্য পরিষ্কার করে দাও।",
+ "title": "Future Plans and Goals"
+}

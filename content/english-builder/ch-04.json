@@ -1,0 +1,207 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি has দিয়ে শুরু করে kind আর young বিশেষণ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয়ের এক ভাই আছে, সুকুমার।",
+     "pron_bn": "সনজয় হ্যাজ আ ব্রাদার, সুকুমার।",
+     "text": "Sanjoy has a brother, Sukumar."
+    },
+    {
+     "bn": "সঞ্জয়ের এক দয়ালু ভাই আছে, সুকুমার।",
+     "pron_bn": "সনজয় হ্যাজ আ কাইন্ড ব্রাদার, সুকুমার।",
+     "text": "Sanjoy has a kind brother, Sukumar."
+    },
+    {
+     "bn": "সঞ্জয়ের এক দয়ালু ছোট ভাই আছে, সুকুমার।",
+     "pron_bn": "সনজয় হ্যাজ আ কাইন্ড ইয়াং ব্রাদার, সুকুমার।",
+     "text": "Sanjoy has a kind young brother, Sukumar."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি his দিয়ে শুরু করে small আর clean বিশেষণ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "তার দোকানটা হলো মেডিসিন কর্নার।",
+     "pron_bn": "হিজ শপ ইজ মেডিসিন কর্নার।",
+     "text": "His shop is Medicine Corner."
+    },
+    {
+     "bn": "তার ছোট দোকানটা হলো মেডিসিন কর্নার।",
+     "pron_bn": "হিজ স্মল শপ ইজ মেডিসিন কর্নার।",
+     "text": "His small shop is Medicine Corner."
+    },
+    {
+     "bn": "তার ছোট পরিষ্কার দোকানটা হলো মেডিসিন কর্নার।",
+     "pron_bn": "হিজ স্মল ক্লিন শপ ইজ মেডিসিন কর্নার।",
+     "text": "His small clean shop is Medicine Corner."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি my দিয়ে শুরু করে good আর old বিশেষণ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নুসরাত আমার বন্ধু, ও চাঁদপুরের।",
+     "pron_bn": "নুসরাত ইজ মাই ফ্রেন্ড ফ্রম চাঁদপুর।",
+     "text": "Nusrat is my friend from Chandpur."
+    },
+    {
+     "bn": "নুসরাত আমার ভালো বন্ধু, ও চাঁদপুরের।",
+     "pron_bn": "নুসরাত ইজ মাই গুড ফ্রেন্ড ফ্রম চাঁদপুর।",
+     "text": "Nusrat is my good friend from Chandpur."
+    },
+    {
+     "bn": "নুসরাত আমার পুরোনো ভালো বন্ধু, ও চাঁদপুরের।",
+     "pron_bn": "নুসরাত ইজ মাই গুড ওল্ড ফ্রেন্ড ফ্রম চাঁদপুর।",
+     "text": "Nusrat is my good old friend from Chandpur."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি have দিয়ে শুরু করে short আর happy বিশেষণ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় আর রাজীবের ঢাকা যাওয়ার প্ল্যান আছে।",
+     "pron_bn": "সনজয় অ্যান্ড রাজিব হ্যাভ আ ঢাকা ট্রিপ।",
+     "text": "Sanjoy and Rajib have a Dhaka trip."
+    },
+    {
+     "bn": "সঞ্জয় আর রাজীবের ঢাকায় ছোট একটা সফর আছে।",
+     "pron_bn": "সনজয় অ্যান্ড রাজিব হ্যাভ আ শর্ট ঢাকা ট্রিপ।",
+     "text": "Sanjoy and Rajib have a short Dhaka trip."
+    },
+    {
+     "bn": "সঞ্জয় আর রাজীবের ঢাকায় ছোট আর আনন্দের একটা সফর আছে।",
+     "pron_bn": "সনজয় অ্যান্ড রাজিব হ্যাভ আ শর্ট হ্যাপি ঢাকা ট্রিপ।",
+     "text": "Sanjoy and Rajib have a short happy Dhaka trip."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি has আর her দিয়ে শুরু করে new আর English যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নুসরাতের কাছে তার বইটা আছে।",
+     "pron_bn": "নুসরাত হ্যাজ হার বুক।",
+     "text": "Nusrat has her book."
+    },
+    {
+     "bn": "নুসরাতের কাছে তার নতুন বইটা আছে।",
+     "pron_bn": "নুসরাত হ্যাজ হার নিউ বুক।",
+     "text": "Nusrat has her new book."
+    },
+    {
+     "bn": "নুসরাতের কাছে তার নতুন ইংরেজি বইটা আছে।",
+     "pron_bn": "নুসরাত হ্যাজ হার নিউ ইংলিশ বুক।",
+     "text": "Nusrat has her new English book."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি sick-এর সাথে my friend আর sad যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রহিম অসুস্থ।",
+     "pron_bn": "রহিম ইজ সিক।",
+     "text": "Rahim is sick."
+    },
+    {
+     "bn": "আমার বন্ধু রহিম অসুস্থ।",
+     "pron_bn": "মাই ফ্রেন্ড রহিম ইজ সিক।",
+     "text": "My friend Rahim is sick."
+    },
+    {
+     "bn": "আমার বন্ধু রহিম অসুস্থ আর মন খারাপ।",
+     "pron_bn": "মাই ফ্রেন্ড রহিম ইজ সিক অ্যান্ড স্যাড।",
+     "text": "My friend Rahim is sick and sad."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি has আর his দিয়ে শুরু করে big আর new যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয়ের কাছে তার ব্যাগটা আছে।",
+     "pron_bn": "সনজয় হ্যাজ হিজ ব্যাগ।",
+     "text": "Sanjoy has his bag."
+    },
+    {
+     "bn": "সঞ্জয়ের কাছে তার বড় ব্যাগটা আছে।",
+     "pron_bn": "সনজয় হ্যাজ হিজ বিগ ব্যাগ।",
+     "text": "Sanjoy has his big bag."
+    },
+    {
+     "bn": "সঞ্জয়ের কাছে তার বড় নতুন ব্যাগটা আছে।",
+     "pron_bn": "সনজয় হ্যাজ হিজ বিগ নিউ ব্যাগ।",
+     "text": "Sanjoy has his big new bag."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি has দিয়ে শুরু করে long আর sunny যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "হাজীগঞ্জে গরম দিন থাকে।",
+     "pron_bn": "হাজিগঞ্জ হ্যাজ হট ডেজ।",
+     "text": "Hajiganj has hot days."
+    },
+    {
+     "bn": "হাজীগঞ্জে লম্বা গরম দিন থাকে।",
+     "pron_bn": "হাজিগঞ্জ হ্যাজ লং হট ডেজ।",
+     "text": "Hajiganj has long hot days."
+    },
+    {
+     "bn": "হাজীগঞ্জে লম্বা গরম রোদেলা দিন থাকে।",
+     "pron_bn": "হাজিগঞ্জ হ্যাজ লং হট সানি ডেজ।",
+     "text": "Hajiganj has long hot sunny days."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি has আর his দিয়ে শুরু করে new আর small যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয়ের কাছে তার ফোনটা আছে।",
+     "pron_bn": "সনজয় হ্যাজ হিজ ফোন।",
+     "text": "Sanjoy has his phone."
+    },
+    {
+     "bn": "সঞ্জয়ের কাছে তার নতুন ফোনটা আছে।",
+     "pron_bn": "সনজয় হ্যাজ হিজ নিউ ফোন।",
+     "text": "Sanjoy has his new phone."
+    },
+    {
+     "bn": "সঞ্জয়ের কাছে তার নতুন ছোট ফোনটা আছে।",
+     "pron_bn": "সনজয় হ্যাজ হিজ নিউ স্মল ফোন।",
+     "text": "Sanjoy has his new small phone."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি my দিয়ে শুরু করে green আর quiet যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমার গ্রামটা ছোট।",
+     "pron_bn": "মাই ভিলেজ ইজ স্মল।",
+     "text": "My village is small."
+    },
+    {
+     "bn": "আমার গ্রামটা ছোট আর সবুজ।",
+     "pron_bn": "মাই ভিলেজ ইজ স্মল অ্যান্ড গ্রিন।",
+     "text": "My village is small and green."
+    },
+    {
+     "bn": "আমার গ্রামটা ছোট, সবুজ আর শান্ত।",
+     "pron_bn": "মাই ভিলেজ ইজ স্মল অ্যান্ড গ্রিন অ্যান্ড কোয়াইট।",
+     "text": "My village is small and green and quiet."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি have আর has দিয়ে পরিবার আর বন্ধুদের কথা বলবে। তুমি my, his, her আর সহজ বিশেষণও শিখবে।",
+ "tip_bn": "তুমি He আর Sanjoy-এর সাথে has বসাবে, I আর they-এর সাথে have বসাবে। তুমি বিশেষণ সবসময় নামের আগে বসাবে, যেমন good friend।",
+ "title": "My Family and Friends"
+}

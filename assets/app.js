@@ -83,6 +83,14 @@
     var t = e.target.closest('.bn, .pr'), b = document.body.classList;
     if (t && b.contains(t.classList.contains('pr') ? 'hide-pr' : 'hide-bn')) t.classList.toggle('peek');
   });
+  // ---- sentence builder: tap a step to open it (one at a time; the data-say handler speaks it) ----
+  document.addEventListener('click', function (e) {
+    var st = e.target.closest('.bstep');
+    if (!st) return;
+    var was = st.classList.contains('open');
+    [].forEach.call(st.parentNode.querySelectorAll('.bstep.open'), function (x) { x.classList.remove('open'); });
+    if (!was) st.classList.add('open');
+  });
   // ---- reveal cards ----
   document.addEventListener('click', function (e) {
     var c = e.target.closest('.rcard');

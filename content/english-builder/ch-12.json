@@ -1,0 +1,237 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি will বাক্যে কখন ও কোথায় যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় তার বাবা-মায়ের সাথে দেখা করবে।",
+     "pron_bn": "সানজয় উইল ভিজিট হিজ প্যারেন্টস।",
+     "text": "Sanjoy will visit his parents."
+    },
+    {
+     "bn": "সঞ্জয় আগামীকাল তার বাবা-মায়ের সাথে দেখা করবে।",
+     "pron_bn": "সানজয় উইল ভিজিট হিজ প্যারেন্টস টুমরো।",
+     "text": "Sanjoy will visit his parents tomorrow."
+    },
+    {
+     "bn": "সঞ্জয় আগামীকাল হাজীগঞ্জে তার বাবা-মায়ের সাথে দেখা করবে।",
+     "pron_bn": "সানজয় উইল ভিজিট হিজ প্যারেন্টস টুমরো ইন হাজিগঞ্জ।",
+     "text": "Sanjoy will visit his parents tomorrow in Hajiganj."
+    },
+    {
+     "bn": "সঞ্জয় আগামীকাল সকালে হাজীগঞ্জে তার বাবা-মায়ের সাথে দেখা করবে।",
+     "pron_bn": "সানজয় উইল ভিজিট হিজ প্যারেন্টস টুমরো মর্নিং ইন হাজিগঞ্জ।",
+     "text": "Sanjoy will visit his parents tomorrow morning in Hajiganj."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি going to বাক্যে সময় ও কাজের জায়গা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় কাজ করবে।",
+     "pron_bn": "সানজয় ইজ গোয়িং টু ওয়ার্ক।",
+     "text": "Sanjoy is going to work."
+    },
+    {
+     "bn": "সঞ্জয় আগামীকাল কাজ করবে।",
+     "pron_bn": "সানজয় ইজ গোয়িং টু ওয়ার্ক টুমরো।",
+     "text": "Sanjoy is going to work tomorrow."
+    },
+    {
+     "bn": "সঞ্জয় আগামীকাল মেডিসিন কর্নারে কাজ করবে।",
+     "pron_bn": "সানজয় ইজ গোয়িং টু ওয়ার্ক টুমরো অ্যাট মেডিসিন কর্নার।",
+     "text": "Sanjoy is going to work tomorrow at Medicine Corner."
+    },
+    {
+     "bn": "সঞ্জয় আগামীকাল সকালে মেডিসিন কর্নারে কাজ করবে।",
+     "pron_bn": "সানজয় ইজ গোয়িং টু ওয়ার্ক টুমরো মর্নিং অ্যাট মেডিসিন কর্নার।",
+     "text": "Sanjoy is going to work tomorrow morning at Medicine Corner."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি will বাক্যে রাতের সময় ও বাজারের নাম যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় রহিমের সাথে দেখা করবে।",
+     "pron_bn": "সানজয় উইল মিট রহিম।",
+     "text": "Sanjoy will meet Rahim."
+    },
+    {
+     "bn": "সঞ্জয় আজ রাতে রহিমের সাথে দেখা করবে।",
+     "pron_bn": "সানজয় উইল মিট রহিম টুনাইট।",
+     "text": "Sanjoy will meet Rahim tonight."
+    },
+    {
+     "bn": "সঞ্জয় আজ রাতে হাজীগঞ্জ বাজারে রহিমের সাথে দেখা করবে।",
+     "pron_bn": "সানজয় উইল মিট রহিম টুনাইট ইন হাজিগঞ্জ বাজার।",
+     "text": "Sanjoy will meet Rahim tonight in Hajiganj Bazar."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি going to বাক্যে জায়গা ও সময় যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমরা ঘুরতে যাব।",
+     "pron_bn": "উই আর গোয়িং টু ট্রাভেল।",
+     "text": "We are going to travel."
+    },
+    {
+     "bn": "আমরা ঢাকায় ঘুরতে যাব।",
+     "pron_bn": "উই আর গোয়িং টু ট্রাভেল টু ঢাকা।",
+     "text": "We are going to travel to Dhaka."
+    },
+    {
+     "bn": "আমরা আগামী সপ্তাহে ঢাকায় ঘুরতে যাব।",
+     "pron_bn": "উই আর গোয়িং টু ট্রাভেল টু ঢাকা নেক্সট উইক।",
+     "text": "We are going to travel to Dhaka next week."
+    },
+    {
+     "bn": "আমরা আগামী সপ্তাহের শুরুতে ঢাকায় ঘুরতে যাব।",
+     "pron_bn": "উই আর গোয়িং টু ট্রাভেল টু ঢাকা আর্লি নেক্সট উইক।",
+     "text": "We are going to travel to Dhaka early next week."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি going to বাক্যে কখন ও কোথায় পড়বে তা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় ইংরেজি পড়বে।",
+     "pron_bn": "সানজয় ইজ গোয়িং টু স্টাডি ইংলিশ।",
+     "text": "Sanjoy is going to study English."
+    },
+    {
+     "bn": "সঞ্জয় আজ রাতে ইংরেজি পড়বে।",
+     "pron_bn": "সানজয় ইজ গোয়িং টু স্টাডি ইংলিশ টুনাইট।",
+     "text": "Sanjoy is going to study English tonight."
+    },
+    {
+     "bn": "সঞ্জয় আজ রাতে বাসায় ইংরেজি পড়বে।",
+     "pron_bn": "সানজয় ইজ গোয়িং টু স্টাডি ইংলিশ টুনাইট অ্যাট হোম।",
+     "text": "Sanjoy is going to study English tonight at home."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি will বাক্যে সময় ও শহরের নাম যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমি ডাক্তার দেখাব।",
+     "pron_bn": "আই উইল সি দা ডক্টর।",
+     "text": "I will see the doctor."
+    },
+    {
+     "bn": "আমি আগামীকাল ডাক্তার দেখাব।",
+     "pron_bn": "আই উইল সি দা ডক্টর টুমরো।",
+     "text": "I will see the doctor tomorrow."
+    },
+    {
+     "bn": "আমি আগামীকাল চাঁদপুরে ডাক্তার দেখাব।",
+     "pron_bn": "আই উইল সি দা ডক্টর টুমরো ইন চাঁদপুর।",
+     "text": "I will see the doctor tomorrow in Chandpur."
+    },
+    {
+     "bn": "আমি আগামীকাল বিকেলে চাঁদপুরে ডাক্তার দেখাব।",
+     "pron_bn": "আই উইল সি দা ডক্টর টুমরো আফটারনুন ইন চাঁদপুর।",
+     "text": "I will see the doctor tomorrow afternoon in Chandpur."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি going to বাক্যে কেনার সময় ও বাজার যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নুসরাত সবজি কিনবে।",
+     "pron_bn": "নুসরাত ইজ গোয়িং টু বাই ভেজিটেবলস।",
+     "text": "Nusrat is going to buy vegetables."
+    },
+    {
+     "bn": "নুসরাত আগামীকাল সবজি কিনবে।",
+     "pron_bn": "নুসরাত ইজ গোয়িং টু বাই ভেজিটেবলস টুমরো।",
+     "text": "Nusrat is going to buy vegetables tomorrow."
+    },
+    {
+     "bn": "নুসরাত আগামীকাল হাজীগঞ্জ বাজার থেকে সবজি কিনবে।",
+     "pron_bn": "নুসরাত ইজ গোয়িং টু বাই ভেজিটেবলস টুমরো অ্যাট হাজিগঞ্জ বাজার।",
+     "text": "Nusrat is going to buy vegetables tomorrow at Hajiganj Bazar."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি will বাক্যে বৃষ্টির সময় ও জায়গা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "বৃষ্টি হবে।",
+     "pron_bn": "ইট উইল রেইন।",
+     "text": "It will rain."
+    },
+    {
+     "bn": "আগামীকাল বৃষ্টি হবে।",
+     "pron_bn": "ইট উইল রেইন টুমরো।",
+     "text": "It will rain tomorrow."
+    },
+    {
+     "bn": "আগামীকাল চাঁদপুরে বৃষ্টি হবে।",
+     "pron_bn": "ইট উইল রেইন টুমরো ইন চাঁদপুর।",
+     "text": "It will rain tomorrow in Chandpur."
+    },
+    {
+     "bn": "আগামীকাল সকালে চাঁদপুরে বৃষ্টি হবে।",
+     "pron_bn": "ইট উইল রেইন টুমরো মর্নিং ইন চাঁদপুর।",
+     "text": "It will rain tomorrow morning in Chandpur."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি will বাক্যে ফোন করার সময় ও জায়গা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় সুকুমারকে ফোন করবে।",
+     "pron_bn": "সানজয় উইল কল সুকুমার।",
+     "text": "Sanjoy will call Sukumar."
+    },
+    {
+     "bn": "সঞ্জয় রাতে সুকুমারকে ফোন করবে।",
+     "pron_bn": "সানজয় উইল কল সুকুমার অ্যাট নাইট।",
+     "text": "Sanjoy will call Sukumar at night."
+    },
+    {
+     "bn": "সঞ্জয় রাতে বাসা থেকে সুকুমারকে ফোন করবে।",
+     "pron_bn": "সানজয় উইল কল সুকুমার অ্যাট নাইট ফ্রম হোম।",
+     "text": "Sanjoy will call Sukumar at night from home."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি going to বাক্যে খেলার জায়গা ও সময় যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাজীব ফুটবল খেলবে।",
+     "pron_bn": "রাজিব ইজ গোয়িং টু প্লে ফুটবল।",
+     "text": "Rajib is going to play football."
+    },
+    {
+     "bn": "রাজীব গ্রামের মাঠে ফুটবল খেলবে।",
+     "pron_bn": "রাজিব ইজ গোয়িং টু প্লে ফুটবল ইন দা ভিলেজ ফিল্ড।",
+     "text": "Rajib is going to play football in the village field."
+    },
+    {
+     "bn": "রাজীব আগামীকাল গ্রামের মাঠে ফুটবল খেলবে।",
+     "pron_bn": "রাজিব ইজ গোয়িং টু প্লে ফুটবল ইন দা ভিলেজ ফিল্ড টুমরো।",
+     "text": "Rajib is going to play football in the village field tomorrow."
+    },
+    {
+     "bn": "রাজীব আগামীকাল বিকেলে গ্রামের মাঠে ফুটবল খেলবে।",
+     "pron_bn": "রাজিব ইজ গোয়িং টু প্লে ফুটবল ইন দা ভিলেজ ফিল্ড টুমরো আফটারনুন।",
+     "text": "Rajib is going to play football in the village field tomorrow afternoon."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি will আর going to দিয়ে ভবিষ্যতের কথা বলা শিখবে। প্রতিটি ধাপে তুমি কখন আর কোথায় যোগ করবে।",
+ "tip_bn": "তুমি আগে সময় বলো, তারপর জায়গা বলো, তাহলে বাক্য শুনতে ভালো লাগে। তুমি প্রতিটি বাক্য জোরে পড়ো আর নিজের জীবন দিয়ে নতুন বাক্য বানাও।",
+ "title": "Future Plans: When and Where"
+}

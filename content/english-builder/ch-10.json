@@ -1,0 +1,227 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি তুলনা করতে taller আর সবচেয়ে বোঝাতে tallest যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় লম্বা।",
+     "pron_bn": "সানজয় ইজ টল।",
+     "text": "Sanjoy is tall."
+    },
+    {
+     "bn": "সঞ্জয় সুকুমারের চেয়ে লম্বা।",
+     "pron_bn": "সানজয় ইজ টলার দ্যান সুকুমার।",
+     "text": "Sanjoy is taller than Sukumar."
+    },
+    {
+     "bn": "সঞ্জয় সুকুমারের চেয়ে লম্বা আর তার পরিবারে সবচেয়ে লম্বা।",
+     "pron_bn": "সানজয় ইজ টলার দ্যান সুকুমার অ্যান্ড দ্য টলেস্ট ইন হিজ ফ্যামিলি।",
+     "text": "Sanjoy is taller than Sukumar and the tallest in his family."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি তুলনায় busier, জোর দিতে much আর সেরা বোঝাতে busiest যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "মেডিসিন কর্নার খুব ব্যস্ত।",
+     "pron_bn": "মেডিসিন কর্নার ইজ বিজি।",
+     "text": "Medicine Corner is busy."
+    },
+    {
+     "bn": "মেডিসিন কর্নার অন্য দোকানগুলোর চেয়ে বেশি ব্যস্ত।",
+     "pron_bn": "মেডিসিন কর্নার ইজ বিজিয়ার দ্যান আদার শপস।",
+     "text": "Medicine Corner is busier than other shops."
+    },
+    {
+     "bn": "মেডিসিন কর্নার অন্য দোকানগুলোর চেয়ে অনেক বেশি ব্যস্ত।",
+     "pron_bn": "মেডিসিন কর্নার ইজ মাচ বিজিয়ার দ্যান আদার শপস।",
+     "text": "Medicine Corner is much busier than other shops."
+    },
+    {
+     "bn": "মেডিসিন কর্নার অন্য দোকানগুলোর চেয়ে অনেক বেশি ব্যস্ত আর হাজীগঞ্জ বাজারে সবচেয়ে ব্যস্ত।",
+     "pron_bn": "মেডিসিন কর্নার ইজ মাচ বিজিয়ার দ্যান আদার শপস অ্যান্ড দ্য বিজিয়েস্ট ইন হাজিগঞ্জ বাজার।",
+     "text": "Medicine Corner is much busier than other shops and the busiest in Hajiganj Bazar."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি তুলনায় more helpful আর সেরা বোঝাতে most helpful যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয়ের বন্ধু নুসরাত খুব সাহায্যকারী।",
+     "pron_bn": "সানজয়স ফ্রেন্ড নুসরাত ইজ হেল্পফুল।",
+     "text": "Sanjoy's friend Nusrat is helpful."
+    },
+    {
+     "bn": "সঞ্জয়ের বন্ধু নুসরাত রাজীবের চেয়ে বেশি সাহায্যকারী।",
+     "pron_bn": "সানজয়স ফ্রেন্ড নুসরাত ইজ মোর হেল্পফুল দ্যান রাজিব।",
+     "text": "Sanjoy's friend Nusrat is more helpful than Rajib."
+    },
+    {
+     "bn": "সঞ্জয়ের বন্ধু নুসরাত রাজীবের চেয়ে বেশি সাহায্যকারী আর আমাদের দলে সবচেয়ে সাহায্যকারী।",
+     "pron_bn": "সানজয়স ফ্রেন্ড নুসরাত ইজ মোর হেল্পফুল দ্যান রাজিব অ্যান্ড দ্য মোস্ট হেল্পফুল ইন আওয়ার গ্রুপ।",
+     "text": "Sanjoy's friend Nusrat is more helpful than Rajib and the most helpful in our group."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি তুলনায় faster আর সেরা বোঝাতে fastest যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয়ের ঢাকার বাসটা দ্রুত চলে।",
+     "pron_bn": "সানজয়স বাস টু ঢাকা ইজ ফাস্ট।",
+     "text": "Sanjoy's bus to Dhaka is fast."
+    },
+    {
+     "bn": "সঞ্জয়ের ঢাকার বাসটা পুরোনো বাসের চেয়ে দ্রুত চলে।",
+     "pron_bn": "সানজয়স বাস টু ঢাকা ইজ ফাস্টার দ্যান দ্য ওল্ড বাস।",
+     "text": "Sanjoy's bus to Dhaka is faster than the old bus."
+    },
+    {
+     "bn": "সঞ্জয়ের ঢাকার বাসটা পুরোনো বাসের চেয়ে দ্রুত আর হাজীগঞ্জে সবচেয়ে দ্রুত।",
+     "pron_bn": "সানজয়স বাস টু ঢাকা ইজ ফাস্টার দ্যান দ্য ওল্ড বাস অ্যান্ড দ্য ফাস্টেস্ট ইন হাজিগঞ্জ।",
+     "text": "Sanjoy's bus to Dhaka is faster than the old bus and the fastest in Hajiganj."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি তুলনায় easier, জোর দিতে much আর সেরা বোঝাতে easiest যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "ইংরেজি সহজ।",
+     "pron_bn": "ইংলিশ ইজ ইজি।",
+     "text": "English is easy."
+    },
+    {
+     "bn": "ইংরেজি অঙ্কের চেয়ে সহজ।",
+     "pron_bn": "ইংলিশ ইজ ইজিয়ার দ্যান ম্যাথস।",
+     "text": "English is easier than maths."
+    },
+    {
+     "bn": "ইংরেজি অঙ্কের চেয়ে অনেক সহজ।",
+     "pron_bn": "ইংলিশ ইজ মাচ ইজিয়ার দ্যান ম্যাথস।",
+     "text": "English is much easier than maths."
+    },
+    {
+     "bn": "ইংরেজি অঙ্কের চেয়ে অনেক সহজ আর সঞ্জয়ের জন্য সবচেয়ে সহজ বিষয়।",
+     "pron_bn": "ইংলিশ ইজ মাচ ইজিয়ার দ্যান ম্যাথস অ্যান্ড দ্য ইজিয়েস্ট সাবজেক্ট ফর সানজয়।",
+     "text": "English is much easier than maths and the easiest subject for Sanjoy."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি তুলনায় stronger আর সেরা বোঝাতে strongest যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় আজ বেশ শক্ত আছে।",
+     "pron_bn": "সানজয় ইজ স্ট্রং টুডে।",
+     "text": "Sanjoy is strong today."
+    },
+    {
+     "bn": "সঞ্জয় গতকালের চেয়ে আজ বেশি শক্ত আছে।",
+     "pron_bn": "সানজয় ইজ স্ট্রংগার টুডে দ্যান ইয়েসটারডে।",
+     "text": "Sanjoy is stronger today than yesterday."
+    },
+    {
+     "bn": "সঞ্জয় গতকালের চেয়ে আজ বেশি শক্ত আছে আর এই সপ্তাহে সবচেয়ে শক্ত আছে।",
+     "pron_bn": "সানজয় ইজ স্ট্রংগার টুডে দ্যান ইয়েসটারডে অ্যান্ড দ্য স্ট্রংগেস্ট দিস উইক।",
+     "text": "Sanjoy is stronger today than yesterday and the strongest this week."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি তুলনায় cheaper আর সেরা বোঝাতে cheapest যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "এখানে সবজি সস্তা।",
+     "pron_bn": "ভেজটেবলস হিয়ার আর চিপ।",
+     "text": "Vegetables here are cheap."
+    },
+    {
+     "bn": "এখানে সবজি চাঁদপুরের চেয়ে সস্তা।",
+     "pron_bn": "ভেজটেবলস হিয়ার আর চিপার দ্যান ইন চাঁদপুর।",
+     "text": "Vegetables here are cheaper than in Chandpur."
+    },
+    {
+     "bn": "এখানে সবজি চাঁদপুরের চেয়ে সস্তা আর শুক্রবারে সবচেয়ে সস্তা।",
+     "pron_bn": "ভেজটেবলস হিয়ার আর চিপার দ্যান ইন চাঁদপুর অ্যান্ড দ্য চিপেস্ট অন ফ্রাইডেজ।",
+     "text": "Vegetables here are cheaper than in Chandpur and the cheapest on Fridays."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি তুলনায় hotter, জোর দিতে much আর সেরা বোঝাতে hottest যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "জুলাই মাস গরম।",
+     "pron_bn": "জুলাই ইজ হট।",
+     "text": "July is hot."
+    },
+    {
+     "bn": "জুলাই জুনের চেয়ে বেশি গরম।",
+     "pron_bn": "জুলাই ইজ হটার দ্যান জুন।",
+     "text": "July is hotter than June."
+    },
+    {
+     "bn": "জুলাই জুনের চেয়ে অনেক বেশি গরম।",
+     "pron_bn": "জুলাই ইজ মাচ হটার দ্যান জুন।",
+     "text": "July is much hotter than June."
+    },
+    {
+     "bn": "জুলাই জুনের চেয়ে অনেক বেশি গরম আর হাজীগঞ্জে সবচেয়ে গরম মাস।",
+     "pron_bn": "জুলাই ইজ মাচ হটার দ্যান জুন অ্যান্ড দ্য হটেস্ট মান্থ ইন হাজিগঞ্জ।",
+     "text": "July is much hotter than June and the hottest month in Hajiganj."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি তুলনায় more expensive আর সেরা বোঝাতে most expensive যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয়ের নতুন ফোনটা দামি।",
+     "pron_bn": "সানজয়স নিউ ফোন ইজ এক্সপেনসিভ।",
+     "text": "Sanjoy's new phone is expensive."
+    },
+    {
+     "bn": "সঞ্জয়ের নতুন ফোনটা রহিমের ফোনের চেয়ে বেশি দামি।",
+     "pron_bn": "সানজয়স নিউ ফোন ইজ মোর এক্সপেনসিভ দ্যান রহিমস ফোন।",
+     "text": "Sanjoy's new phone is more expensive than Rahim's phone."
+    },
+    {
+     "bn": "সঞ্জয়ের নতুন ফোনটা রহিমের ফোনের চেয়ে বেশি দামি আর দোকানে সবচেয়ে দামি।",
+     "pron_bn": "সানজয়স নিউ ফোন ইজ মোর এক্সপেনসিভ দ্যান রহিমস ফোন অ্যান্ড দ্য মোস্ট এক্সপেনসিভ ইন দ্য শপ।",
+     "text": "Sanjoy's new phone is more expensive than Rahim's phone and the most expensive in the shop."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি তুলনায় quieter, জোর দিতে much আর সেরা বোঝাতে quietest যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "হাজীগঞ্জের জীবন শান্ত।",
+     "pron_bn": "লাইফ ইন হাজিগঞ্জ ইজ কোয়ায়েট।",
+     "text": "Life in Hajiganj is quiet."
+    },
+    {
+     "bn": "হাজীগঞ্জের জীবন ঢাকার জীবনের চেয়ে শান্ত।",
+     "pron_bn": "লাইফ ইন হাজিগঞ্জ ইজ কোয়ায়েটার দ্যান লাইফ ইন ঢাকা।",
+     "text": "Life in Hajiganj is quieter than life in Dhaka."
+    },
+    {
+     "bn": "হাজীগঞ্জের জীবন ঢাকার জীবনের চেয়ে অনেক শান্ত।",
+     "pron_bn": "লাইফ ইন হাজিগঞ্জ ইজ মাচ কোয়ায়েটার দ্যান লাইফ ইন ঢাকা।",
+     "text": "Life in Hajiganj is much quieter than life in Dhaka."
+    },
+    {
+     "bn": "হাজীগঞ্জের জীবন ঢাকার জীবনের চেয়ে অনেক শান্ত আর সন্ধ্যায় সবচেয়ে শান্ত।",
+     "pron_bn": "লাইফ ইন হাজিগঞ্জ ইজ মাচ কোয়ায়েটার দ্যান লাইফ ইন ঢাকা অ্যান্ড দ্য কোয়ায়েটেস্ট ইন দ্য ইভনিং।",
+     "text": "Life in Hajiganj is much quieter than life in Dhaka and the quietest in the evening."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি ছোট বাক্যকে তুলনা দিয়ে বড় করতে শিখবে। প্রতিটি ধাপে তুমি আগের বাক্যটি রেখে নতুন তুলনা যোগ করবে।",
+ "tip_bn": "তুমি দুটি জিনিসের তুলনায় -er বা more ব্যবহার করো আর than যোগ করো। তুমি সেরা বোঝাতে সবসময় the সহ -est বা the most ব্যবহার করো।",
+ "title": "Bigger, Better, Best"
+}

@@ -1,0 +1,232 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি জায়গা বোঝাতে in, near আর across from যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় তার পরিবারের সঙ্গে থাকে।",
+     "pron_bn": "সানজয় লিভস উইথ হিজ ফ্যামিলি।",
+     "text": "Sanjoy lives with his family."
+    },
+    {
+     "bn": "সঞ্জয় হাজীগঞ্জে তার পরিবারের সঙ্গে থাকে।",
+     "pron_bn": "সানজয় লিভস উইথ হিজ ফ্যামিলি ইন হাজিগঞ্জ।",
+     "text": "Sanjoy lives with his family in Hajiganj."
+    },
+    {
+     "bn": "সঞ্জয় হাজীগঞ্জে বাসস্ট্যান্ডের কাছে তার পরিবারের সঙ্গে থাকে।",
+     "pron_bn": "সানজয় লিভস উইথ হিজ ফ্যামিলি ইন হাজিগঞ্জ নিয়ার দা বাস স্ট্যান্ড।",
+     "text": "Sanjoy lives with his family in Hajiganj near the bus stand."
+    },
+    {
+     "bn": "সঞ্জয় হাজীগঞ্জে বাসস্ট্যান্ডের কাছে স্কুলের উল্টোদিকে তার পরিবারের সঙ্গে থাকে।",
+     "pron_bn": "সানজয় লিভস উইথ হিজ ফ্যামিলি ইন হাজিগঞ্জ নিয়ার দা বাস স্ট্যান্ড অ্যাক্রস ফ্রম দা স্কুল।",
+     "text": "Sanjoy lives with his family in Hajiganj near the bus stand across from the school."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি দোকানের অবস্থান আর যাতায়াত বোঝাতে in, opposite আর by যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় মেডিসিন কর্নারে কাজ করে।",
+     "pron_bn": "সানজয় ওয়ার্কস অ্যাট মেডিসিন কর্নার।",
+     "text": "Sanjoy works at Medicine Corner."
+    },
+    {
+     "bn": "সঞ্জয় হাজীগঞ্জ বাজারে মেডিসিন কর্নারে কাজ করে।",
+     "pron_bn": "সানজয় ওয়ার্কস অ্যাট মেডিসিন কর্নার ইন হাজিগঞ্জ বাজার।",
+     "text": "Sanjoy works at Medicine Corner in Hajiganj Bazar."
+    },
+    {
+     "bn": "সঞ্জয় হাজীগঞ্জ বাজারে মার্কেটের উল্টোদিকে মেডিসিন কর্নারে কাজ করে।",
+     "pron_bn": "সানজয় ওয়ার্কস অ্যাট মেডিসিন কর্নার ইন হাজিগঞ্জ বাজার অপোজিট দা মার্কেট।",
+     "text": "Sanjoy works at Medicine Corner in Hajiganj Bazar opposite the market."
+    },
+    {
+     "bn": "সঞ্জয় হাজীগঞ্জ বাজারে মার্কেটের উল্টোদিকে মেডিসিন কর্নারে কাজ করে আর রিকশায় করে সেখানে যায়।",
+     "pron_bn": "সানজয় ওয়ার্কস অ্যাট মেডিসিন কর্নার ইন হাজিগঞ্জ বাজার অপোজিট দা মার্কেট অ্যান্ড গোস দেয়ার বাই রিকশা।",
+     "text": "Sanjoy works at Medicine Corner in Hajiganj Bazar opposite the market and goes there by rickshaw."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি হাঁটার পথ বোঝাতে in, along আর from যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় রাজীবের বাড়িতে হেঁটে যায়।",
+     "pron_bn": "সানজয় ওয়াকস টু রাজিবস হাউস।",
+     "text": "Sanjoy walks to Rajib's house."
+    },
+    {
+     "bn": "সঞ্জয় গ্রামে রাজীবের বাড়িতে হেঁটে যায়।",
+     "pron_bn": "সানজয় ওয়াকস টু রাজিবস হাউস ইন দা ভিলেজ।",
+     "text": "Sanjoy walks to Rajib's house in the village."
+    },
+    {
+     "bn": "সঞ্জয় গ্রামে নদীর পাশের রাস্তা ধরে রাজীবের বাড়িতে হেঁটে যায়।",
+     "pron_bn": "সানজয় ওয়াকস টু রাজিবস হাউস ইন দা ভিলেজ অ্যালং দা রিভার।",
+     "text": "Sanjoy walks to Rajib's house in the village along the river."
+    },
+    {
+     "bn": "সঞ্জয় বড় রাস্তা থেকে নদীর পাশের রাস্তা ধরে গ্রামে রাজীবের বাড়িতে হেঁটে যায়।",
+     "pron_bn": "সানজয় ওয়াকস টু রাজিবস হাউস ইন দা ভিলেজ অ্যালং দা রিভার ফ্রম দা মেইন রোড।",
+     "text": "Sanjoy walks to Rajib's house in the village along the river from the main road."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি ভ্রমণ বোঝাতে by আর from যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় ঢাকায় যায়।",
+     "pron_bn": "সানজয় গোস টু ঢাকা।",
+     "text": "Sanjoy goes to Dhaka."
+    },
+    {
+     "bn": "সঞ্জয় বাসে করে ঢাকায় যায়।",
+     "pron_bn": "সানজয় গোস টু ঢাকা বাই বাস।",
+     "text": "Sanjoy goes to Dhaka by bus."
+    },
+    {
+     "bn": "সঞ্জয় হাজীগঞ্জ থেকে বাসে করে ঢাকায় যায়।",
+     "pron_bn": "সানজয় গোস টু ঢাকা বাই বাস ফ্রম হাজিগঞ্জ।",
+     "text": "Sanjoy goes to Dhaka by bus from Hajiganj."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি কলেজের অবস্থান আর যাতায়াত বোঝাতে in, near আর by যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সুকুমার কলেজে পড়ে।",
+     "pron_bn": "সুকুমার স্টাডিজ অ্যাট দা কলেজ।",
+     "text": "Sukumar studies at the college."
+    },
+    {
+     "bn": "সুকুমার চাঁদপুরের কলেজে পড়ে।",
+     "pron_bn": "সুকুমার স্টাডিজ অ্যাট দা কলেজ ইন চাঁদপুর।",
+     "text": "Sukumar studies at the college in Chandpur."
+    },
+    {
+     "bn": "সুকুমার চাঁদপুরে নদীর কাছে কলেজে পড়ে।",
+     "pron_bn": "সুকুমার স্টাডিজ অ্যাট দা কলেজ ইন চাঁদপুর নিয়ার দা রিভার।",
+     "text": "Sukumar studies at the college in Chandpur near the river."
+    },
+    {
+     "bn": "সুকুমার চাঁদপুরে নদীর কাছে কলেজে পড়ে আর সিএনজিতে করে সেখানে যায়।",
+     "pron_bn": "সুকুমার স্টাডিজ অ্যাট দা কলেজ ইন চাঁদপুর নিয়ার দা রিভার অ্যান্ড গোস দেয়ার বাই সিএনজি।",
+     "text": "Sukumar studies at the college in Chandpur near the river and goes there by CNG."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি হাসপাতালে যাওয়া বোঝাতে in আর by যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় তার মাকে হাসপাতালে নিয়ে যায়।",
+     "pron_bn": "সানজয় টেকস হিজ মাদার টু দা হসপিটাল।",
+     "text": "Sanjoy takes his mother to the hospital."
+    },
+    {
+     "bn": "সঞ্জয় তার মাকে চাঁদপুরের হাসপাতালে নিয়ে যায়।",
+     "pron_bn": "সানজয় টেকস হিজ মাদার টু দা হসপিটাল ইন চাঁদপুর।",
+     "text": "Sanjoy takes his mother to the hospital in Chandpur."
+    },
+    {
+     "bn": "সঞ্জয় সিএনজিতে করে তার মাকে চাঁদপুরের হাসপাতালে নিয়ে যায়।",
+     "pron_bn": "সানজয় টেকস হিজ মাদার টু দা হসপিটাল ইন চাঁদপুর বাই সিএনজি।",
+     "text": "Sanjoy takes his mother to the hospital in Chandpur by CNG."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি বাজারে যাওয়া বোঝাতে in আর on foot যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নুসরাত বাজারে যায়।",
+     "pron_bn": "নুসরাত গোস টু দা মার্কেট।",
+     "text": "Nusrat goes to the market."
+    },
+    {
+     "bn": "নুসরাত হাজীগঞ্জ বাজারে যায়।",
+     "pron_bn": "নুসরাত গোস টু দা মার্কেট ইন হাজিগঞ্জ বাজার।",
+     "text": "Nusrat goes to the market in Hajiganj Bazar."
+    },
+    {
+     "bn": "নুসরাত হেঁটে হাজীগঞ্জ বাজারে যায়।",
+     "pron_bn": "নুসরাত গোস টু দা মার্কেট ইন হাজিগঞ্জ বাজার অন ফুট।",
+     "text": "Nusrat goes to the market in Hajiganj Bazar on foot."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি আবহাওয়া আর পথ বোঝাতে in আর along যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমরা দোকানে হেঁটে যাই।",
+     "pron_bn": "উই ওয়াক টু দা শপ।",
+     "text": "We walk to the shop."
+    },
+    {
+     "bn": "আবহাওয়া ভালো থাকলে আমরা দোকানে হেঁটে যাই।",
+     "pron_bn": "উই ওয়াক টু দা শপ ইন গুড ওয়েদার।",
+     "text": "We walk to the shop in good weather."
+    },
+    {
+     "bn": "আবহাওয়া ভালো থাকলে আমরা নদীর পাশের রাস্তা ধরে দোকানে হেঁটে যাই।",
+     "pron_bn": "উই ওয়াক টু দা শপ ইন গুড ওয়েদার অ্যালং দা রিভার।",
+     "text": "We walk to the shop in good weather along the river."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি ফোনে রাস্তা জানতে for, to আর from যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় তার মোবাইলে রহিমকে ফোন করে।",
+     "pron_bn": "সানজয় কলস রহিম অন হিজ ফোন।",
+     "text": "Sanjoy calls Rahim on his phone."
+    },
+    {
+     "bn": "সঞ্জয় রাস্তা জানার জন্য মোবাইলে রহিমকে ফোন করে।",
+     "pron_bn": "সানজয় কলস রহিম অন হিজ ফোন ফর ডাইরেকশনস।",
+     "text": "Sanjoy calls Rahim on his phone for directions."
+    },
+    {
+     "bn": "সঞ্জয় মেডিসিন কর্নারে যাওয়ার রাস্তা জানতে মোবাইলে রহিমকে ফোন করে।",
+     "pron_bn": "সানজয় কলস রহিম অন হিজ ফোন ফর ডাইরেকশনস টু মেডিসিন কর্নার।",
+     "text": "Sanjoy calls Rahim on his phone for directions to Medicine Corner."
+    },
+    {
+     "bn": "সঞ্জয় বাসস্ট্যান্ড থেকে মেডিসিন কর্নারে যাওয়ার রাস্তা জানতে মোবাইলে রহিমকে ফোন করে।",
+     "pron_bn": "সানজয় কলস রহিম অন হিজ ফোন ফর ডাইরেকশনস টু মেডিসিন কর্নার ফ্রম দা বাস স্ট্যান্ড।",
+     "text": "Sanjoy calls Rahim on his phone for directions to Medicine Corner from the bus stand."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি বাসের পথ বোঝাতে from আর through যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "বাসটি চাঁদপুরে যায়।",
+     "pron_bn": "দা বাস গোস টু চাঁদপুর।",
+     "text": "The bus goes to Chandpur."
+    },
+    {
+     "bn": "বাসটি হাজীগঞ্জ থেকে চাঁদপুরে যায়।",
+     "pron_bn": "দা বাস গোস টু চাঁদপুর ফ্রম হাজিগঞ্জ।",
+     "text": "The bus goes to Chandpur from Hajiganj."
+    },
+    {
+     "bn": "বাসটি হাজীগঞ্জ থেকে আমাদের গ্রামের ভেতর দিয়ে চাঁদপুরে যায়।",
+     "pron_bn": "দা বাস গোস টু চাঁদপুর ফ্রম হাজিগঞ্জ থ্রু আওয়ার ভিলেজ।",
+     "text": "The bus goes to Chandpur from Hajiganj through our village."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি দিক আর যাতায়াত নিয়ে সহজ ইংরেজি বাক্য শিখবে। সঞ্জয়ের সাথে তুমি হাজীগঞ্জ, চাঁদপুর আর ঢাকার চারপাশে ঘুরবে।",
+ "tip_bn": "তুমি বাস, সিএনজি বা রিকশার আগে by বসাবে, কিন্তু হেঁটে যাওয়া বোঝাতে on foot বলবে। তুমি to আর from দিয়ে দিক বোঝাবে, আর in, near আর opposite দিয়ে জায়গা বোঝাবে।",
+ "title": "Directions and Transport"
+}

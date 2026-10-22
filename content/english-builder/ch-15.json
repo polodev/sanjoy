@@ -1,0 +1,272 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি who আর that দিয়ে বাবা আর দোকান সম্পর্কে তথ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় তার বাবাকে সম্মান করে।",
+     "pron_bn": "সানজয় রিসপেক্টস হিজ ফাদার।",
+     "text": "Sanjoy respects his father."
+    },
+    {
+     "bn": "সঞ্জয় তার বাবাকে সম্মান করে, যিনি কঠোর পরিশ্রম করেন।",
+     "pron_bn": "সানজয় রিসপেক্টস হিজ ফাদার হু ওয়ার্কস হার্ড।",
+     "text": "Sanjoy respects his father who works hard."
+    },
+    {
+     "bn": "সঞ্জয় তার বাবাকে সম্মান করে, যিনি চাঁদপুরে কঠোর পরিশ্রম করেন।",
+     "pron_bn": "সানজয় রিসপেক্টস হিজ ফাদার হু ওয়ার্কস হার্ড ইন চাঁদপুর।",
+     "text": "Sanjoy respects his father who works hard in Chandpur."
+    },
+    {
+     "bn": "সঞ্জয় তার বাবাকে সম্মান করে, যিনি চাঁদপুরের একটা দোকানে কঠোর পরিশ্রম করেন।",
+     "pron_bn": "সানজয় রিসপেক্টস হিজ ফাদার হু ওয়ার্কস হার্ড ইন আ শপ ইন চাঁদপুর।",
+     "text": "Sanjoy respects his father who works hard in a shop in Chandpur."
+    },
+    {
+     "bn": "সঞ্জয় তার বাবাকে সম্মান করে, যিনি চাঁদপুরের এমন একটা দোকানে কঠোর পরিশ্রম করেন, যেটা খুব সকালে খোলে।",
+     "pron_bn": "সানজয় রিসপেক্টস হিজ ফাদার হু ওয়ার্কস হার্ড ইন আ শপ ইন চাঁদপুর দ্যাট ওপেনস আর্লি ইন দ্যা মর্নিং।",
+     "text": "Sanjoy respects his father who works hard in a shop in Chandpur that opens early in the morning."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি which আর that দিয়ে ফার্মেসি আর বাজার সম্পর্কে তথ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় মেডিসিন কর্নারে কাজ করে।",
+     "pron_bn": "সানজয় ওয়ার্কস অ্যাট মেডিসিন কর্নার।",
+     "text": "Sanjoy works at Medicine Corner."
+    },
+    {
+     "bn": "সঞ্জয় মেডিসিন কর্নারে কাজ করে, যেটা হাজীগঞ্জ বাজারে আছে।",
+     "pron_bn": "সানজয় ওয়ার্কস অ্যাট মেডিসিন কর্নার হুইচ ইজ ইন হাজিগঞ্জ বাজার।",
+     "text": "Sanjoy works at Medicine Corner which is in Hajiganj Bazar."
+    },
+    {
+     "bn": "সঞ্জয় মেডিসিন কর্নারে কাজ করে, যেটা হাজীগঞ্জ বাজারে আছে, যেটা সবসময় ব্যস্ত থাকে।",
+     "pron_bn": "সানজয় ওয়ার্কস অ্যাট মেডিসিন কর্নার হুইচ ইজ ইন হাজিগঞ্জ বাজার দ্যাট ইজ অলওয়েজ বিজি।",
+     "text": "Sanjoy works at Medicine Corner which is in Hajiganj Bazar that is always busy."
+    },
+    {
+     "bn": "সঞ্জয় মেডিসিন কর্নারে কাজ করে, যেটা হাজীগঞ্জ বাজারে আছে, যেটা সন্ধ্যায় সবসময় ব্যস্ত থাকে।",
+     "pron_bn": "সানজয় ওয়ার্কস অ্যাট মেডিসিন কর্নার হুইচ ইজ ইন হাজিগঞ্জ বাজার দ্যাট ইজ অলওয়েজ বিজি ইন দ্যা ইভনিং।",
+     "text": "Sanjoy works at Medicine Corner which is in Hajiganj Bazar that is always busy in the evening."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি who দিয়ে রহিম সম্পর্কে তথ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় রহিমের সাথে দেখা করে।",
+     "pron_bn": "সানজয় মিটস রহিম।",
+     "text": "Sanjoy meets Rahim."
+    },
+    {
+     "bn": "সঞ্জয় রহিমের সাথে দেখা করে, যে তার পুরোনো বন্ধু।",
+     "pron_bn": "সানজয় মিটস রহিম হু ইজ হিজ ওল্ড ফ্রেন্ড।",
+     "text": "Sanjoy meets Rahim who is his old friend."
+    },
+    {
+     "bn": "সঞ্জয় রহিমের সাথে দেখা করে, যে স্কুলের সময় থেকে তার পুরোনো বন্ধু।",
+     "pron_bn": "সানজয় মিটস রহিম হু ইজ হিজ ওল্ড ফ্রেন্ড ফ্রম স্কুল।",
+     "text": "Sanjoy meets Rahim who is his old friend from school."
+    },
+    {
+     "bn": "সঞ্জয় প্রতি শুক্রবার রহিমের সাথে দেখা করে, যে স্কুলের সময় থেকে তার পুরোনো বন্ধু।",
+     "pron_bn": "সানজয় মিটস রহিম হু ইজ হিজ ওল্ড ফ্রেন্ড ফ্রম স্কুল এভরি ফ্রাইডে।",
+     "text": "Sanjoy meets Rahim who is his old friend from school every Friday."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি which আর that দিয়ে ঢাকা আর দোকান সম্পর্কে তথ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় ঢাকা ঘুরতে যেতে চায়।",
+     "pron_bn": "সানজয় ওয়ান্টস টু ভিজিট ঢাকা।",
+     "text": "Sanjoy wants to visit Dhaka."
+    },
+    {
+     "bn": "সঞ্জয় ঢাকা ঘুরতে যেতে চায়, যেটা একটা বড় শহর।",
+     "pron_bn": "সানজয় ওয়ান্টস টু ভিজিট ঢাকা হুইচ ইজ আ বিগ সিটি।",
+     "text": "Sanjoy wants to visit Dhaka which is a big city."
+    },
+    {
+     "bn": "সঞ্জয় ঢাকা ঘুরতে যেতে চায়, যেটা অনেক দোকানসহ একটা বড় শহর।",
+     "pron_bn": "সানজয় ওয়ান্টস টু ভিজিট ঢাকা হুইচ ইজ আ বিগ সিটি উইথ মেনি শপস।",
+     "text": "Sanjoy wants to visit Dhaka which is a big city with many shops."
+    },
+    {
+     "bn": "সঞ্জয় ঢাকা ঘুরতে যেতে চায়, যেটা এমন অনেক দোকানসহ বড় শহর, যেখানে সস্তা বই বিক্রি হয়।",
+     "pron_bn": "সানজয় ওয়ান্টস টু ভিজিট ঢাকা হুইচ ইজ আ বিগ সিটি উইথ মেনি শপস দ্যাট সেল চিপ বুকস।",
+     "text": "Sanjoy wants to visit Dhaka which is a big city with many shops that sell cheap books."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি that দিয়ে বই সম্পর্কে তথ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় বই পড়ে।",
+     "pron_bn": "সানজয় রিডস বুকস।",
+     "text": "Sanjoy reads books."
+    },
+    {
+     "bn": "সঞ্জয় এমন বই পড়ে, যেগুলো ইংরেজি শেখায়।",
+     "pron_bn": "সানজয় রিডস বুকস দ্যাট টিচ ইংলিশ।",
+     "text": "Sanjoy reads books that teach English."
+    },
+    {
+     "bn": "সঞ্জয় সন্ধ্যায় এমন বই পড়ে, যেগুলো ইংরেজি শেখায়।",
+     "pron_bn": "সানজয় রিডস বুকস দ্যাট টিচ ইংলিশ ইন দ্যা ইভনিং।",
+     "text": "Sanjoy reads books that teach English in the evening."
+    },
+    {
+     "bn": "সঞ্জয় সন্ধ্যায় নুসরাতের সাথে এমন বই পড়ে, যেগুলো ইংরেজি শেখায়।",
+     "pron_bn": "সানজয় রিডস বুকস দ্যাট টিচ ইংলিশ উইথ নুসরাত ইন দ্যা ইভনিং।",
+     "text": "Sanjoy reads books that teach English with Nusrat in the evening."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি that দিয়ে গরম পানি সম্পর্কে তথ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় হালকা গরম পানি খায়।",
+     "pron_bn": "সানজয় ড্রিংকস ওয়ার্ম ওয়াটার।",
+     "text": "Sanjoy drinks warm water."
+    },
+    {
+     "bn": "সঞ্জয় হালকা গরম পানি খায়, যেটা তার গলার জন্য ভালো।",
+     "pron_bn": "সানজয় ড্রিংকস ওয়ার্ম ওয়াটার দ্যাট হেল্পস হিজ থ্রোট।",
+     "text": "Sanjoy drinks warm water that helps his throat."
+    },
+    {
+     "bn": "সঞ্জয় শীতে হালকা গরম পানি খায়, যেটা তার গলার জন্য ভালো।",
+     "pron_bn": "সানজয় ড্রিংকস ওয়ার্ম ওয়াটার দ্যাট হেল্পস হিজ থ্রোট ইন উইন্টার।",
+     "text": "Sanjoy drinks warm water that helps his throat in winter."
+    },
+    {
+     "bn": "সঞ্জয় কনকনে শীতে হালকা গরম পানি খায়, যেটা তার গলার জন্য ভালো।",
+     "pron_bn": "সানজয় ড্রিংকস ওয়ার্ম ওয়াটার দ্যাট হেল্পস হিজ থ্রোট ইন কোল্ড উইন্টার।",
+     "text": "Sanjoy drinks warm water that helps his throat in cold winter."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি that আর which দিয়ে শার্ট আর বাজার সম্পর্কে তথ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সুকুমার একটা শার্ট কিনেছে।",
+     "pron_bn": "সুকুমার বট আ শার্ট।",
+     "text": "Sukumar bought a shirt."
+    },
+    {
+     "bn": "সুকুমার একটা শার্ট কিনেছে, যেটা সস্তা ছিল।",
+     "pron_bn": "সুকুমার বট আ শার্ট দ্যাট ওয়াজ চিপ।",
+     "text": "Sukumar bought a shirt that was cheap."
+    },
+    {
+     "bn": "সুকুমার হাজীগঞ্জ বাজারে একটা শার্ট কিনেছে, যেটা সস্তা ছিল।",
+     "pron_bn": "সুকুমার বট আ শার্ট দ্যাট ওয়াজ চিপ ইন হাজিগঞ্জ বাজার।",
+     "text": "Sukumar bought a shirt that was cheap in Hajiganj Bazar."
+    },
+    {
+     "bn": "সুকুমার হাজীগঞ্জ বাজারের একটা দোকান থেকে একটা শার্ট কিনেছে, যেটা সস্তা ছিল।",
+     "pron_bn": "সুকুমার বট আ শার্ট দ্যাট ওয়াজ চিপ ইন আ শপ ইন হাজিগঞ্জ বাজার।",
+     "text": "Sukumar bought a shirt that was cheap in a shop in Hajiganj Bazar."
+    },
+    {
+     "bn": "সুকুমার হাজীগঞ্জ বাজারের একটা দোকান থেকে একটা শার্ট কিনেছে, যেটা সস্তা ছিল, আর ওই বাজারটা মেডিসিন কর্নারের কাছে।",
+     "pron_bn": "সুকুমার বট আ শার্ট দ্যাট ওয়াজ চিপ ইন আ শপ ইন হাজিগঞ্জ বাজার হুইচ ইজ নিয়ার মেডিসিন কর্নার।",
+     "text": "Sukumar bought a shirt that was cheap in a shop in Hajiganj Bazar which is near Medicine Corner."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি that দিয়ে বৃষ্টি সম্পর্কে তথ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "বৃষ্টি খুব জোরে হচ্ছে।",
+     "pron_bn": "দ্যা রেইন ইজ হেভি।",
+     "text": "The rain is heavy."
+    },
+    {
+     "bn": "সকালে যে বৃষ্টি শুরু হয়েছে, সেটা খুব জোরে হচ্ছে।",
+     "pron_bn": "দ্যা রেইন দ্যাট স্টার্টেড ইন দ্যা মর্নিং ইজ হেভি।",
+     "text": "The rain that started in the morning is heavy."
+    },
+    {
+     "bn": "হাজীগঞ্জে সকালে যে বৃষ্টি শুরু হয়েছে, সেটা খুব জোরে হচ্ছে।",
+     "pron_bn": "দ্যা রেইন দ্যাট স্টার্টেড ইন দ্যা মর্নিং ইন হাজিগঞ্জ ইজ হেভি।",
+     "text": "The rain that started in the morning in Hajiganj is heavy."
+    },
+    {
+     "bn": "হাজীগঞ্জে সকালে যে বৃষ্টি শুরু হয়েছে, সেটা আজ খুব জোরে হচ্ছে।",
+     "pron_bn": "দ্যা রেইন দ্যাট স্টার্টেড ইন দ্যা মর্নিং ইন হাজিগঞ্জ ইজ হেভি টুডে।",
+     "text": "The rain that started in the morning in Hajiganj is heavy today."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি that দিয়ে ফোন সম্পর্কে তথ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাজীবের একটা ফোন আছে।",
+     "pron_bn": "রাজিব হ্যাজ আ ফোন।",
+     "text": "Rajib has a phone."
+    },
+    {
+     "bn": "রাজীবের একটা ফোন আছে, যেটা সে পড়াশোনার জন্য ব্যবহার করে।",
+     "pron_bn": "রাজিব হ্যাজ আ ফোন দ্যাট হি ইউজেস ফর স্টাডি।",
+     "text": "Rajib has a phone that he uses for study."
+    },
+    {
+     "bn": "রাজীবের একটা ফোন আছে, যেটা সে প্রতি রাতে পড়াশোনার জন্য ব্যবহার করে।",
+     "pron_bn": "রাজিব হ্যাজ আ ফোন দ্যাট হি ইউজেস ফর স্টাডি এভরি নাইট।",
+     "text": "Rajib has a phone that he uses for study every night."
+    },
+    {
+     "bn": "রাজীবের একটা নতুন ফোন আছে, যেটা সে প্রতি রাতে পড়াশোনার জন্য ব্যবহার করে।",
+     "pron_bn": "রাজিব হ্যাজ আ নিউ ফোন দ্যাট হি ইউজেস ফর স্টাডি এভরি নাইট।",
+     "text": "Rajib has a new phone that he uses for study every night."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি where দিয়ে হাজীগঞ্জ সম্পর্কে তথ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "হাজীগঞ্জ একটা শহর।",
+     "pron_bn": "হাজিগঞ্জ ইজ আ টাউন।",
+     "text": "Hajiganj is a town."
+    },
+    {
+     "bn": "হাজীগঞ্জ একটা শহর, যেখানে সঞ্জয় থাকে।",
+     "pron_bn": "হাজিগঞ্জ ইজ আ টাউন হোয়্যার সানজয় লিভস।",
+     "text": "Hajiganj is a town where Sanjoy lives."
+    },
+    {
+     "bn": "হাজীগঞ্জ একটা শহর, যেখানে সঞ্জয় থাকে আর কাজ করে।",
+     "pron_bn": "হাজিগঞ্জ ইজ আ টাউন হোয়্যার সানজয় লিভস অ্যান্ড ওয়ার্কস।",
+     "text": "Hajiganj is a town where Sanjoy lives and works."
+    },
+    {
+     "bn": "হাজীগঞ্জ একটা ছোট শহর, যেখানে সঞ্জয় থাকে আর কাজ করে।",
+     "pron_bn": "হাজিগঞ্জ ইজ আ স্মল টাউন হোয়্যার সানজয় লিভস অ্যান্ড ওয়ার্কস।",
+     "text": "Hajiganj is a small town where Sanjoy lives and works."
+    },
+    {
+     "bn": "হাজীগঞ্জ একটা ছোট শহর, যেখানে সঞ্জয় সুখে থাকে আর কাজ করে।",
+     "pron_bn": "হাজিগঞ্জ ইজ আ স্মল টাউন হোয়্যার সানজয় লিভস অ্যান্ড ওয়ার্কস হ্যাপিলি।",
+     "text": "Hajiganj is a small town where Sanjoy lives and works happily."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি who, which, that আর where দিয়ে নাউন সম্পর্কে বাড়তি তথ্য যোগ করা শিখবে। তুমি ছোট বাক্য থেকে শুরু করে ধাপে ধাপে বড় বাক্য বানাবে।",
+ "tip_bn": "তুমি মানুষের জন্য who, জিনিসের জন্য which বা that, আর জায়গার জন্য where ব্যবহার করবে। তুমি relative clause-কে সবসময় ওই নাউনের ঠিক পরে বসাবে।",
+ "title": "Adding Details with Who, Which, and That"
+}

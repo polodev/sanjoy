@@ -8,6 +8,7 @@ import sys
 from engine import FULL_NAME, ROOT, avatar, bn, esc, page, write
 import english101 as E
 import japanese101 as J
+import site_builder
 import site_english
 import site_japanese
 
@@ -45,7 +46,9 @@ def language_page(k, v):
     body = (f'<header class="hero"><div class="in hero-grid"><div><a class="back" href="../index.html">← হোম</a><h1>{v["name"]} — {v["bn_name"]}</h1><p>{v["intro"]}</p></div>{avatar("../", "hero-ava sm")}</div></header>'
             f'<main class="wrap"><a class="card course" href="101/index.html"><span class="tag">101</span><b>{c["title"]} — {c["tag"]}</b>'
             f'<span class="sub">{c["sub"]}</span><span class="sub">{v["meta"]}</span></a>'
-            f'<div class="card course locked"><span class="tag">102</span><b>{v["name"]} 102</b><span class="sub">🔒 শীঘ্রই আসছে</span></div></main>' + footer("../"))
+            + (f'<a class="card course" href="builder/index.html"><span class="tag">A1–B1</span><b>Sentence Builder — ছোট বাক্য থেকে বড় বাক্য</b>'
+               f'<span class="sub">একটা ছোট বাক্যে ধাপে ধাপে শব্দ যোগ করে বড় বাক্য বানানো · ২০ অধ্যায় · ২০০টি বাক্য-নির্মাণ</span></a>' if k == "english" else "")
+            + f'<div class="card course locked"><span class="tag">102</span><b>{v["name"]} 102</b><span class="sub">🔒 শীঘ্রই আসছে</span></div></main>' + footer("../"))
     write(f"{k}/index.html", page(f"{v['name']} — সঞ্জয়ের ভাষা শেখার ঘর", body, 1, v["theme"]))
 
 
@@ -67,6 +70,26 @@ def course_page(k, v):
             f'<p style="text-align:center;margin-top:10px"><a class="btn" id="continue" href="day-01/index.html">▶ শুরু করুন</a></p></div>'
             f'<div class="days">{"".join(days)}</div></main>' + footer("../../"))
     write(f"{k}/101/index.html", page(f"{c['title']} — {c['tag']}", body, 2, v["theme"]))
+
+
+def builder_course_page():
+    from tools.gen_builder import CHAPTERS
+    v = LANGS["english"]
+    rows = []
+    for n, (level, title_bn, _f) in enumerate(CHAPTERS, 1):
+        if not site_builder.ready(n):
+            rows.append(f'<div class="day locked"><span class="n">অধ্যায়<b>{bn(n)}</b></span><span class="t"><b>{esc(title_bn)}</b><span>{level} · 🔒 শীঘ্রই আসছে</span></span></div>')
+            continue
+        d = site_builder.load(n)
+        rows.append(f'<a class="day" data-deckkey="english/builder/day-{n:02d}" href="day-{n:02d}/index.html"><span class="n">অধ্যায়<b>{bn(n)}</b></span>'
+                    f'<span class="t"><b>{esc(title_bn)}</b><span>{level} · {esc(d["title"])}</span></span><span class="tick">✓</span></a>')
+    body = (f'<header class="hero"><div class="in hero-grid"><div><a class="back" href="../index.html">← {v["name"]}</a><h1>Sentence Builder</h1>'
+            f'<p>I like tea → I like tea with milk → I like drinking tea with milk every morning. প্রতিটি অধ্যায়ে ১০টি বাক্য-নির্মাণ, প্রতি ধাপে নতুন অংশটা সবুজ। A1 থেকে B1।</p></div>{avatar("../../", "hero-ava sm")}</div></header>'
+            f'<main class="wrap"><div class="card"><div class="bar"><i id="progress"></i></div>'
+            f'<p class="note" id="streak"></p><p class="note" id="progress-text">০ / {bn(len(CHAPTERS))} অধ্যায় শেষ</p>'
+            f'<p style="text-align:center;margin-top:10px"><a class="btn" id="continue" href="day-01/index.html">▶ শুরু করুন</a></p></div>'
+            f'<div class="days">{"".join(rows)}</div></main>' + footer("../../"))
+    write("english/builder/index.html", page("Sentence Builder — A1–B1", body, 2, v["theme"]))
 
 
 def not_found():
@@ -92,6 +115,10 @@ if __name__ == "__main__":
         course_page(k, v)
         for n in range(1, v["n_days"] + 1):
             v["builder"](E.DAYS[n - 1] if k == "english" else n)
+    builder_course_page()
+    for n in range(1, 21):
+        if site_builder.ready(n):
+            site_builder.build_day(n)
     not_found()
     pages = sum(1 for _ in ROOT.rglob("index.html"))
     print(f"built {pages} pages")

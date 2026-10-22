@@ -1,0 +1,267 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি for দিয়ে সময় আর পরিবারের কথা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় হাজীগঞ্জে থেকেছে।",
+     "pron_bn": "সানজয় হ্যাজ লিভড ইন হাজিগঞ্জ।",
+     "text": "Sanjoy has lived in Hajiganj."
+    },
+    {
+     "bn": "সঞ্জয় পরিবারের সঙ্গে হাজীগঞ্জে থেকেছে।",
+     "pron_bn": "সানজয় হ্যাজ লিভড ইন হাজিগঞ্জ উইথ হিজ ফ্যামিলি।",
+     "text": "Sanjoy has lived in Hajiganj with his family."
+    },
+    {
+     "bn": "সঞ্জয় দশ বছর ধরে পরিবারের সঙ্গে হাজীগঞ্জে থাকছে।",
+     "pron_bn": "সানজয় হ্যাজ লিভড ইন হাজিগঞ্জ উইথ হিজ ফ্যামিলি ফর টেন ইয়ার্স।",
+     "text": "Sanjoy has lived in Hajiganj with his family for ten years."
+    },
+    {
+     "bn": "সঞ্জয় দশ বছর ধরে পরিবারের সঙ্গে সুখে হাজীগঞ্জে থাকছে।",
+     "pron_bn": "সানজয় হ্যাজ লিভড হ্যাপিলি ইন হাজিগঞ্জ উইথ হিজ ফ্যামিলি ফর টেন ইয়ার্স।",
+     "text": "Sanjoy has lived happily in Hajiganj with his family for ten years."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি since দিয়ে সময় আর কাজের সঙ্গী যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় মেডিসিন কর্নারে কাজ করেছে।",
+     "pron_bn": "সানজয় হ্যাজ ওয়ার্কড অ্যাট মেডিসিন কর্নার।",
+     "text": "Sanjoy has worked at Medicine Corner."
+    },
+    {
+     "bn": "সঞ্জয় ২০২২ সাল থেকে মেডিসিন কর্নারে কাজ করছে।",
+     "pron_bn": "সানজয় হ্যাজ ওয়ার্কড অ্যাট মেডিসিন কর্নার সিন্স টু থাউজ্যান্ড টোয়েন্টি টু।",
+     "text": "Sanjoy has worked at Medicine Corner since 2022."
+    },
+    {
+     "bn": "সঞ্জয় ২০২২ সাল থেকে রহিমের সঙ্গে মেডিসিন কর্নারে কাজ করছে।",
+     "pron_bn": "সানজয় হ্যাজ ওয়ার্কড অ্যাট মেডিসিন কর্নার উইথ রহিম সিন্স টু থাউজ্যান্ড টোয়েন্টি টু।",
+     "text": "Sanjoy has worked at Medicine Corner with Rahim since 2022."
+    },
+    {
+     "bn": "সঞ্জয় ২০২২ সাল থেকে রহিমের সঙ্গে মেডিসিন কর্নারে কঠোর পরিশ্রম করছে।",
+     "pron_bn": "সানজয় হ্যাজ ওয়ার্কড হার্ড অ্যাট মেডিসিন কর্নার উইথ রহিম সিন্স টু থাউজ্যান্ড টোয়েন্টি টু।",
+     "text": "Sanjoy has worked hard at Medicine Corner with Rahim since 2022."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি ever প্রশ্নে বন্ধু, জায়গা আর সময় যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় কি কখনো ক্রিকেট খেলেছে?",
+     "pron_bn": "হ্যাজ সানজয় এভার প্লেইড ক্রিকেট?",
+     "text": "Has Sanjoy ever played cricket?"
+    },
+    {
+     "bn": "সঞ্জয় কি সুকুমারের সঙ্গে কখনো ক্রিকেট খেলেছে?",
+     "pron_bn": "হ্যাজ সানজয় এভার প্লেইড ক্রিকেট উইথ সুকুমার?",
+     "text": "Has Sanjoy ever played cricket with Sukumar?"
+    },
+    {
+     "bn": "সঞ্জয় কি হাজীগঞ্জ বাজারে সুকুমারের সঙ্গে কখনো ক্রিকেট খেলেছে?",
+     "pron_bn": "হ্যাজ সানজয় এভার প্লেইড ক্রিকেট উইথ সুকুমার ইন হাজিগঞ্জ বাজার?",
+     "text": "Has Sanjoy ever played cricket with Sukumar in Hajiganj Bazar?"
+    },
+    {
+     "bn": "সঞ্জয় কি সন্ধ্যায় হাজীগঞ্জ বাজারে সুকুমারের সঙ্গে কখনো ক্রিকেট খেলেছে?",
+     "pron_bn": "হ্যাজ সানজয় এভার প্লেইড ক্রিকেট উইথ সুকুমার ইন হাজিগঞ্জ বাজার ইন দি ইভনিং?",
+     "text": "Has Sanjoy ever played cricket with Sukumar in Hajiganj Bazar in the evening?"
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি already-এর সঙ্গে সংখ্যা, সঙ্গী আর সময় যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় ইতিমধ্যে ঢাকা ঘুরে এসেছে।",
+     "pron_bn": "সানজয় হ্যাজ অলরেডি ভিজিটেড ঢাকা।",
+     "text": "Sanjoy has already visited Dhaka."
+    },
+    {
+     "bn": "সঞ্জয় ইতিমধ্যে দুইবার ঢাকা ঘুরে এসেছে।",
+     "pron_bn": "সানজয় হ্যাজ অলরেডি ভিজিটেড ঢাকা টোয়াইস।",
+     "text": "Sanjoy has already visited Dhaka twice."
+    },
+    {
+     "bn": "সঞ্জয় নুসরাতের সঙ্গে ইতিমধ্যে দুইবার ঢাকা ঘুরে এসেছে।",
+     "pron_bn": "সানজয় হ্যাজ অলরেডি ভিজিটেড ঢাকা টোয়াইস উইথ নুসরাত।",
+     "text": "Sanjoy has already visited Dhaka twice with Nusrat."
+    },
+    {
+     "bn": "সঞ্জয় এই বছর নুসরাতের সঙ্গে ইতিমধ্যে দুইবার ঢাকা ঘুরে এসেছে।",
+     "pron_bn": "সানজয় হ্যাজ অলরেডি ভিজিটেড ঢাকা টোয়াইস উইথ নুসরাত দিস ইয়ার।",
+     "text": "Sanjoy has already visited Dhaka twice with Nusrat this year."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি yet দিয়ে বন্ধু আর কলেজের কথা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় তার ইংরেজি কোর্স শেষ করেনি।",
+     "pron_bn": "সানজয় হ্যাজ নট ফিনিশড হিজ ইংলিশ কোর্স।",
+     "text": "Sanjoy has not finished his English course."
+    },
+    {
+     "bn": "সঞ্জয় এখনো তার ইংরেজি কোর্স শেষ করেনি।",
+     "pron_bn": "সানজয় হ্যাজ নট ফিনিশড হিজ ইংলিশ কোর্স ইয়েট।",
+     "text": "Sanjoy has not finished his English course yet."
+    },
+    {
+     "bn": "সঞ্জয় রাজীবের সঙ্গে এখনো তার ইংরেজি কোর্স শেষ করেনি।",
+     "pron_bn": "সানজয় হ্যাজ নট ফিনিশড হিজ ইংলিশ কোর্স উইথ রাজীব ইয়েট।",
+     "text": "Sanjoy has not finished his English course with Rajib yet."
+    },
+    {
+     "bn": "সঞ্জয় কলেজে রাজীবের সঙ্গে এখনো তার ইংরেজি কোর্স শেষ করেনি।",
+     "pron_bn": "সানজয় হ্যাজ নট ফিনিশড হিজ ইংলিশ কোর্স উইথ রাজীব অ্যাট দা কলেজ ইয়েট।",
+     "text": "Sanjoy has not finished his English course with Rajib at the college yet."
+    },
+    {
+     "bn": "সঞ্জয় চাঁদপুরের কলেজে রাজীবের সঙ্গে এখনো তার ইংরেজি কোর্স শেষ করেনি।",
+     "pron_bn": "সানজয় হ্যাজ নট ফিনিশড হিজ ইংলিশ কোর্স উইথ রাজীব অ্যাট দা কলেজ ইন চাঁদপুর ইয়েট।",
+     "text": "Sanjoy has not finished his English course with Rajib at the college in Chandpur yet."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি for আর already-এর সঙ্গে সঙ্গী ও জায়গা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় সকালে হেঁটেছে।",
+     "pron_bn": "সানজয় হ্যাজ ওয়াকড ইন দা মর্নিং।",
+     "text": "Sanjoy has walked in the morning."
+    },
+    {
+     "bn": "সঞ্জয় এক মাস ধরে সকালে হাঁটছে।",
+     "pron_bn": "সানজয় হ্যাজ ওয়াকড ইন দা মর্নিং ফর আ মান্থ।",
+     "text": "Sanjoy has walked in the morning for a month."
+    },
+    {
+     "bn": "সঞ্জয় ইতিমধ্যে এক মাস ধরে সকালে হাঁটছে।",
+     "pron_bn": "সানজয় হ্যাজ অলরেডি ওয়াকড ইন দা মর্নিং ফর আ মান্থ।",
+     "text": "Sanjoy has already walked in the morning for a month."
+    },
+    {
+     "bn": "সঞ্জয় বাবার সঙ্গে ইতিমধ্যে এক মাস ধরে সকালে হাঁটছে।",
+     "pron_bn": "সানজয় হ্যাজ অলরেডি ওয়াকড ইন দা মর্নিং ফর আ মান্থ উইথ হিজ ফাদার।",
+     "text": "Sanjoy has already walked in the morning for a month with his father."
+    },
+    {
+     "bn": "সঞ্জয় হাজীগঞ্জে বাবার সঙ্গে ইতিমধ্যে এক মাস ধরে সকালে হাঁটছে।",
+     "pron_bn": "সানজয় হ্যাজ অলরেডি ওয়াকড ইন দা মর্নিং ফর আ মান্থ উইথ হিজ ফাদার ইন হাজিগঞ্জ।",
+     "text": "Sanjoy has already walked in the morning for a month with his father in Hajiganj."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি yet প্রশ্নে বর্ণনা আর বাজারের নাম যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "তুমি কি আম কিনেছ?",
+     "pron_bn": "হ্যাভ ইউ বট ম্যাংগোজ ইয়েট?",
+     "text": "Have you bought mangoes yet?"
+    },
+    {
+     "bn": "তুমি কি টাটকা আম কিনেছ?",
+     "pron_bn": "হ্যাভ ইউ বট ফ্রেশ ম্যাংগোজ ইয়েট?",
+     "text": "Have you bought fresh mangoes yet?"
+    },
+    {
+     "bn": "তুমি কি বাজার থেকে টাটকা আম কিনেছ?",
+     "pron_bn": "হ্যাভ ইউ বট ফ্রেশ ম্যাংগোজ ফ্রম দা বাজার ইয়েট?",
+     "text": "Have you bought fresh mangoes from the bazaar yet?"
+    },
+    {
+     "bn": "তুমি কি হাজীগঞ্জের বাজার থেকে টাটকা আম কিনেছ?",
+     "pron_bn": "হ্যাভ ইউ বট ফ্রেশ ম্যাংগোজ ফ্রম দা বাজার ইন হাজিগঞ্জ ইয়েট?",
+     "text": "Have you bought fresh mangoes from the bazaar in Hajiganj yet?"
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি since দিয়ে শুরু আর বৃষ্টির ধরন যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "চাঁদপুরে বৃষ্টি হয়েছে।",
+     "pron_bn": "ইট হ্যাজ রেইনড ইন চাঁদপুর।",
+     "text": "It has rained in Chandpur."
+    },
+    {
+     "bn": "চাঁদপুরে সকাল থেকে বৃষ্টি হচ্ছে।",
+     "pron_bn": "ইট হ্যাজ রেইনড ইন চাঁদপুর সিন্স মর্নিং।",
+     "text": "It has rained in Chandpur since morning."
+    },
+    {
+     "bn": "চাঁদপুরে সকাল থেকে ভারী বৃষ্টি হচ্ছে।",
+     "pron_bn": "ইট হ্যাজ রেইনড হেভিলি ইন চাঁদপুর সিন্স মর্নিং।",
+     "text": "It has rained heavily in Chandpur since morning."
+    },
+    {
+     "bn": "চাঁদপুরে শুক্রবার সকাল থেকে ভারী বৃষ্টি হচ্ছে।",
+     "pron_bn": "ইট হ্যাজ রেইনড হেভিলি ইন চাঁদপুর সিন্স ফ্রাইডে মর্নিং।",
+     "text": "It has rained heavily in Chandpur since Friday morning."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি since-এর সঙ্গে ফোন আর কাজের কারণ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় ইন্টারনেট ব্যবহার করেছে।",
+     "pron_bn": "সানজয় হ্যাজ ইউজড দি ইন্টারনেট।",
+     "text": "Sanjoy has used the internet."
+    },
+    {
+     "bn": "সঞ্জয় মোবাইলে ইন্টারনেট ব্যবহার করেছে।",
+     "pron_bn": "সানজয় হ্যাজ ইউজড দি ইন্টারনেট অন হিজ ফোন।",
+     "text": "Sanjoy has used the internet on his phone."
+    },
+    {
+     "bn": "সঞ্জয় গত বছর থেকে মোবাইলে ইন্টারনেট ব্যবহার করছে।",
+     "pron_bn": "সানজয় হ্যাজ ইউজড দি ইন্টারনেট অন হিজ ফোন সিন্স লাস্ট ইয়ার।",
+     "text": "Sanjoy has used the internet on his phone since last year."
+    },
+    {
+     "bn": "সঞ্জয় গত বছর থেকে মেডিসিন কর্নারের কাজে মোবাইলে ইন্টারনেট ব্যবহার করছে।",
+     "pron_bn": "সানজয় হ্যাজ ইউজড দি ইন্টারনেট অন হিজ ফোন ফর মেডিসিন কর্নার সিন্স লাস্ট ইয়ার।",
+     "text": "Sanjoy has used the internet on his phone for Medicine Corner since last year."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি ever প্রশ্নে পরিবার আর গ্রামের কথা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নুসরাত কি কখনো গ্রামে থেকেছে?",
+     "pron_bn": "হ্যাজ নুসরাত এভার লিভড ইন আ ভিলেজ?",
+     "text": "Has Nusrat ever lived in a village?"
+    },
+    {
+     "bn": "নুসরাত কি চাঁদপুরের গ্রামে কখনো থেকেছে?",
+     "pron_bn": "হ্যাজ নুসরাত এভার লিভড ইন আ ভিলেজ ইন চাঁদপুর?",
+     "text": "Has Nusrat ever lived in a village in Chandpur?"
+    },
+    {
+     "bn": "নুসরাত কি বাবা-মায়ের সঙ্গে চাঁদপুরের গ্রামে কখনো থেকেছে?",
+     "pron_bn": "হ্যাজ নুসরাত এভার লিভড উইথ হার পেরেন্টস ইন আ ভিলেজ ইন চাঁদপুর?",
+     "text": "Has Nusrat ever lived with her parents in a village in Chandpur?"
+    },
+    {
+     "bn": "নুসরাত কি বাবা-মায়ের সঙ্গে চাঁদপুরের গ্রামে কখনো সুখে থেকেছে?",
+     "pron_bn": "হ্যাজ নুসরাত এভার লিভড হ্যাপিলি উইথ হার পেরেন্টস ইন আ ভিলেজ ইন চাঁদপুর?",
+     "text": "Has Nusrat ever lived happily with her parents in a village in Chandpur?"
+    }
+   ]
+  }
+ ],
+ "intro_bn": "তুমি এই অধ্যায়ে for, since, ever, already আর yet দিয়ে বাক্য বড় করা শিখবে।",
+ "tip_bn": "তুমি সময়ের পরিমাণ বোঝাতে for আর শুরুর সময় বোঝাতে since ব্যবহার করো। প্রশ্নে ever, শেষ হওয়া কাজে already আর এখনো হয়নি বোঝাতে yet ব্যবহার করো।",
+ "title": "Present Perfect with For, Since and More"
+}

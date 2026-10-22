@@ -1,0 +1,207 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি at seven আর in the morning যোগ করে খাওয়ার সময় বলেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় পরিবারের সাথে খায়।",
+     "pron_bn": "সানজয় ইটস উইথ ফ্যামিলি।",
+     "text": "Sanjoy eats with family."
+    },
+    {
+     "bn": "সঞ্জয় পরিবারের সাথে সাতটায় খায়।",
+     "pron_bn": "সানজয় ইটস উইথ ফ্যামিলি অ্যাট সেভেন।",
+     "text": "Sanjoy eats with family at seven."
+    },
+    {
+     "bn": "সঞ্জয় পরিবারের সাথে সকাল সাতটায় খায়।",
+     "pron_bn": "সানজয় ইটস উইথ ফ্যামিলি অ্যাট সেভেন ইন দা মর্নিং।",
+     "text": "Sanjoy eats with family at seven in the morning."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি at nine আর in the morning যোগ করে দোকান খোলার সময় বলেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় মেডিসিন কর্নার খোলে।",
+     "pron_bn": "সানজয় ওপেনস মেডিসিন কর্নার।",
+     "text": "Sanjoy opens Medicine Corner."
+    },
+    {
+     "bn": "সঞ্জয় নয়টায় মেডিসিন কর্নার খোলে।",
+     "pron_bn": "সানজয় ওপেনস মেডিসিন কর্নার অ্যাট নাইন।",
+     "text": "Sanjoy opens Medicine Corner at nine."
+    },
+    {
+     "bn": "সঞ্জয় সকাল নয়টায় মেডিসিন কর্নার খোলে।",
+     "pron_bn": "সানজয় ওপেনস মেডিসিন কর্নার অ্যাট নাইন ইন দা মর্নিং।",
+     "text": "Sanjoy opens Medicine Corner at nine in the morning."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি at seven আর in the evening যোগ করে দেখা করার সময় বলেছ।",
+   "steps": [
+    {
+     "bn": "রহিম সঞ্জয়কে দেখতে আসে।",
+     "pron_bn": "রাহিম ভিজিটস সানজয়।",
+     "text": "Rahim visits Sanjoy."
+    },
+    {
+     "bn": "রহিম সাতটায় সঞ্জয়কে দেখতে আসে।",
+     "pron_bn": "রাহিম ভিজিটস সানজয় অ্যাট সেভেন।",
+     "text": "Rahim visits Sanjoy at seven."
+    },
+    {
+     "bn": "রহিম সন্ধ্যা সাতটায় সঞ্জয়কে দেখতে আসে।",
+     "pron_bn": "রাহিম ভিজিটস সানজয় অ্যাট সেভেন ইন দি ইভনিং।",
+     "text": "Rahim visits Sanjoy at seven in the evening."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি at eight আর in the morning যোগ করে যাওয়ার সময় বলেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় চাঁদপুরে যায়।",
+     "pron_bn": "সানজয় গোজ টু চাঁদপুর।",
+     "text": "Sanjoy goes to Chandpur."
+    },
+    {
+     "bn": "সঞ্জয় আটটায় চাঁদপুরে যায়।",
+     "pron_bn": "সানজয় গোজ টু চাঁদপুর অ্যাট এইট।",
+     "text": "Sanjoy goes to Chandpur at eight."
+    },
+    {
+     "bn": "সঞ্জয় সকাল আটটায় চাঁদপুরে যায়।",
+     "pron_bn": "সানজয় গোজ টু চাঁদপুর অ্যাট এইট ইন দা মর্নিং।",
+     "text": "Sanjoy goes to Chandpur at eight in the morning."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি at nine আর every night যোগ করে পড়ার সময় বলেছ।",
+   "steps": [
+    {
+     "bn": "নুসরাত ইংরেজি পড়ে।",
+     "pron_bn": "নুসরাত রিডস ইংলিশ।",
+     "text": "Nusrat reads English."
+    },
+    {
+     "bn": "নুসরাত নয়টায় ইংরেজি পড়ে।",
+     "pron_bn": "নুসরাত রিডস ইংলিশ অ্যাট নাইন।",
+     "text": "Nusrat reads English at nine."
+    },
+    {
+     "bn": "নুসরাত প্রতি রাতে নয়টায় ইংরেজি পড়ে।",
+     "pron_bn": "নুসরাত রিডস ইংলিশ অ্যাট নাইন এভরি নাইট।",
+     "text": "Nusrat reads English at nine every night."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি at six আর in the morning যোগ করে হাঁটার সময় বলেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় হাজীগঞ্জে হাঁটে।",
+     "pron_bn": "সানজয় ওয়াকস ইন হাজীগঞ্জ।",
+     "text": "Sanjoy walks in Hajiganj."
+    },
+    {
+     "bn": "সঞ্জয় হাজীগঞ্জে ছয়টায় হাঁটে।",
+     "pron_bn": "সানজয় ওয়াকস ইন হাজীগঞ্জ অ্যাট সিক্স।",
+     "text": "Sanjoy walks in Hajiganj at six."
+    },
+    {
+     "bn": "সঞ্জয় সকাল ছয়টায় হাজীগঞ্জে হাঁটে।",
+     "pron_bn": "সানজয় ওয়াকস ইন হাজীগঞ্জ অ্যাট সিক্স ইন দা মর্নিং।",
+     "text": "Sanjoy walks in Hajiganj at six in the morning."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি after work আর at six যোগ করে বাজার করার সময় বলেছ।",
+   "steps": [
+    {
+     "bn": "সুকুমার সবজি কেনে।",
+     "pron_bn": "সুকুমার বাইজ ভেজিটেবলস।",
+     "text": "Sukumar buys vegetables."
+    },
+    {
+     "bn": "সুকুমার কাজের পর সবজি কেনে।",
+     "pron_bn": "সুকুমার বাইজ ভেজিটেবলস আফটার ওয়ার্ক।",
+     "text": "Sukumar buys vegetables after work."
+    },
+    {
+     "bn": "সুকুমার কাজের পর ছয়টায় সবজি কেনে।",
+     "pron_bn": "সুকুমার বাইজ ভেজিটেবলস আফটার ওয়ার্ক অ্যাট সিক্স।",
+     "text": "Sukumar buys vegetables after work at six."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি at six আর in the morning যোগ করে আবহাওয়ার সময় বলেছ।",
+   "steps": [
+    {
+     "bn": "হাজীগঞ্জে আবহাওয়া ঠান্ডা থাকে।",
+     "pron_bn": "ইট ইজ কুল ইন হাজীগঞ্জ।",
+     "text": "It is cool in Hajiganj."
+    },
+    {
+     "bn": "হাজীগঞ্জে ছয়টায় ঠান্ডা থাকে।",
+     "pron_bn": "ইট ইজ কুল ইন হাজীগঞ্জ অ্যাট সিক্স।",
+     "text": "It is cool in Hajiganj at six."
+    },
+    {
+     "bn": "হাজীগঞ্জে সকাল ছয়টায় ঠান্ডা থাকে।",
+     "pron_bn": "ইট ইজ কুল ইন হাজীগঞ্জ অ্যাট সিক্স ইন দা মর্নিং।",
+     "text": "It is cool in Hajiganj at six in the morning."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি at ten আর every night যোগ করে ফোন করার সময় বলেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় রাজীবকে ফোন করে।",
+     "pron_bn": "সানজয় কলস রাজীব।",
+     "text": "Sanjoy calls Rajib."
+    },
+    {
+     "bn": "সঞ্জয় দশটায় রাজীবকে ফোন করে।",
+     "pron_bn": "সানজয় কলস রাজীব অ্যাট টেন।",
+     "text": "Sanjoy calls Rajib at ten."
+    },
+    {
+     "bn": "সঞ্জয় প্রতি রাতে দশটায় রাজীবকে ফোন করে।",
+     "pron_bn": "সানজয় কলস রাজীব অ্যাট টেন এভরি নাইট।",
+     "text": "Sanjoy calls Rajib at ten every night."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি at seven আর on Friday যোগ করে ঢাকা যাওয়ার সময় বলেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় ঢাকায় যায়।",
+     "pron_bn": "সানজয় গোজ টু ঢাকা।",
+     "text": "Sanjoy goes to Dhaka."
+    },
+    {
+     "bn": "সঞ্জয় সাতটায় ঢাকায় যায়।",
+     "pron_bn": "সানজয় গোজ টু ঢাকা অ্যাট সেভেন।",
+     "text": "Sanjoy goes to Dhaka at seven."
+    },
+    {
+     "bn": "সঞ্জয় শুক্রবার সাতটায় ঢাকায় যায়।",
+     "pron_bn": "সানজয় গোজ টু ঢাকা অ্যাট সেভেন অন ফ্রাইডে।",
+     "text": "Sanjoy goes to Dhaka at seven on Friday."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি সময় বলে তোমার প্রতিদিনের কাজ বলবে। ছোট বাক্য থেকে শুরু করে ধাপে ধাপে সময় যোগ করবে।",
+ "tip_bn": "তুমি ঘড়ির সময়ের আগে at আর সকাল-বিকেলের আগে in বসাবে। তুমি প্রতিদিন নিজের কাজ দিয়ে জোরে বলো আর সময় বদলে অনুশীলন করো।",
+ "title": "Daily Routine with Time"
+}

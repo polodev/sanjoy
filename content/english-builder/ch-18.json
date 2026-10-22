@@ -1,0 +1,287 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি কর্তা, সময় আর জায়গা যোগ করে ফার্মেসির বাক্যটি বড় করেছ।",
+   "steps": [
+    {
+     "bn": "ওষুধ বিক্রি হয়।",
+     "pron_bn": "মেডিসিন্স আর সোল্ড।",
+     "text": "Medicines are sold."
+    },
+    {
+     "bn": "ওষুধ সঞ্জয় বিক্রি করে।",
+     "pron_bn": "মেডিসিন্স আর সোল্ড বাই সঞ্জয়।",
+     "text": "Medicines are sold by Sanjoy."
+    },
+    {
+     "bn": "সঞ্জয় প্রতিদিন সন্ধ্যায় ওষুধ বিক্রি করে।",
+     "pron_bn": "মেডিসিন্স আর সোল্ড বাই সঞ্জয় এভরি ইভনিং।",
+     "text": "Medicines are sold by Sanjoy every evening."
+    },
+    {
+     "bn": "সঞ্জয় প্রতিদিন সন্ধ্যায় মেডিসিন কর্নারে ওষুধ বিক্রি করে।",
+     "pron_bn": "মেডিসিন্স আর সোল্ড বাই সঞ্জয় এভরি ইভনিং অ্যাট মেডিসিন কর্নার।",
+     "text": "Medicines are sold by Sanjoy every evening at Medicine Corner."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি বাবার বাক্যে কর্তা, সময় আর জায়গা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয়কে ডাকা হয়েছিল।",
+     "pron_bn": "সঞ্জয় ওয়াজ কল্ড।",
+     "text": "Sanjoy was called."
+    },
+    {
+     "bn": "সঞ্জয়কে তার বাবা ডেকেছিলেন।",
+     "pron_bn": "সঞ্জয় ওয়াজ কল্ড বাই হিজ ফাদার।",
+     "text": "Sanjoy was called by his father."
+    },
+    {
+     "bn": "গতকাল সঞ্জয়কে তার বাবা ডেকেছিলেন।",
+     "pron_bn": "সঞ্জয় ওয়াজ কল্ড বাই হিজ ফাদার ইয়েস্টারডে।",
+     "text": "Sanjoy was called by his father yesterday."
+    },
+    {
+     "bn": "গতকাল সন্ধ্যায় সঞ্জয়কে তার বাবা ডেকেছিলেন।",
+     "pron_bn": "সঞ্জয় ওয়াজ কল্ড বাই হিজ ফাদার ইয়েস্টারডে ইন দি ইভনিং।",
+     "text": "Sanjoy was called by his father yesterday in the evening."
+    },
+    {
+     "bn": "গতকাল সন্ধ্যায় বাড়িতে সঞ্জয়কে তার বাবা ডেকেছিলেন।",
+     "pron_bn": "সঞ্জয় ওয়াজ কল্ড বাই হিজ ফাদার ইয়েস্টারডে ইন দি ইভনিং অ্যাট হোম।",
+     "text": "Sanjoy was called by his father yesterday in the evening at home."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি দাওয়াতের বাক্যে কর্তা, জায়গা আর সময় যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রহিমকে দাওয়াত দেওয়া হয়।",
+     "pron_bn": "রহিম ইজ ইনভাইটেড।",
+     "text": "Rahim is invited."
+    },
+    {
+     "bn": "সঞ্জয় রহিমকে দাওয়াত দেয়।",
+     "pron_bn": "রহিম ইজ ইনভাইটেড বাই সঞ্জয়।",
+     "text": "Rahim is invited by Sanjoy."
+    },
+    {
+     "bn": "সঞ্জয় রহিমকে তার বাড়িতে দাওয়াত দেয়।",
+     "pron_bn": "রহিম ইজ ইনভাইটেড বাই সঞ্জয় টু হিজ হাউস।",
+     "text": "Rahim is invited by Sanjoy to his house."
+    },
+    {
+     "bn": "সঞ্জয় প্রতি শুক্রবার রহিমকে তার বাড়িতে দাওয়াত দেয়।",
+     "pron_bn": "রহিম ইজ ইনভাইটেড বাই সঞ্জয় টু হিজ হাউস এভরি ফ্রাইডে।",
+     "text": "Rahim is invited by Sanjoy to his house every Friday."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি টিকিটের বাক্যে কর্তা, সময় আর দুটি জায়গা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "টিকিটগুলো বুক করা হয়েছিল।",
+     "pron_bn": "দা টিকিটস ওয়ার বুক্ট।",
+     "text": "The tickets were booked."
+    },
+    {
+     "bn": "সুকুমার টিকিটগুলো বুক করেছিল।",
+     "pron_bn": "দা টিকিটস ওয়ার বুক্ট বাই সুকুমার।",
+     "text": "The tickets were booked by Sukumar."
+    },
+    {
+     "bn": "সুকুমার গতকাল টিকিটগুলো বুক করেছিল।",
+     "pron_bn": "দা টিকিটস ওয়ার বুক্ট বাই সুকুমার ইয়েস্টারডে।",
+     "text": "The tickets were booked by Sukumar yesterday."
+    },
+    {
+     "bn": "সুকুমার গতকাল বাস স্টেশনে টিকিটগুলো বুক করেছিল।",
+     "pron_bn": "দা টিকিটস ওয়ার বুক্ট বাই সুকুমার ইয়েস্টারডে অ্যাট দা বাস স্টেশন।",
+     "text": "The tickets were booked by Sukumar yesterday at the bus station."
+    },
+    {
+     "bn": "সুকুমার গতকাল চাঁদপুর বাস স্টেশনে টিকিটগুলো বুক করেছিল।",
+     "pron_bn": "দা টিকিটস ওয়ার বুক্ট বাই সুকুমার ইয়েস্টারডে অ্যাট দা বাস স্টেশন ইন চাঁদপুর।",
+     "text": "The tickets were booked by Sukumar yesterday at the bus station in Chandpur."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি পড়াশোনার বাক্যে কর্তা, সময় আর জায়গা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "ইংরেজি পড়া হয়।",
+     "pron_bn": "ইংলিশ ইজ স্টাডিড।",
+     "text": "English is studied."
+    },
+    {
+     "bn": "নুসরাত ইংরেজি পড়ে।",
+     "pron_bn": "ইংলিশ ইজ স্টাডিড বাই নুসরাত।",
+     "text": "English is studied by Nusrat."
+    },
+    {
+     "bn": "নুসরাত প্রতিরাতে ইংরেজি পড়ে।",
+     "pron_bn": "ইংলিশ ইজ স্টাডিড বাই নুসরাত এভরি নাইট।",
+     "text": "English is studied by Nusrat every night."
+    },
+    {
+     "bn": "নুসরাত প্রতিরাতে বাড়িতে ইংরেজি পড়ে।",
+     "pron_bn": "ইংলিশ ইজ স্টাডিড বাই নুসরাত এভরি নাইট অ্যাট হোম।",
+     "text": "English is studied by Nusrat every night at home."
+    },
+    {
+     "bn": "নুসরাত প্রতিরাতে হাজীগঞ্জে বাড়িতে ইংরেজি পড়ে।",
+     "pron_bn": "ইংলিশ ইজ স্টাডিড বাই নুসরাত এভরি নাইট অ্যাট হোম ইন হাজীগঞ্জ।",
+     "text": "English is studied by Nusrat every night at home in Hajiganj."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি ডাক্তারের বাক্যে কর্তা, সময় আর জায়গা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয়কে পরীক্ষা করা হয়েছিল।",
+     "pron_bn": "সঞ্জয় ওয়াজ এগজামিন্ড।",
+     "text": "Sanjoy was examined."
+    },
+    {
+     "bn": "ডাক্তার সঞ্জয়কে পরীক্ষা করেছিলেন।",
+     "pron_bn": "সঞ্জয় ওয়াজ এগজামিন্ড বাই দা ডক্টর।",
+     "text": "Sanjoy was examined by the doctor."
+    },
+    {
+     "bn": "ডাক্তার আজ সকালে সঞ্জয়কে পরীক্ষা করেছিলেন।",
+     "pron_bn": "সঞ্জয় ওয়াজ এগজামিন্ড বাই দা ডক্টর দিস মর্নিং।",
+     "text": "Sanjoy was examined by the doctor this morning."
+    },
+    {
+     "bn": "ডাক্তার আজ সকালে হাসপাতালে সঞ্জয়কে পরীক্ষা করেছিলেন।",
+     "pron_bn": "সঞ্জয় ওয়াজ এগজামিন্ড বাই দা ডক্টর দিস মর্নিং অ্যাট দা হসপিটাল।",
+     "text": "Sanjoy was examined by the doctor this morning at the hospital."
+    },
+    {
+     "bn": "ডাক্তার আজ সকালে চাঁদপুর হাসপাতালে সঞ্জয়কে পরীক্ষা করেছিলেন।",
+     "pron_bn": "সঞ্জয় ওয়াজ এগজামিন্ড বাই দা ডক্টর দিস মর্নিং অ্যাট দা হসপিটাল ইন চাঁদপুর।",
+     "text": "Sanjoy was examined by the doctor this morning at the hospital in Chandpur."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি কেনাকাটার বাক্যে কর্তা, সময় আর জায়গা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নতুন শার্ট কেনা হয়েছিল।",
+     "pron_bn": "নিউ শার্টস ওয়ার বট।",
+     "text": "New shirts were bought."
+    },
+    {
+     "bn": "রাজীব নতুন শার্ট কিনেছিল।",
+     "pron_bn": "নিউ শার্টস ওয়ার বট বাই রাজীব।",
+     "text": "New shirts were bought by Rajib."
+    },
+    {
+     "bn": "রাজীব গত শুক্রবার নতুন শার্ট কিনেছিল।",
+     "pron_bn": "নিউ শার্টস ওয়ার বট বাই রাজীব লাস্ট ফ্রাইডে।",
+     "text": "New shirts were bought by Rajib last Friday."
+    },
+    {
+     "bn": "রাজীব গত শুক্রবার নিউ মার্কেট থেকে নতুন শার্ট কিনেছিল।",
+     "pron_bn": "নিউ শার্টস ওয়ার বট বাই রাজীব লাস্ট ফ্রাইডে অ্যাট নিউ মার্কেট।",
+     "text": "New shirts were bought by Rajib last Friday at New Market."
+    },
+    {
+     "bn": "রাজীব গত শুক্রবার ঢাকার নিউ মার্কেট থেকে নতুন শার্ট কিনেছিল।",
+     "pron_bn": "নিউ শার্টস ওয়ার বট বাই রাজীব লাস্ট ফ্রাইডে অ্যাট নিউ মার্কেট ইন ঢাকা।",
+     "text": "New shirts were bought by Rajib last Friday at New Market in Dhaka."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি ঝড়ের বাক্যে কর্তা, সময় আর জায়গা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "গাছগুলো ক্ষতিগ্রস্ত হয়েছিল।",
+     "pron_bn": "দা ট্রিজ ওয়ার ড্যামেজড।",
+     "text": "The trees were damaged."
+    },
+    {
+     "bn": "ঝড়ে গাছগুলো ক্ষতিগ্রস্ত হয়েছিল।",
+     "pron_bn": "দা ট্রিজ ওয়ার ড্যামেজড বাই দা স্টর্ম।",
+     "text": "The trees were damaged by the storm."
+    },
+    {
+     "bn": "গতরাতে ঝড়ে গাছগুলো ক্ষতিগ্রস্ত হয়েছিল।",
+     "pron_bn": "দা ট্রিজ ওয়ার ড্যামেজড বাই দা স্টর্ম লাস্ট নাইট।",
+     "text": "The trees were damaged by the storm last night."
+    },
+    {
+     "bn": "গতরাতে ঝড়ে সঞ্জয়ের বাড়ির কাছে গাছগুলো ক্ষতিগ্রস্ত হয়েছিল।",
+     "pron_bn": "দা ট্রিজ ওয়ার ড্যামেজড বাই দা স্টর্ম লাস্ট নাইট নিয়ার সঞ্জয়স হাউস।",
+     "text": "The trees were damaged by the storm last night near Sanjoy's house."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি মেসেজের বাক্যে কর্তা, সময় আর জায়গা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "মেসেজটি পাঠানো হয়েছিল।",
+     "pron_bn": "দা মেসেজ ওয়াজ সেন্ট।",
+     "text": "The message was sent."
+    },
+    {
+     "bn": "সঞ্জয় মেসেজটি পাঠিয়েছিল।",
+     "pron_bn": "দা মেসেজ ওয়াজ সেন্ট বাই সঞ্জয়।",
+     "text": "The message was sent by Sanjoy."
+    },
+    {
+     "bn": "সঞ্জয় গতকাল মেসেজটি পাঠিয়েছিল।",
+     "pron_bn": "দা মেসেজ ওয়াজ সেন্ট বাই সঞ্জয় ইয়েস্টারডে।",
+     "text": "The message was sent by Sanjoy yesterday."
+    },
+    {
+     "bn": "সঞ্জয় গতকাল বিকেলে মেসেজটি পাঠিয়েছিল।",
+     "pron_bn": "দা মেসেজ ওয়াজ সেন্ট বাই সঞ্জয় ইয়েস্টারডে ইন দি আফটারনুন।",
+     "text": "The message was sent by Sanjoy yesterday in the afternoon."
+    },
+    {
+     "bn": "সঞ্জয় গতকাল বিকেলে মেডিসিন কর্নার থেকে মেসেজটি পাঠিয়েছিল।",
+     "pron_bn": "দা মেসেজ ওয়াজ সেন্ট বাই সঞ্জয় ইয়েস্টারডে ইন দি আফটারনুন ফ্রম মেডিসিন কর্নার।",
+     "text": "The message was sent by Sanjoy yesterday in the afternoon from Medicine Corner."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি রাস্তার বাক্যে কর্তা, সময় আর জায়গা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাস্তা পরিষ্কার করা হয়।",
+     "pron_bn": "দা রোড ইজ ক্লিন্ড।",
+     "text": "The road is cleaned."
+    },
+    {
+     "bn": "শ্রমিকরা রাস্তা পরিষ্কার করে।",
+     "pron_bn": "দা রোড ইজ ক্লিন্ড বাই দা ওয়ার্কার্স।",
+     "text": "The road is cleaned by the workers."
+    },
+    {
+     "bn": "শ্রমিকরা প্রতিদিন সকালে রাস্তা পরিষ্কার করে।",
+     "pron_bn": "দা রোড ইজ ক্লিন্ড বাই দা ওয়ার্কার্স এভরি মর্নিং।",
+     "text": "The road is cleaned by the workers every morning."
+    },
+    {
+     "bn": "শ্রমিকরা প্রতিদিন সকালে হাজীগঞ্জ বাজারে রাস্তা পরিষ্কার করে।",
+     "pron_bn": "দা রোড ইজ ক্লিন্ড বাই দা ওয়ার্কার্স এভরি মর্নিং ইন হাজীগঞ্জ বাজার।",
+     "text": "The road is cleaned by the workers every morning in Hajiganj Bazar."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি by দিয়ে প্যাসিভ বাক্য বানানো শিখবে। তুমি প্রতিটি বাক্যে কর্তা, সময় আর জায়গা যোগ করবে।",
+ "tip_bn": "প্যাসিভ বাক্যে তুমি প্রথমে কাজটি বলো, তারপর by দিয়ে কর্তা যোগ করো। তুমি সময় আর জায়গা সবসময় বাক্যের শেষে বসাও।",
+ "title": "Passive with Agent, Time and Place"
+}

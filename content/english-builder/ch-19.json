@@ -1,0 +1,272 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি said দিয়ে ক্লান্ত হওয়ার কারণ, জায়গা আর সময় যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় বলল সে ক্লান্ত ছিল।",
+     "pron_bn": "সানজয় সেড হি ওয়াজ টায়ার্ড।",
+     "text": "Sanjoy said he was tired."
+    },
+    {
+     "bn": "সঞ্জয় বলল কাজের পরে সে ক্লান্ত ছিল।",
+     "pron_bn": "সানজয় সেড হি ওয়াজ টায়ার্ড আফটার ওয়ার্ক।",
+     "text": "Sanjoy said he was tired after work."
+    },
+    {
+     "bn": "সঞ্জয় বলল ফার্মেসিতে কাজের পরে সে ক্লান্ত ছিল।",
+     "pron_bn": "সানজয় সেড হি ওয়াজ টায়ার্ড আফটার ওয়ার্ক অ্যাট দা ফার্মেসি।",
+     "text": "Sanjoy said he was tired after work at the pharmacy."
+    },
+    {
+     "bn": "সঞ্জয় বলল গত রাতে ফার্মেসিতে কাজের পরে সে ক্লান্ত ছিল।",
+     "pron_bn": "সানজয় সেড হি ওয়াজ টায়ার্ড আফটার ওয়ার্ক অ্যাট দা ফার্মেসি লাস্ট নাইট।",
+     "text": "Sanjoy said he was tired after work at the pharmacy last night."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি told দিয়ে ওষুধের বর্ণনায় জায়গা, সময় আর ভঙ্গি যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় রহিমকে বলল তার বাবার ওষুধ রেডি আছে।",
+     "pron_bn": "সানজয় টোল্ড রহিম দা মেডিসিন ফর হিজ ফাদার ওয়াজ রেডি।",
+     "text": "Sanjoy told Rahim the medicine for his father was ready."
+    },
+    {
+     "bn": "সঞ্জয় মেডিসিন কর্নারে রহিমকে বলল তার বাবার ওষুধ রেডি আছে।",
+     "pron_bn": "সানজয় টোল্ড রহিম দা মেডিসিন ফর হিজ ফাদার ওয়াজ রেডি অ্যাট মেডিসিন কর্নার।",
+     "text": "Sanjoy told Rahim the medicine for his father was ready at Medicine Corner."
+    },
+    {
+     "bn": "সঞ্জয় গতকাল মেডিসিন কর্নারে রহিমকে বলল তার বাবার ওষুধ রেডি আছে।",
+     "pron_bn": "সানজয় টোল্ড রহিম দা মেডিসিন ফর হিজ ফাদার ওয়াজ রেডি অ্যাট মেডিসিন কর্নার ইয়েস্টারডে।",
+     "text": "Sanjoy told Rahim the medicine for his father was ready at Medicine Corner yesterday."
+    },
+    {
+     "bn": "সঞ্জয় গতকাল দুপুরে মেডিসিন কর্নারে রহিমকে বলল তার বাবার ওষুধ রেডি আছে।",
+     "pron_bn": "সানজয় টোল্ড রহিম দা মেডিসিন ফর হিজ ফাদার ওয়াজ রেডি অ্যাট মেডিসিন কর্নার ইয়েস্টারডে অ্যাট নুন।",
+     "text": "Sanjoy told Rahim the medicine for his father was ready at Medicine Corner yesterday at noon."
+    },
+    {
+     "bn": "সঞ্জয় গতকাল দুপুরে মেডিসিন কর্নারে হাসিমুখে রহিমকে বলল তার বাবার ওষুধ রেডি আছে।",
+     "pron_bn": "সানজয় টোল্ড রহিম দা মেডিসিন ফর হিজ ফাদার ওয়াজ রেডি অ্যাট মেডিসিন কর্নার ইয়েস্টারডে অ্যাট নুন উইথ আ স্মাইল।",
+     "text": "Sanjoy told Rahim the medicine for his father was ready at Medicine Corner yesterday at noon with a smile."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি asked দিয়ে if প্রশ্নে সময়, উদ্দেশ্য আর জায়গা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সুকুমার জিজ্ঞেস করল সঞ্জয় ফ্রি আছে কি না।",
+     "pron_bn": "সুকুমার আস্কড ইফ সানজয় ওয়াজ ফ্রি।",
+     "text": "Sukumar asked if Sanjoy was free."
+    },
+    {
+     "bn": "সুকুমার জিজ্ঞেস করল সঞ্জয় গতকাল ফ্রি ছিল কি না।",
+     "pron_bn": "সুকুমার আস্কড ইফ সানজয় ওয়াজ ফ্রি ইয়েস্টারডে।",
+     "text": "Sukumar asked if Sanjoy was free yesterday."
+    },
+    {
+     "bn": "সুকুমার জিজ্ঞেস করল সঞ্জয় গতকাল সন্ধ্যায় ফ্রি ছিল কি না।",
+     "pron_bn": "সুকুমার আস্কড ইফ সানজয় ওয়াজ ফ্রি ইয়েস্টারডে ইভনিং।",
+     "text": "Sukumar asked if Sanjoy was free yesterday evening."
+    },
+    {
+     "bn": "সুকুমার জিজ্ঞেস করল সঞ্জয় গতকাল সন্ধ্যায় চা খাওয়ার জন্য ফ্রি ছিল কি না।",
+     "pron_bn": "সুকুমার আস্কড ইফ সানজয় ওয়াজ ফ্রি ইয়েস্টারডে ইভনিং ফর টি।",
+     "text": "Sukumar asked if Sanjoy was free yesterday evening for tea."
+    },
+    {
+     "bn": "সুকুমার জিজ্ঞেস করল সঞ্জয় গতকাল সন্ধ্যায় বাড়িতে চা খাওয়ার জন্য ফ্রি ছিল কি না।",
+     "pron_bn": "সুকুমার আস্কড ইফ সানজয় ওয়াজ ফ্রি ইয়েস্টারডে ইভনিং ফর টি অ্যাট হোম।",
+     "text": "Sukumar asked if Sanjoy was free yesterday evening for tea at home."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি said দিয়ে দেরি হওয়ার কারণ আর সময় যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নুসরাত বলল সঞ্জয় দেরি করেছে।",
+     "pron_bn": "নুসরাত সেড সানজয় ওয়াজ লেট।",
+     "text": "Nusrat said Sanjoy was late."
+    },
+    {
+     "bn": "নুসরাত বলল সঞ্জয় বাসের জন্য দেরি করেছে।",
+     "pron_bn": "নুসরাত সেড সানজয় ওয়াজ লেট ফর দা বাস।",
+     "text": "Nusrat said Sanjoy was late for the bus."
+    },
+    {
+     "bn": "নুসরাত বলল সঞ্জয় ঢাকার বাসের জন্য দেরি করেছে।",
+     "pron_bn": "নুসরাত সেড সানজয় ওয়াজ লেট ফর দা বাস টু ঢাকা।",
+     "text": "Nusrat said Sanjoy was late for the bus to Dhaka."
+    },
+    {
+     "bn": "নুসরাত বলল আজ সকালে সঞ্জয় ঢাকার বাসের জন্য দেরি করেছে।",
+     "pron_bn": "নুসরাত সেড সানজয় ওয়াজ লেট ফর দা বাস টু ঢাকা দিস মর্নিং।",
+     "text": "Nusrat said Sanjoy was late for the bus to Dhaka this morning."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি told দিয়ে পরীক্ষার ফলে নম্বর, জায়গা আর সময় যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাজিব সঞ্জয়কে বলল সে ইংরেজি পরীক্ষায় পাস করেছে।",
+     "pron_bn": "রাজিব টোল্ড সানজয় হি পাস্ট দা ইংলিশ এগজাম।",
+     "text": "Rajib told Sanjoy he passed the English exam."
+    },
+    {
+     "bn": "রাজিব সঞ্জয়কে বলল সে ভালো নম্বর নিয়ে ইংরেজি পরীক্ষায় পাস করেছে।",
+     "pron_bn": "রাজিব টোল্ড সানজয় হি পাস্ট দা ইংলিশ এগজাম উইথ গুড মার্কস।",
+     "text": "Rajib told Sanjoy he passed the English exam with good marks."
+    },
+    {
+     "bn": "রাজিব সঞ্জয়কে বলল সে ঢাকায় ভালো নম্বর নিয়ে ইংরেজি পরীক্ষায় পাস করেছে।",
+     "pron_bn": "রাজিব টোল্ড সানজয় হি পাস্ট দা ইংলিশ এগজাম উইথ গুড মার্কস ইন ঢাকা।",
+     "text": "Rajib told Sanjoy he passed the English exam with good marks in Dhaka."
+    },
+    {
+     "bn": "রাজিব সঞ্জয়কে বলল সে গত সপ্তাহে ঢাকায় ভালো নম্বর নিয়ে ইংরেজি পরীক্ষায় পাস করেছে।",
+     "pron_bn": "রাজিব টোল্ড সানজয় হি পাস্ট দা ইংলিশ এগজাম উইথ গুড মার্কস ইন ঢাকা লাস্ট উইক।",
+     "text": "Rajib told Sanjoy he passed the English exam with good marks in Dhaka last week."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি told দিয়ে অনুরোধে সময়, জায়গা আর কারণ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় নুসরাতকে পরিষ্কার পানি খেতে বলল।",
+     "pron_bn": "সানজয় টোল্ড নুসরাত টু ড্রিংক ক্লিন ওয়াটার।",
+     "text": "Sanjoy told Nusrat to drink clean water."
+    },
+    {
+     "bn": "সঞ্জয় নুসরাতকে প্রতিদিন পরিষ্কার পানি খেতে বলল।",
+     "pron_bn": "সানজয় টোল্ড নুসরাত টু ড্রিংক ক্লিন ওয়াটার এভরি ডে।",
+     "text": "Sanjoy told Nusrat to drink clean water every day."
+    },
+    {
+     "bn": "সঞ্জয় নুসরাতকে বাড়িতে প্রতিদিন পরিষ্কার পানি খেতে বলল।",
+     "pron_bn": "সানজয় টোল্ড নুসরাত টু ড্রিংক ক্লিন ওয়াটার এভরি ডে অ্যাট হোম।",
+     "text": "Sanjoy told Nusrat to drink clean water every day at home."
+    },
+    {
+     "bn": "সঞ্জয় নুসরাতকে সুস্থ থাকার জন্য বাড়িতে প্রতিদিন পরিষ্কার পানি খেতে বলল।",
+     "pron_bn": "সানজয় টোল্ড নুসরাত টু ড্রিংক ক্লিন ওয়াটার এভরি ডে অ্যাট হোম ফর হার হেলথ।",
+     "text": "Sanjoy told Nusrat to drink clean water every day at home for her health."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি asked দিয়ে দাম জিজ্ঞেস করতে জায়গা আর সময় যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় জিজ্ঞেস করল চালের দাম কত।",
+     "pron_bn": "সানজয় আস্কড হাউ মাচ দা রাইস ওয়াজ।",
+     "text": "Sanjoy asked how much the rice was."
+    },
+    {
+     "bn": "সঞ্জয় দোকানে জিজ্ঞেস করল চালের দাম কত।",
+     "pron_bn": "সানজয় আস্কড হাউ মাচ দা রাইস ওয়াজ অ্যাট দা শপ।",
+     "text": "Sanjoy asked how much the rice was at the shop."
+    },
+    {
+     "bn": "সঞ্জয় হাজীগঞ্জ বাজারের দোকানে জিজ্ঞেস করল চালের দাম কত।",
+     "pron_bn": "সানজয় আস্কড হাউ মাচ দা রাইস ওয়াজ অ্যাট দা শপ ইন হাজিগঞ্জ বাজার।",
+     "text": "Sanjoy asked how much the rice was at the shop in Hajiganj Bazar."
+    },
+    {
+     "bn": "সঞ্জয় গতকাল হাজীগঞ্জ বাজারের দোকানে জিজ্ঞেস করল চালের দাম কত।",
+     "pron_bn": "সানজয় আস্কড হাউ মাচ দা রাইস ওয়াজ অ্যাট দা শপ ইন হাজিগঞ্জ বাজার ইয়েস্টারডে।",
+     "text": "Sanjoy asked how much the rice was at the shop in Hajiganj Bazar yesterday."
+    },
+    {
+     "bn": "সঞ্জয় গতকাল সকালে হাজীগঞ্জ বাজারের দোকানে জিজ্ঞেস করল চালের দাম কত।",
+     "pron_bn": "সানজয় আস্কড হাউ মাচ দা রাইস ওয়াজ অ্যাট দা শপ ইন হাজিগঞ্জ বাজার ইয়েস্টারডে মর্নিং।",
+     "text": "Sanjoy asked how much the rice was at the shop in Hajiganj Bazar yesterday morning."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি said দিয়ে বৃষ্টির খবরে সময় আর জায়গা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রহিম বলল ভারী বৃষ্টি হবে।",
+     "pron_bn": "রহিম সেড ইট উইল রেইন হেভিলি।",
+     "text": "Rahim said it will rain heavily."
+    },
+    {
+     "bn": "রহিম বলল আজ ভারী বৃষ্টি হবে।",
+     "pron_bn": "রহিম সেড ইট উইল রেইন হেভিলি টুডে।",
+     "text": "Rahim said it will rain heavily today."
+    },
+    {
+     "bn": "রহিম বলল আজ চাঁদপুরে ভারী বৃষ্টি হবে।",
+     "pron_bn": "রহিম সেড ইট উইল রেইন হেভিলি টুডে ইন চাঁদপুর।",
+     "text": "Rahim said it will rain heavily today in Chandpur."
+    },
+    {
+     "bn": "রহিম বলল আজ চাঁদপুর আর হাজীগঞ্জে ভারী বৃষ্টি হবে।",
+     "pron_bn": "রহিম সেড ইট উইল রেইন হেভিলি টুডে ইন চাঁদপুর অ্যান্ড হাজিগঞ্জ।",
+     "text": "Rahim said it will rain heavily today in Chandpur and Hajiganj."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি asked দিয়ে why প্রশ্নে জায়গা আর সময় যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় রহিমকে জিজ্ঞেস করল ইন্টারনেট ধীরে চলছে কেন।",
+     "pron_bn": "সানজয় আস্কড রহিম হোয়াই দা ইন্টারনেট ওয়াজ স্লো।",
+     "text": "Sanjoy asked Rahim why the internet was slow."
+    },
+    {
+     "bn": "সঞ্জয় রহিমকে জিজ্ঞেস করল বাড়িতে ইন্টারনেট ধীরে চলছে কেন।",
+     "pron_bn": "সানজয় আস্কড রহিম হোয়াই দা ইন্টারনেট ওয়াজ স্লো অ্যাট হোম।",
+     "text": "Sanjoy asked Rahim why the internet was slow at home."
+    },
+    {
+     "bn": "সঞ্জয় রহিমকে জিজ্ঞেস করল হাজীগঞ্জে বাড়িতে ইন্টারনেট ধীরে চলছে কেন।",
+     "pron_bn": "সানজয় আস্কড রহিম হোয়াই দা ইন্টারনেট ওয়াজ স্লো অ্যাট হোম ইন হাজিগঞ্জ।",
+     "text": "Sanjoy asked Rahim why the internet was slow at home in Hajiganj."
+    },
+    {
+     "bn": "সঞ্জয় রহিমকে জিজ্ঞেস করল গত রাতে হাজীগঞ্জে বাড়িতে ইন্টারনেট ধীরে চলছিল কেন।",
+     "pron_bn": "সানজয় আস্কড রহিম হোয়াই দা ইন্টারনেট ওয়াজ স্লো অ্যাট হোম ইন হাজিগঞ্জ লাস্ট নাইট।",
+     "text": "Sanjoy asked Rahim why the internet was slow at home in Hajiganj last night."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি told দিয়ে শান্ত থাকার বর্ণনায় সময় যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সুকুমার সঞ্জয়কে বলল হাজীগঞ্জ শান্ত ছিল।",
+     "pron_bn": "সুকুমার টোল্ড সানজয় হাজিগঞ্জ ওয়াজ কুয়ায়েট।",
+     "text": "Sukumar told Sanjoy Hajiganj was quiet."
+    },
+    {
+     "bn": "সুকুমার সঞ্জয়কে বলল রাতে হাজীগঞ্জ শান্ত ছিল।",
+     "pron_bn": "সুকুমার টোল্ড সানজয় হাজিগঞ্জ ওয়াজ কুয়ায়েট অ্যাট নাইট।",
+     "text": "Sukumar told Sanjoy Hajiganj was quiet at night."
+    },
+    {
+     "bn": "সুকুমার সঞ্জয়কে বলল শীতকালে রাতে হাজীগঞ্জ শান্ত ছিল।",
+     "pron_bn": "সুকুমার টোল্ড সানজয় হাজিগঞ্জ ওয়াজ কুয়ায়েট অ্যাট নাইট ইন উইন্টার।",
+     "text": "Sukumar told Sanjoy Hajiganj was quiet at night in winter."
+    },
+    {
+     "bn": "সুকুমার সঞ্জয়কে বলল গত বছর শীতকালে রাতে হাজীগঞ্জ শান্ত ছিল।",
+     "pron_bn": "সুকুমার টোল্ড সানজয় হাজিগঞ্জ ওয়াজ কুয়ায়েট অ্যাট নাইট ইন উইন্টার লাস্ট ইয়ার।",
+     "text": "Sukumar told Sanjoy Hajiganj was quiet at night in winter last year."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "তুমি এই অধ্যায়ে said, told আর asked দিয়ে অন্যের কথা বলা শিখবে। প্রতিটি ধাপে তুমি আগের বাক্যে নতুন অংশ যোগ করবে।",
+ "tip_bn": "তুমি said-এর পরে সরাসরি খবর বলো, কিন্তু told-এর পরে কাকে বলেছ তা লেখো। তুমি asked দিয়ে প্রশ্ন বলার সময় শব্দের ক্রম সোজা রাখো, যেমন where he was।",
+ "title": "Said, Told and Asked"
+}

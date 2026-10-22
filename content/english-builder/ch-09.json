@@ -1,0 +1,227 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি to দিয়ে উদ্দেশ্য আর because দিয়ে কারণ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় তার পরিবারের সাথে থাকে।",
+     "pron_bn": "সানজয় লিভস উইথ হিজ ফ্যামিলি।",
+     "text": "Sanjoy lives with his family."
+    },
+    {
+     "bn": "সঞ্জয় তার বাবা-মাকে সাহায্য করার জন্য পরিবারের সাথে থাকে।",
+     "pron_bn": "সানজয় লিভস উইথ হিজ ফ্যামিলি টু হেলপ হিজ প্যারেন্টস।",
+     "text": "Sanjoy lives with his family to help his parents."
+    },
+    {
+     "bn": "সঞ্জয় তার বাবা-মাকে সাহায্য করার জন্য পরিবারের সাথে থাকে, কারণ তারা বয়স্ক।",
+     "pron_bn": "সানজয় লিভস উইথ হিজ ফ্যামিলি টু হেলপ হিজ প্যারেন্টস বিকজ দে আর ওল্ড।",
+     "text": "Sanjoy lives with his family to help his parents because they are old."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি to, because আর so দিয়ে বাক্যটি ধাপে ধাপে বড় করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় সকালে তাড়াতাড়ি মেডিসিন কর্নারে যায়।",
+     "pron_bn": "সানজয় গোজ টু মেডিসিন কর্নার আর্লি।",
+     "text": "Sanjoy goes to Medicine Corner early."
+    },
+    {
+     "bn": "সঞ্জয় দোকান খোলার জন্য সকালে তাড়াতাড়ি মেডিসিন কর্নারে যায়।",
+     "pron_bn": "সানজয় গোজ টু মেডিসিন কর্নার আর্লি টু ওপেন দা শপ।",
+     "text": "Sanjoy goes to Medicine Corner early to open the shop."
+    },
+    {
+     "bn": "সঞ্জয় দোকান খোলার জন্য সকালে তাড়াতাড়ি মেডিসিন কর্নারে যায়, কারণ সকালে ভিড় থাকে।",
+     "pron_bn": "সানজয় গোজ টু মেডিসিন কর্নার আর্লি টু ওপেন দা শপ বিকজ মর্নিং ইজ বিজি।",
+     "text": "Sanjoy goes to Medicine Corner early to open the shop because morning is busy."
+    },
+    {
+     "bn": "সঞ্জয় দোকান খোলার জন্য সকালে তাড়াতাড়ি মেডিসিন কর্নারে যায়, কারণ সকালে ভিড় থাকে, তাই রহিম তাকে সাহায্য করে।",
+     "pron_bn": "সানজয় গোজ টু মেডিসিন কর্নার আর্লি টু ওপেন দা শপ বিকজ মর্নিং ইজ বিজি, সো রাহিম হেলপস হিম।",
+     "text": "Sanjoy goes to Medicine Corner early to open the shop because morning is busy, so Rahim helps him."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি to দিয়ে উদ্দেশ্য আর because দিয়ে দিনের কারণ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সুকুমার সঞ্জয়কে তার বাড়িতে দাওয়াত দিল।",
+     "pron_bn": "সুকুমার ইনভাইটেড সানজয় টু হিজ হোম।",
+     "text": "Sukumar invited Sanjoy to his home."
+    },
+    {
+     "bn": "সুকুমার দুপুরের খাবারের জন্য সঞ্জয়কে তার বাড়িতে দাওয়াত দিল।",
+     "pron_bn": "সুকুমার ইনভাইটেড সানজয় টু হিজ হোম টু ইট লাঞ্চ।",
+     "text": "Sukumar invited Sanjoy to his home to eat lunch."
+    },
+    {
+     "bn": "শুক্রবার ছিল বলে সুকুমার দুপুরের খাবারের জন্য সঞ্জয়কে তার বাড়িতে দাওয়াত দিল।",
+     "pron_bn": "সুকুমার ইনভাইটেড সানজয় টু হিজ হোম টু ইট লাঞ্চ বিকজ ইট ওয়াজ ফ্রাইডে।",
+     "text": "Sukumar invited Sanjoy to his home to eat lunch because it was Friday."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি to, because আর so দিয়ে ভ্রমণের গল্প বড় করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় চাঁদপুরে গেল।",
+     "pron_bn": "সানজয় ওয়েন্ট টু চাঁদপুর।",
+     "text": "Sanjoy went to Chandpur."
+    },
+    {
+     "bn": "সঞ্জয় তার চাচাকে দেখতে চাঁদপুরে গেল।",
+     "pron_bn": "সানজয় ওয়েন্ট টু চাঁদপুর টু ভিজিট হিজ আঙ্কেল।",
+     "text": "Sanjoy went to Chandpur to visit his uncle."
+    },
+    {
+     "bn": "চাচা অসুস্থ ছিল বলে সঞ্জয় তাকে দেখতে চাঁদপুরে গেল।",
+     "pron_bn": "সানজয় ওয়েন্ট টু চাঁদপুর টু ভিজিট হিজ আঙ্কেল বিকজ হি ওয়াজ সিক।",
+     "text": "Sanjoy went to Chandpur to visit his uncle because he was sick."
+    },
+    {
+     "bn": "চাচা অসুস্থ ছিল বলে সঞ্জয় তাকে দেখতে চাঁদপুরে গেল, তাই সে দুই দিন থাকল।",
+     "pron_bn": "সানজয় ওয়েন্ট টু চাঁদপুর টু ভিজিট হিজ আঙ্কেল বিকজ হি ওয়াজ সিক, সো হি স্টেইড টু ডেইজ।",
+     "text": "Sanjoy went to Chandpur to visit his uncle because he was sick, so he stayed two days."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি to দিয়ে লক্ষ্য আর because দিয়ে ইচ্ছা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নুসরাত প্রতিরাতে ইংরেজি পড়ে।",
+     "pron_bn": "নুসরাত স্টাডিজ ইংলিশ এভরি নাইট।",
+     "text": "Nusrat studies English every night."
+    },
+    {
+     "bn": "নুসরাত ভালো চাকরি পাওয়ার জন্য প্রতিরাতে ইংরেজি পড়ে।",
+     "pron_bn": "নুসরাত স্টাডিজ ইংলিশ এভরি নাইট টু গেট আ গুড জব।",
+     "text": "Nusrat studies English every night to get a good job."
+    },
+    {
+     "bn": "নুসরাত ভালো চাকরি পাওয়ার জন্য প্রতিরাতে ইংরেজি পড়ে, কারণ সে ঢাকায় কাজ করতে চায়।",
+     "pron_bn": "নুসরাত স্টাডিজ ইংলিশ এভরি নাইট টু গেট আ গুড জব বিকজ শি ওয়ান্টস টু ওয়ার্ক ইন ঢাকা।",
+     "text": "Nusrat studies English every night to get a good job because she wants to work in Dhaka."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি to দিয়ে উদ্দেশ্য আর because দিয়ে অসুখের কারণ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাজীব কুসুম গরম পানি খায়।",
+     "pron_bn": "রাজিব ড্রিংকস ওয়ার্ম ওয়াটার।",
+     "text": "Rajib drinks warm water."
+    },
+    {
+     "bn": "রাজীব ভালো লাগার জন্য কুসুম গরম পানি খায়।",
+     "pron_bn": "রাজিব ড্রিংকস ওয়ার্ম ওয়াটার টু ফিল বেটার।",
+     "text": "Rajib drinks warm water to feel better."
+    },
+    {
+     "bn": "রাজীব ভালো লাগার জন্য কুসুম গরম পানি খায়, কারণ তার ঠান্ডা লেগেছে।",
+     "pron_bn": "রাজিব ড্রিংকস ওয়ার্ম ওয়াটার টু ফিল বেটার বিকজ হি হ্যাজ আ কোল্ড।",
+     "text": "Rajib drinks warm water to feel better because he has a cold."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি to, because আর so দিয়ে বাজারের বাক্যটি লম্বা করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় হাজিগঞ্জ বাজারে গেল।",
+     "pron_bn": "সানজয় ওয়েন্ট টু হাজিগঞ্জ বাজার।",
+     "text": "Sanjoy went to Hajiganj Bazar."
+    },
+    {
+     "bn": "সঞ্জয় চাল আর মাছ কিনতে হাজিগঞ্জ বাজারে গেল।",
+     "pron_bn": "সানজয় ওয়েন্ট টু হাজিগঞ্জ বাজার টু বাই রাইস অ্যান্ড ফিশ।",
+     "text": "Sanjoy went to Hajiganj Bazar to buy rice and fish."
+    },
+    {
+     "bn": "মেহমান আসছে বলে সঞ্জয় চাল আর মাছ কিনতে হাজিগঞ্জ বাজারে গেল।",
+     "pron_bn": "সানজয় ওয়েন্ট টু হাজিগঞ্জ বাজার টু বাই রাইস অ্যান্ড ফিশ বিকজ গেস্টস আর কামিং।",
+     "text": "Sanjoy went to Hajiganj Bazar to buy rice and fish because guests are coming."
+    },
+    {
+     "bn": "মেহমান আসছে বলে সঞ্জয় চাল আর মাছ কিনতে হাজিগঞ্জ বাজারে গেল, তাই রহিম তার সাথে গেল।",
+     "pron_bn": "সানজয় ওয়েন্ট টু হাজিগঞ্জ বাজার টু বাই রাইস অ্যান্ড ফিশ বিকজ গেস্টস আর কামিং, সো রাহিম ওয়েন্ট উইথ হিম।",
+     "text": "Sanjoy went to Hajiganj Bazar to buy rice and fish because guests are coming, so Rahim went with him."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি so দিয়ে ফলাফল আর to দিয়ে উদ্দেশ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "গতকাল খুব গরম ছিল।",
+     "pron_bn": "ইট ওয়াজ ভেরি হট ইয়েস্টারডে।",
+     "text": "It was very hot yesterday."
+    },
+    {
+     "bn": "গতকাল খুব গরম ছিল, তাই আমরা ঘরের ভেতরে ছিলাম।",
+     "pron_bn": "ইট ওয়াজ ভেরি হট ইয়েস্টারডে, সো উই স্টেইড ইনসাইড।",
+     "text": "It was very hot yesterday, so we stayed inside."
+    },
+    {
+     "bn": "গতকাল খুব গরম ছিল, তাই আমরা বিশ্রামের জন্য ঘরের ভেতরে ছিলাম।",
+     "pron_bn": "ইট ওয়াজ ভেরি হট ইয়েস্টারডে, সো উই স্টেইড ইনসাইড টু রেস্ট।",
+     "text": "It was very hot yesterday, so we stayed inside to rest."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি to দিয়ে উদ্দেশ্য আর because দিয়ে পুরনো সমস্যা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় একটা নতুন মোবাইল কিনল।",
+     "pron_bn": "সানজয় বট আ নিউ ফোন।",
+     "text": "Sanjoy bought a new phone."
+    },
+    {
+     "bn": "সঞ্জয় ক্রেতাদের সাথে কথা বলার জন্য একটা নতুন মোবাইল কিনল।",
+     "pron_bn": "সানজয় বট আ নিউ ফোন টু টক টু কাস্টমারস।",
+     "text": "Sanjoy bought a new phone to talk to customers."
+    },
+    {
+     "bn": "সঞ্জয় ক্রেতাদের সাথে কথা বলার জন্য একটা নতুন মোবাইল কিনল, কারণ তার পুরনো মোবাইলটা নষ্ট হয়ে গেছে।",
+     "pron_bn": "সানজয় বট আ নিউ ফোন টু টক টু কাস্টমারস বিকজ হিজ ওল্ড ফোন ওয়াজ ব্রোকেন।",
+     "text": "Sanjoy bought a new phone to talk to customers because his old phone was broken."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি to, because আর so দিয়ে গ্রামের জীবন বুঝিয়েছ।",
+   "steps": [
+    {
+     "bn": "হাজিগঞ্জের কাছের গ্রাম থেকে অনেক তরুণ চলে যায়।",
+     "pron_bn": "মেনি ইয়াং পিপল লিভ দা ভিলেজ নিয়ার হাজিগঞ্জ।",
+     "text": "Many young people leave the village near Hajiganj."
+    },
+    {
+     "bn": "অনেক তরুণ শহরে কাজ করার জন্য হাজিগঞ্জের কাছের গ্রাম ছেড়ে যায়।",
+     "pron_bn": "মেনি ইয়াং পিপল লিভ দা ভিলেজ নিয়ার হাজিগঞ্জ টু ওয়ার্ক ইন টাউন।",
+     "text": "Many young people leave the village near Hajiganj to work in town."
+    },
+    {
+     "bn": "অনেক তরুণ শহরে কাজ করার জন্য হাজিগঞ্জের কাছের গ্রাম ছেড়ে যায়, কারণ গ্রামে কাজ কম।",
+     "pron_bn": "মেনি ইয়াং পিপল লিভ দা ভিলেজ নিয়ার হাজিগঞ্জ টু ওয়ার্ক ইন টাউন বিকজ জবস আর ফিউ।",
+     "text": "Many young people leave the village near Hajiganj to work in town because jobs are few."
+    },
+    {
+     "bn": "গ্রামে কাজ কম বলে অনেক তরুণ শহরে কাজ করতে যায়, তাই হাজিগঞ্জের কাছের গ্রামটা শান্ত থাকে।",
+     "pron_bn": "মেনি ইয়াং পিপল লিভ দা ভিলেজ নিয়ার হাজিগঞ্জ টু ওয়ার্ক ইন টাউন বিকজ জবস আর ফিউ, সো দা ভিলেজ ইজ কোয়ায়েট।",
+     "text": "Many young people leave the village near Hajiganj to work in town because jobs are few, so the village is quiet."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি ছোট বাক্যকে ধাপে ধাপে বড় করবে। তুমি because, so আর to দিয়ে কারণ, ফলাফল ও উদ্দেশ্য বলা শিখবে।",
+ "tip_bn": "তুমি কারণ বোঝাতে because আর ফলাফল বোঝাতে so ব্যবহার করো। উদ্দেশ্য বোঝাতে তুমি verb-এর আগে to বসাও।",
+ "title": "Because, So and To"
+}

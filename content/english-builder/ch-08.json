@@ -1,0 +1,257 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি কখন, কোথায় আর কার সাথে যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় তার ঠাকুমার সাথে দেখা করতে গিয়েছিল।",
+     "pron_bn": "সানজয় ভিজিটেড হিজ গ্র্যান্ডমাদার।",
+     "text": "Sanjoy visited his grandmother."
+    },
+    {
+     "bn": "সঞ্জয় গত শুক্রবার তার ঠাকুমার সাথে দেখা করতে গিয়েছিল।",
+     "pron_bn": "সানজয় ভিজিটেড হিজ গ্র্যান্ডমাদার লাস্ট ফ্রাইডে।",
+     "text": "Sanjoy visited his grandmother last Friday."
+    },
+    {
+     "bn": "সঞ্জয় গত শুক্রবার হাজীগঞ্জে তার ঠাকুমার সাথে দেখা করতে গিয়েছিল।",
+     "pron_bn": "সানজয় ভিজিটেড হিজ গ্র্যান্ডমাদার লাস্ট ফ্রাইডে ইন হাজিগঞ্জ।",
+     "text": "Sanjoy visited his grandmother last Friday in Hajiganj."
+    },
+    {
+     "bn": "সঞ্জয় গত শুক্রবার রহিমকে সাথে নিয়ে হাজীগঞ্জে তার ঠাকুমার সাথে দেখা করতে গিয়েছিল।",
+     "pron_bn": "সানজয় ভিজিটেড হিজ গ্র্যান্ডমাদার লাস্ট ফ্রাইডে ইন হাজিগঞ্জ উইথ রহিম।",
+     "text": "Sanjoy visited his grandmother last Friday in Hajiganj with Rahim."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি কখন, কার সাথে আর কতক্ষণ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় মেডিসিন কর্নারে কাজ করেছিল।",
+     "pron_bn": "সানজয় ওয়ার্কড অ্যাট মেডিসিন কর্নার।",
+     "text": "Sanjoy worked at Medicine Corner."
+    },
+    {
+     "bn": "সঞ্জয় গতকাল মেডিসিন কর্নারে কাজ করেছিল।",
+     "pron_bn": "সানজয় ওয়ার্কড অ্যাট মেডিসিন কর্নার ইয়েস্টারডে।",
+     "text": "Sanjoy worked at Medicine Corner yesterday."
+    },
+    {
+     "bn": "সঞ্জয় গতকাল সুকুমারের সাথে মেডিসিন কর্নারে কাজ করেছিল।",
+     "pron_bn": "সানজয় ওয়ার্কড অ্যাট মেডিসিন কর্নার ইয়েস্টারডে উইথ সুকুমার।",
+     "text": "Sanjoy worked at Medicine Corner yesterday with Sukumar."
+    },
+    {
+     "bn": "সঞ্জয় গতকাল সুকুমারের সাথে অনেক রাত পর্যন্ত মেডিসিন কর্নারে কাজ করেছিল।",
+     "pron_bn": "সানজয় ওয়ার্কড অ্যাট মেডিসিন কর্নার ইয়েস্টারডে উইথ সুকুমার টিল লেট নাইট।",
+     "text": "Sanjoy worked at Medicine Corner yesterday with Sukumar till late night."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি দেখা করার সময়, জায়গা আর সঙ্গী যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমি নুসরাতের সাথে দেখা করেছিলাম।",
+     "pron_bn": "আই মেট নুসরাত।",
+     "text": "I met Nusrat."
+    },
+    {
+     "bn": "আমি গতকাল নুসরাতের সাথে দেখা করেছিলাম।",
+     "pron_bn": "আই মেট নুসরাত ইয়েস্টারডে।",
+     "text": "I met Nusrat yesterday."
+    },
+    {
+     "bn": "আমি গতকাল চায়ের দোকানে নুসরাতের সাথে দেখা করেছিলাম।",
+     "pron_bn": "আই মেট নুসরাত ইয়েস্টারডে অ্যাট দা টি স্টল।",
+     "text": "I met Nusrat yesterday at the tea stall."
+    },
+    {
+     "bn": "আমি গতকাল রাজিবকে সাথে নিয়ে চায়ের দোকানে নুসরাতের সাথে দেখা করেছিলাম।",
+     "pron_bn": "আই মেট নুসরাত ইয়েস্টারডে অ্যাট দা টি স্টল উইথ রাজিব।",
+     "text": "I met Nusrat yesterday at the tea stall with Rajib."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি কখন, কার সাথে আর কতদিন যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় ঢাকায় ঘুরতে গিয়েছিল।",
+     "pron_bn": "সানজয় ভিজিটেড ঢাকা।",
+     "text": "Sanjoy visited Dhaka."
+    },
+    {
+     "bn": "সঞ্জয় গত মাসে ঢাকায় ঘুরতে গিয়েছিল।",
+     "pron_bn": "সানজয় ভিজিটেড ঢাকা লাস্ট মান্থ।",
+     "text": "Sanjoy visited Dhaka last month."
+    },
+    {
+     "bn": "সঞ্জয় গত মাসে তার ভাইকে সাথে নিয়ে ঢাকায় ঘুরতে গিয়েছিল।",
+     "pron_bn": "সানজয় ভিজিটেড ঢাকা লাস্ট মান্থ উইথ হিজ ব্রাদার।",
+     "text": "Sanjoy visited Dhaka last month with his brother."
+    },
+    {
+     "bn": "সঞ্জয় গত মাসে তার ভাইকে সাথে নিয়ে দুই দিনের জন্য ঢাকায় ঘুরতে গিয়েছিল।",
+     "pron_bn": "সানজয় ভিজিটেড ঢাকা লাস্ট মান্থ উইথ হিজ ব্রাদার ফর টু ডেজ।",
+     "text": "Sanjoy visited Dhaka last month with his brother for two days."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি কখন, কোথায় আর কার সাথে পড়েছ সেটা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমি ইংরেজি পড়েছিলাম।",
+     "pron_bn": "আই স্টাডিড ইংলিশ।",
+     "text": "I studied English."
+    },
+    {
+     "bn": "আমি গত রাতে ইংরেজি পড়েছিলাম।",
+     "pron_bn": "আই স্টাডিড ইংলিশ লাস্ট নাইট।",
+     "text": "I studied English last night."
+    },
+    {
+     "bn": "আমি গত রাতে বাসায় ইংরেজি পড়েছিলাম।",
+     "pron_bn": "আই স্টাডিড ইংলিশ লাস্ট নাইট অ্যাট হোম।",
+     "text": "I studied English last night at home."
+    },
+    {
+     "bn": "আমি গত রাতে বাসায় নুসরাতের সাথে ইংরেজি পড়েছিলাম।",
+     "pron_bn": "আই স্টাডিড ইংলিশ লাস্ট নাইট অ্যাট হোম উইথ নুসরাত।",
+     "text": "I studied English last night at home with Nusrat."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি ডাক্তার দেখানোর সময়, জায়গা আর সঙ্গী যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় একজন ডাক্তার দেখিয়েছিল।",
+     "pron_bn": "সানজয় স এ ডক্টর।",
+     "text": "Sanjoy saw a doctor."
+    },
+    {
+     "bn": "সঞ্জয় গতকাল ডাক্তার দেখিয়েছিল।",
+     "pron_bn": "সানজয় স এ ডক্টর ইয়েস্টারডে।",
+     "text": "Sanjoy saw a doctor yesterday."
+    },
+    {
+     "bn": "সঞ্জয় গতকাল হাজীগঞ্জ বাজারে ডাক্তার দেখিয়েছিল।",
+     "pron_bn": "সানজয় স এ ডক্টর ইয়েস্টারডে ইন হাজিগঞ্জ বাজার।",
+     "text": "Sanjoy saw a doctor yesterday in Hajiganj Bazar."
+    },
+    {
+     "bn": "সঞ্জয় গতকাল তার বাবাকে সাথে নিয়ে হাজীগঞ্জ বাজারে ডাক্তার দেখিয়েছিল।",
+     "pron_bn": "সানজয় স এ ডক্টর ইয়েস্টারডে ইন হাজিগঞ্জ বাজার উইথ হিজ ফাদার।",
+     "text": "Sanjoy saw a doctor yesterday in Hajiganj Bazar with his father."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি কেনাকাটার সময়, বাজার আর সঙ্গী যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমি শাকসবজি কিনেছিলাম।",
+     "pron_bn": "আই বট ভেজিটেবলস।",
+     "text": "I bought vegetables."
+    },
+    {
+     "bn": "আমি গতকাল বিকেলে শাকসবজি কিনেছিলাম।",
+     "pron_bn": "আই বট ভেজিটেবলস ইয়েস্টারডে আফটারনুন।",
+     "text": "I bought vegetables yesterday afternoon."
+    },
+    {
+     "bn": "আমি গতকাল বিকেলে হাজীগঞ্জ বাজার থেকে শাকসবজি কিনেছিলাম।",
+     "pron_bn": "আই বট ভেজিটেবলস ইয়েস্টারডে আফটারনুন অ্যাট হাজিগঞ্জ বাজার।",
+     "text": "I bought vegetables yesterday afternoon at Hajiganj Bazar."
+    },
+    {
+     "bn": "আমি গতকাল বিকেলে মাকে সাথে নিয়ে হাজীগঞ্জ বাজার থেকে শাকসবজি কিনেছিলাম।",
+     "pron_bn": "আই বট ভেজিটেবলস ইয়েস্টারডে আফটারনুন অ্যাট হাজিগঞ্জ বাজার উইথ মাই মাদার।",
+     "text": "I bought vegetables yesterday afternoon at Hajiganj Bazar with my mother."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি কখন, কোথায় আর কতক্ষণ মেঘলা ছিল যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আকাশ মেঘলা ছিল।",
+     "pron_bn": "ইট ওয়াজ ক্লাউডি।",
+     "text": "It was cloudy."
+    },
+    {
+     "bn": "গতকাল আকাশ মেঘলা ছিল।",
+     "pron_bn": "ইট ওয়াজ ক্লাউডি ইয়েস্টারডে।",
+     "text": "It was cloudy yesterday."
+    },
+    {
+     "bn": "গতকাল চাঁদপুরে আকাশ মেঘলা ছিল।",
+     "pron_bn": "ইট ওয়াজ ক্লাউডি ইয়েস্টারডে ইন চাঁদপুর।",
+     "text": "It was cloudy yesterday in Chandpur."
+    },
+    {
+     "bn": "গতকাল চাঁদপুরে সারাদিন আকাশ মেঘলা ছিল।",
+     "pron_bn": "ইট ওয়াজ ক্লাউডি ইয়েস্টারডে ইন চাঁদপুর অল ডে।",
+     "text": "It was cloudy yesterday in Chandpur all day."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি কখন, কীভাবে আর কতক্ষণ কথা বলেছ সেটা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় সুকুমারের সাথে কথা বলেছিল।",
+     "pron_bn": "সানজয় টকড টু সুকুমার।",
+     "text": "Sanjoy talked to Sukumar."
+    },
+    {
+     "bn": "সঞ্জয় গত রাতে সুকুমারের সাথে কথা বলেছিল।",
+     "pron_bn": "সানজয় টকড টু সুকুমার লাস্ট নাইট।",
+     "text": "Sanjoy talked to Sukumar last night."
+    },
+    {
+     "bn": "সঞ্জয় গত রাতে ফোনে সুকুমারের সাথে কথা বলেছিল।",
+     "pron_bn": "সানজয় টকড টু সুকুমার লাস্ট নাইট অন দা ফোন।",
+     "text": "Sanjoy talked to Sukumar last night on the phone."
+    },
+    {
+     "bn": "সঞ্জয় গত রাতে ফোনে সুকুমারের সাথে এক ঘণ্টা কথা বলেছিল।",
+     "pron_bn": "সানজয় টকড টু সুকুমার লাস্ট নাইট অন দা ফোন ফর অ্যান আওয়ার।",
+     "text": "Sanjoy talked to Sukumar last night on the phone for an hour."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি কখন, কার সাথে আর কোথায় হেঁটেছ সেটা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় গ্রামে হেঁটেছিল।",
+     "pron_bn": "সানজয় ওয়াকড ইন দা ভিলেজ।",
+     "text": "Sanjoy walked in the village."
+    },
+    {
+     "bn": "সঞ্জয় গতকাল সন্ধ্যায় গ্রামে হেঁটেছিল।",
+     "pron_bn": "সানজয় ওয়াকড ইন দা ভিলেজ ইয়েস্টারডে ইভনিং।",
+     "text": "Sanjoy walked in the village yesterday evening."
+    },
+    {
+     "bn": "সঞ্জয় গতকাল সন্ধ্যায় তার বাবার সাথে গ্রামে হেঁটেছিল।",
+     "pron_bn": "সানজয় ওয়াকড ইন দা ভিলেজ ইয়েস্টারডে ইভনিং উইথ হিজ ফাদার।",
+     "text": "Sanjoy walked in the village yesterday evening with his father."
+    },
+    {
+     "bn": "সঞ্জয় গতকাল সন্ধ্যায় তার বাবার সাথে নদীর পাশ দিয়ে হেঁটেছিল।",
+     "pron_bn": "সানজয় ওয়াকড ইন দা ভিলেজ ইয়েস্টারডে ইভনিং উইথ হিজ ফাদার নিয়ার দা রিভার।",
+     "text": "Sanjoy walked in the village yesterday evening with his father near the river."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি past simple দিয়ে গত দিনের কথা বলবে। প্রতিটি বাক্যে তুমি কখন, কোথায় আর কার সাথে যোগ করবে।",
+ "tip_bn": "তুমি নিয়মিত verb-এর শেষে -ed বসাবে, যেমন worked আর visited, কিন্তু met, saw আর bought রূপগুলো মুখস্থ করো। তুমি কখন বোঝাতে yesterday আর last night ব্যবহার করো, আর কার সাথে বোঝাতে with ব্যবহার করো।",
+ "title": "Past Days: When, Where, With Whom"
+}

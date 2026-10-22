@@ -1,0 +1,217 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি every night আর ঘড়ির সময় যোগ করে বাক্য বড় করলে।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় তার পরিবারের সঙ্গে রাতের খাবার খায়।",
+     "pron_bn": "সানজয় ঈটস ডিনার উইথ হিজ ফ্যামিলি।",
+     "text": "Sanjoy eats dinner with his family."
+    },
+    {
+     "bn": "সঞ্জয় প্রতি রাতে তার পরিবারের সঙ্গে রাতের খাবার খায়।",
+     "pron_bn": "সানজয় ঈটস ডিনার উইথ হিজ ফ্যামিলি এভরি নাইট।",
+     "text": "Sanjoy eats dinner with his family every night."
+    },
+    {
+     "bn": "সঞ্জয় প্রতি রাতে আটটায় তার পরিবারের সঙ্গে রাতের খাবার খায়।",
+     "pron_bn": "সানজয় ঈটস ডিনার উইথ হিজ ফ্যামিলি এভরি নাইট অ্যাট এইট ও'ক্লক।",
+     "text": "Sanjoy eats dinner with his family every night at eight o'clock."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি সময়, always আর সপ্তাহের কাজের দিন যোগ করলে।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় মেডিসিন কর্নার খোলে।",
+     "pron_bn": "সানজয় ওপেনস মেডিসিন কর্নার।",
+     "text": "Sanjoy opens Medicine Corner."
+    },
+    {
+     "bn": "সঞ্জয় সকাল নয়টায় মেডিসিন কর্নার খোলে।",
+     "pron_bn": "সানজয় ওপেনস মেডিসিন কর্নার অ্যাট নাইন ও'ক্লক।",
+     "text": "Sanjoy opens Medicine Corner at nine o'clock."
+    },
+    {
+     "bn": "সঞ্জয় সবসময় সকাল নয়টায় মেডিসিন কর্নার খোলে।",
+     "pron_bn": "সানজয় অলওয়েজ ওপেনস মেডিসিন কর্নার অ্যাট নাইন ও'ক্লক।",
+     "text": "Sanjoy always opens Medicine Corner at nine o'clock."
+    },
+    {
+     "bn": "সঞ্জয় সপ্তাহের কাজের দিনগুলোতে সবসময় সকাল নয়টায় মেডিসিন কর্নার খোলে।",
+     "pron_bn": "সানজয় অলওয়েজ ওপেনস মেডিসিন কর্নার অ্যাট নাইন ও'ক্লক অন উইকডেজ।",
+     "text": "Sanjoy always opens Medicine Corner at nine o'clock on weekdays."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি often আর শুক্রবার সন্ধ্যার সময় যোগ করলে।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় রহিমের সঙ্গে দেখা করে।",
+     "pron_bn": "সানজয় মীটস রহিম।",
+     "text": "Sanjoy meets Rahim."
+    },
+    {
+     "bn": "সঞ্জয় প্রায়ই রহিমের সঙ্গে দেখা করে।",
+     "pron_bn": "সানজয় অফেন মীটস রহিম।",
+     "text": "Sanjoy often meets Rahim."
+    },
+    {
+     "bn": "সঞ্জয় প্রায়ই শুক্রবারে রহিমের সঙ্গে দেখা করে।",
+     "pron_bn": "সানজয় অফেন মীটস রহিম অন ফ্রাইডেজ।",
+     "text": "Sanjoy often meets Rahim on Fridays."
+    },
+    {
+     "bn": "সঞ্জয় প্রায়ই শুক্রবার সন্ধ্যায় রহিমের সঙ্গে দেখা করে।",
+     "pron_bn": "সানজয় অফেন মীটস রহিম অন ফ্রাইডেজ ইন দি ঈভনিং।",
+     "text": "Sanjoy often meets Rahim on Fridays in the evening."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি sometimes আর বার যোগ করে অভ্যাস বোঝালে।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় ঢাকায় যায়।",
+     "pron_bn": "সানজয় গোজ টু ঢাকা।",
+     "text": "Sanjoy goes to Dhaka."
+    },
+    {
+     "bn": "সঞ্জয় মাঝে মাঝে ঢাকায় যায়।",
+     "pron_bn": "সানজয় সামটাইমস গোজ টু ঢাকা।",
+     "text": "Sanjoy sometimes goes to Dhaka."
+    },
+    {
+     "bn": "সঞ্জয় মাঝে মাঝে বৃহস্পতিবারে ঢাকায় যায়।",
+     "pron_bn": "সানজয় সামটাইমস গোজ টু ঢাকা অন থার্সডেজ।",
+     "text": "Sanjoy sometimes goes to Dhaka on Thursdays."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি প্রতিদিন আর রাতের খাবারের পর সময় যোগ করলে।",
+   "steps": [
+    {
+     "bn": "নুসরাত ইংরেজি পড়ে।",
+     "pron_bn": "নুসরাত স্টাডিজ ইংলিশ।",
+     "text": "Nusrat studies English."
+    },
+    {
+     "bn": "নুসরাত প্রতিদিন ইংরেজি পড়ে।",
+     "pron_bn": "নুসরাত স্টাডিজ ইংলিশ এভরি ডে।",
+     "text": "Nusrat studies English every day."
+    },
+    {
+     "bn": "নুসরাত প্রতিদিন রাতের খাবারের পর ইংরেজি পড়ে।",
+     "pron_bn": "নুসরাত স্টাডিজ ইংলিশ এভরি ডে আফটার ডিনার।",
+     "text": "Nusrat studies English every day after dinner."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি প্রতি সকাল আর ঘড়ির সময় যোগ করলে।",
+   "steps": [
+    {
+     "bn": "সুকুমার চাঁদপুরের পার্কে হাঁটে।",
+     "pron_bn": "সুকুমার ওয়াকস ইন চাঁদপুর পার্ক।",
+     "text": "Sukumar walks in Chandpur park."
+    },
+    {
+     "bn": "সুকুমার প্রতি সকালে চাঁদপুরের পার্কে হাঁটে।",
+     "pron_bn": "সুকুমার ওয়াকস ইন চাঁদপুর পার্ক এভরি মর্নিং।",
+     "text": "Sukumar walks in Chandpur park every morning."
+    },
+    {
+     "bn": "সুকুমার প্রতি সকালে ছয়টায় চাঁদপুরের পার্কে হাঁটে।",
+     "pron_bn": "সুকুমার ওয়াকস ইন চাঁদপুর পার্ক এভরি মর্নিং অ্যাট সিক্স ও'ক্লক।",
+     "text": "Sukumar walks in Chandpur park every morning at six o'clock."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি সপ্তাহে কয়বার আর কোন কোন বারে তা যোগ করলে।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় হাজীগঞ্জ বাজার থেকে সবজি কেনে।",
+     "pron_bn": "সানজয় বাইজ ভেজটেবলস ইন হাজীগঞ্জ বাজার।",
+     "text": "Sanjoy buys vegetables in Hajiganj Bazar."
+    },
+    {
+     "bn": "সঞ্জয় সপ্তাহে দুইবার হাজীগঞ্জ বাজার থেকে সবজি কেনে।",
+     "pron_bn": "সানজয় বাইজ ভেজটেবলস ইন হাজীগঞ্জ বাজার টোয়াইস আ উইক।",
+     "text": "Sanjoy buys vegetables in Hajiganj Bazar twice a week."
+    },
+    {
+     "bn": "সঞ্জয় সোম আর বৃহস্পতিবারে সপ্তাহে দুইবার হাজীগঞ্জ বাজার থেকে সবজি কেনে।",
+     "pron_bn": "সানজয় বাইজ ভেজটেবলস ইন হাজীগঞ্জ বাজার টোয়াইস আ উইক অন মানডেজ অ্যান্ড থার্সডেজ।",
+     "text": "Sanjoy buys vegetables in Hajiganj Bazar twice a week on Mondays and Thursdays."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি often আর মাসের নাম যোগ করে আবহাওয়া বললে।",
+   "steps": [
+    {
+     "bn": "হাজীগঞ্জে বৃষ্টি হয়।",
+     "pron_bn": "ইট রেইনস ইন হাজীগঞ্জ।",
+     "text": "It rains in Hajiganj."
+    },
+    {
+     "bn": "হাজীগঞ্জে প্রায়ই বৃষ্টি হয়।",
+     "pron_bn": "ইট অফেন রেইনস ইন হাজীগঞ্জ।",
+     "text": "It often rains in Hajiganj."
+    },
+    {
+     "bn": "জুলাই মাসে হাজীগঞ্জে প্রায়ই বৃষ্টি হয়।",
+     "pron_bn": "ইট অফেন রেইনস ইন হাজীগঞ্জ ইন জুলাই।",
+     "text": "It often rains in Hajiganj in July."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি বার আর রাতের সময় যোগ করে ফোনের অভ্যাস বললে।",
+   "steps": [
+    {
+     "bn": "রাজীব তার ভাইকে ফোন করে।",
+     "pron_bn": "রাজীব কলস হিজ ব্রাদার।",
+     "text": "Rajib calls his brother."
+    },
+    {
+     "bn": "রাজীব শুক্রবারে তার ভাইকে ফোন করে।",
+     "pron_bn": "রাজীব কলস হিজ ব্রাদার অন ফ্রাইডেজ।",
+     "text": "Rajib calls his brother on Fridays."
+    },
+    {
+     "bn": "রাজীব শুক্রবার রাতে তার ভাইকে ফোন করে।",
+     "pron_bn": "রাজীব কলস হিজ ব্রাদার অন ফ্রাইডেজ অ্যাট নাইট।",
+     "text": "Rajib calls his brother on Fridays at night."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি often আর কাজের পর সময় যোগ করলে।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় চায়ের দোকানে চা খায়।",
+     "pron_bn": "সানজয় ড্রিংকস টি অ্যাট দ্য টি স্টল।",
+     "text": "Sanjoy drinks tea at the tea stall."
+    },
+    {
+     "bn": "সঞ্জয় প্রায়ই চায়ের দোকানে চা খায়।",
+     "pron_bn": "সানজয় অফেন ড্রিংকস টি অ্যাট দ্য টি স্টল।",
+     "text": "Sanjoy often drinks tea at the tea stall."
+    },
+    {
+     "bn": "সঞ্জয় কাজের পর প্রায়ই চায়ের দোকানে চা খায়।",
+     "pron_bn": "সানজয় অফেন ড্রিংকস টি অ্যাট দ্য টি স্টল আফটার ওয়ার্ক।",
+     "text": "Sanjoy often drinks tea at the tea stall after work."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি always, often, sometimes আর সময়ের কথা বলা শিখবে। ছোট বাক্য থেকে ধাপে ধাপে বড় বাক্য বানিয়ে অনুশীলন করো।",
+ "tip_bn": "মনে রেখো তুমি always, often, sometimes-কে মূল verb-এর আগে বসাবে। আর on Fridays, at night-এর মতো সময়ের কথা তুমি বাক্যের শেষে বসাবে।",
+ "title": "How Often and When"
+}

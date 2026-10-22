@@ -1,0 +1,207 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি জায়গা (at home) আর সময় (at night) যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় ভাত খায়।",
+     "pron_bn": "সানজয় ইটস রাইস।",
+     "text": "Sanjoy eats rice."
+    },
+    {
+     "bn": "সঞ্জয় বাড়িতে ভাত খায়।",
+     "pron_bn": "সানজয় ইটস রাইস অ্যাট হোম।",
+     "text": "Sanjoy eats rice at home."
+    },
+    {
+     "bn": "সঞ্জয় রাতে বাড়িতে ভাত খায়।",
+     "pron_bn": "সানজয় ইটস রাইস অ্যাট হোম অ্যাট নাইট।",
+     "text": "Sanjoy eats rice at home at night."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি জায়গা (at Medicine Corner) আর সময় (every day) যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় কাজ করে।",
+     "pron_bn": "সানজয় ওয়ার্কস।",
+     "text": "Sanjoy works."
+    },
+    {
+     "bn": "সঞ্জয় মেডিসিন কর্নারে কাজ করে।",
+     "pron_bn": "সানজয় ওয়ার্কস অ্যাট মেডিসিন কর্নার।",
+     "text": "Sanjoy works at Medicine Corner."
+    },
+    {
+     "bn": "সঞ্জয় প্রতিদিন মেডিসিন কর্নারে কাজ করে।",
+     "pron_bn": "সানজয় ওয়ার্কস অ্যাট মেডিসিন কর্নার এভরি ডে।",
+     "text": "Sanjoy works at Medicine Corner every day."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি জায়গা (at home) আর সময় (every day) যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রহিম সঞ্জয়ের কাছে আসে।",
+     "pron_bn": "রহিম ভিজিটস সানজয়।",
+     "text": "Rahim visits Sanjoy."
+    },
+    {
+     "bn": "রহিম বাড়িতে সঞ্জয়ের কাছে আসে।",
+     "pron_bn": "রহিম ভিজিটস সানজয় অ্যাট হোম।",
+     "text": "Rahim visits Sanjoy at home."
+    },
+    {
+     "bn": "রহিম প্রতিদিন বাড়িতে সঞ্জয়ের কাছে আসে।",
+     "pron_bn": "রহিম ভিজিটস সানজয় অ্যাট হোম এভরি ডে।",
+     "text": "Rahim visits Sanjoy at home every day."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি জায়গা (to Chandpur) আর সময় (every Friday) যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় বাসে চড়ে।",
+     "pron_bn": "সানজয় রাইডস আ বাস।",
+     "text": "Sanjoy rides a bus."
+    },
+    {
+     "bn": "সঞ্জয় বাসে চাঁদপুরে যায়।",
+     "pron_bn": "সানজয় রাইডস আ বাস টু চাঁদপুর।",
+     "text": "Sanjoy rides a bus to Chandpur."
+    },
+    {
+     "bn": "সঞ্জয় প্রতি শুক্রবার বাসে চাঁদপুরে যায়।",
+     "pron_bn": "সানজয় রাইডস আ বাস টু চাঁদপুর এভরি ফ্রাইডে।",
+     "text": "Sanjoy rides a bus to Chandpur every Friday."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি জায়গা (at home) আর সময় (at night) যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নুসরাত বই পড়ে।",
+     "pron_bn": "নুসরাত রিডস বুকস।",
+     "text": "Nusrat reads books."
+    },
+    {
+     "bn": "নুসরাত বাড়িতে বই পড়ে।",
+     "pron_bn": "নুসরাত রিডস বুকস অ্যাট হোম।",
+     "text": "Nusrat reads books at home."
+    },
+    {
+     "bn": "নুসরাত রাতে বাড়িতে বই পড়ে।",
+     "pron_bn": "নুসরাত রিডস বুকস অ্যাট হোম অ্যাট নাইট।",
+     "text": "Nusrat reads books at home at night."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি জায়গা (in the park) আর সময় (every morning) যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সঞ্জয় হাঁটে।",
+     "pron_bn": "সানজয় ওয়াকস।",
+     "text": "Sanjoy walks."
+    },
+    {
+     "bn": "সঞ্জয় পার্কে হাঁটে।",
+     "pron_bn": "সানজয় ওয়াকস ইন দা পার্ক।",
+     "text": "Sanjoy walks in the park."
+    },
+    {
+     "bn": "সঞ্জয় প্রতিদিন সকালে পার্কে হাঁটে।",
+     "pron_bn": "সানজয় ওয়াকস ইন দা পার্ক এভরি মর্নিং।",
+     "text": "Sanjoy walks in the park every morning."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি জায়গা (in Hajiganj Bazar) আর সময় (every day) যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সুকুমার সবজি কেনে।",
+     "pron_bn": "সুকুমার বাইজ ভেজটেবলস।",
+     "text": "Sukumar buys vegetables."
+    },
+    {
+     "bn": "সুকুমার হাজীগঞ্জ বাজারে সবজি কেনে।",
+     "pron_bn": "সুকুমার বাইজ ভেজটেবলস ইন হাজিগঞ্জ বাজার।",
+     "text": "Sukumar buys vegetables in Hajiganj Bazar."
+    },
+    {
+     "bn": "সুকুমার প্রতিদিন হাজীগঞ্জ বাজারে সবজি কেনে।",
+     "pron_bn": "সুকুমার বাইজ ভেজটেবলস ইন হাজিগঞ্জ বাজার এভরি ডে।",
+     "text": "Sukumar buys vegetables in Hajiganj Bazar every day."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি জায়গা (in Chandpur) আর সময় (at night) যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "বৃষ্টি হয়।",
+     "pron_bn": "ইট রেইনস।",
+     "text": "It rains."
+    },
+    {
+     "bn": "চাঁদপুরে বৃষ্টি হয়।",
+     "pron_bn": "ইট রেইনস ইন চাঁদপুর।",
+     "text": "It rains in Chandpur."
+    },
+    {
+     "bn": "চাঁদপুরে রাতে বৃষ্টি হয়।",
+     "pron_bn": "ইট রেইনস ইন চাঁদপুর অ্যাট নাইট।",
+     "text": "It rains in Chandpur at night."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি জায়গা (from Dhaka) আর সময় (at night) যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাজিব সঞ্জয়কে ফোন করে।",
+     "pron_bn": "রাজিব কলস সানজয়।",
+     "text": "Rajib calls Sanjoy."
+    },
+    {
+     "bn": "রাজিব ঢাকা থেকে সঞ্জয়কে ফোন করে।",
+     "pron_bn": "রাজিব কলস সানজয় ফ্রম ঢাকা।",
+     "text": "Rajib calls Sanjoy from Dhaka."
+    },
+    {
+     "bn": "রাজিব রাতে ঢাকা থেকে সঞ্জয়কে ফোন করে।",
+     "pron_bn": "রাজিব কলস সানজয় ফ্রম ঢাকা অ্যাট নাইট।",
+     "text": "Rajib calls Sanjoy from Dhaka at night."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি জায়গা (in the village) আর সময় (every evening) যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "বাচ্চারা খেলে।",
+     "pron_bn": "চিলড্রেন প্লে।",
+     "text": "Children play."
+    },
+    {
+     "bn": "বাচ্চারা গ্রামে খেলে।",
+     "pron_bn": "চিলড্রেন প্লে ইন দা ভিলেজ।",
+     "text": "Children play in the village."
+    },
+    {
+     "bn": "বাচ্চারা প্রতিদিন বিকেলে গ্রামে খেলে।",
+     "pron_bn": "চিলড্রেন প্লে ইন দা ভিলেজ এভরি ইভনিং।",
+     "text": "Children play in the village every evening."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি বাক্যে জায়গা আর সময় যোগ করতে শিখবে। ছোট বাক্য থেকে শুরু করে ধাপে ধাপে বড় বাক্য বানাও।",
+ "tip_bn": "তুমি আগে জায়গা বলো, তারপর সময় বলো। প্রতিটি বাক্য জোরে পড়ো আর নিজের জীবন দিয়ে নতুন বাক্য বানাও।",
+ "title": "Where and When"
+}
